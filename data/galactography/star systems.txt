@@ -1,0 +1,351 @@
+
+system "Ain Soph Aur"
+	pos -342.313 -169.606
+	government "Keter Dominion"
+	habitable 135
+	link Solsys
+	asteroids "small rock" 16 2.574
+	asteroids "medium rock" 11 1.116
+	asteroids "large rock" 17 1.206
+	asteroids "small metal" 44 1.026
+	asteroids "medium metal" 75 1.44
+	asteroids "large metal" 18 1.908
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ice5
+		distance 193.96
+		period 92.9954
+	object
+		sprite planet/desert6
+		distance 501.6
+		period 386.749
+	object
+		sprite planet/ganymede
+		distance 938.24
+		period 989.382
+	object
+		sprite planet/uranus
+		distance 1914.4
+		period 2883.65
+		object
+			sprite planet/ice7
+			distance 222
+			period 14.132
+
+system Betelgeuse
+	pos -185.182 -223.465
+	government "Keter Dominion"
+	habitable 425.92
+	link Solsys
+	asteroids "small rock" 39 3.192
+	asteroids "medium rock" 55 1.416
+	asteroids "large rock" 47 2.832
+	asteroids "small metal" 29 2.232
+	asteroids "medium metal" 123 2.376
+	asteroids "large metal" 68 3.12
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/lava6
+		distance 157.16
+		period 38.1864
+	object
+		sprite planet/gas0
+		distance 631.2
+		period 307.359
+		object
+			sprite planet/dust5
+			distance 298
+			period 15.0758
+	object
+		sprite planet/cloud0
+		distance 1295.41
+		period 903.664
+	object
+		sprite planet/oberon
+		distance 1653.9
+		period 1303.65
+	object
+		sprite planet/rock7
+		distance 2492.9
+		period 2412.42
+
+system "Crystallographer's Nightmare"
+	pos -86.3434 -27.0101
+	government Uninhabited
+	habitable 2140.92
+	link Solsys
+	asteroids "large rock" 1 4.3605
+	asteroids "small metal" 4 5.7375
+	asteroids "large metal" 6 5.4621
+	object
+		sprite star/f5
+		distance 25.6636
+		period 12.6661
+		offset 180
+	object
+		sprite star/k5
+		distance 103.336
+		period 12.6661
+	object
+		sprite planet/lava4
+		distance 255.586
+		period 35.3237
+	object
+		sprite planet/cloud6
+		distance 465.586
+		period 86.8481
+	object
+		sprite planet/rock19
+		distance 861.276
+		period 218.511
+	object
+		sprite planet/gas2
+		distance 1219.72
+		period 368.255
+		object
+			sprite planet/rock7
+			distance 166
+			period 12.9592
+	object
+		sprite planet/gas5
+		distance 2874.72
+		period 1332.45
+
+system Pluton
+	pos -56.6868 -155.343
+	government "Perseus Princes"
+	habitable 2372.76
+	link Solsys
+	asteroids "medium rock" 6 3.375
+	asteroids "large rock" 1 3.375
+	asteroids "medium metal" 79 1.9875
+	asteroids "large metal" 45 4.05
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/desert5
+		distance 293.41
+		period 41.271
+		offset 319.41
+		object
+			sprite planet/rock17
+			distance 126
+			period 15.5521
+	object
+		sprite planet/desert0
+		distance 648.1
+		period 135.487
+		offset 262.369
+	object
+		sprite planet/lava0
+		distance 852.46
+		period 204.383
+		offset 355.202
+	object
+		sprite planet/ocean7
+		distance 1460.95
+		period 458.549
+		offset 71.7469
+	object
+		sprite planet/gas10
+		distance 3492.95
+		period 1695.2
+		offset 290.171
+		object
+			sprite planet/io
+			distance 190
+			period 13.7857
+		object
+			sprite planet/dust3
+			distance 342
+			period 33.2917
+
+system Resonance
+	pos -4.37376 -91.7676
+	government "Keter Dominion"
+	habitable 1948.28
+	link Solsys
+	asteroids "small rock" 12 1.596
+	asteroids "medium rock" 107 2.212
+	asteroids "large rock" 9 2.632
+	asteroids "small metal" 27 1.764
+	asteroids "medium metal" 54 1.54
+	asteroids "large metal" 2 1.876
+	object
+		sprite star/f5
+		distance 13.4105
+		period 10.7414
+	object
+		sprite star/m4
+		distance 98.5895
+		period 10.7414
+		offset 180
+	object
+		sprite planet/desert0
+		distance 243.84
+		period 34.5057
+	object
+		sprite planet/cloud4
+		distance 470.73
+		period 92.5532
+	object
+		sprite planet/neptune
+		distance 1359.77
+		period 454.394
+		object
+			sprite planet/luna
+			distance 211
+			period 15.2706
+		object
+			sprite planet/lava0
+			distance 330
+			period 29.8678
+		object
+			sprite planet/rhea
+			distance 494
+			period 54.7044
+		object
+			sprite planet/ice0
+			distance 688
+			period 89.9114
+
+system Solsys
+	pos -201 -131
+	habitable 486.68
+	link Resonance
+	link Turing
+	link "Tau Ceti"
+	link "Ain Soph Aur"
+	link Betelgeuse
+	link Pluton
+	link "Crystallographer's Nightmare"
+	asteroids "small rock" 4 0.988
+	asteroids "medium rock" 5 0.715
+	asteroids "large rock" 9 1.391
+	asteroids "small metal" 1 0.65
+	asteroids "medium metal" 76 1.625
+	asteroids "large metal" 1 1.027
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock18
+		distance 148.64
+		period 32.8581
+	object
+		sprite planet/forest3
+		distance 434.89
+		period 164.44
+	object
+		sprite planet/lava0
+		distance 1092.3
+		period 654.563
+	object
+		sprite planet/gas2
+		distance 1449.19
+		period 1000.29
+	object
+		sprite planet/gas4
+		distance 3355.44
+		period 3524.22
+		object
+			sprite planet/ice7
+			distance 281
+			period 16.6133
+
+system "Tau Ceti"
+	pos -334.616 -40.202
+	government "Keter Dominion"
+	habitable 1111.68
+	link Solsys
+	asteroids "small rock" 36 3.3048
+	asteroids "medium rock" 42 2.2644
+	asteroids "large rock" 162 3.9168
+	asteroids "small metal" 5 3.213
+	asteroids "large metal" 12 4.1004
+	object
+		sprite star/g5
+		distance 41.5898
+		period 11.1085
+		offset 180
+	object
+		sprite star/k0
+		distance 53.4102
+		period 11.1085
+	object
+		sprite planet/lava1
+		distance 246.65
+		period 46.4721
+	object
+		sprite planet/gas16
+		distance 657.89
+		period 202.442
+	object
+		sprite planet/gas5
+		distance 1603.93
+		period 770.634
+		object
+			sprite planet/oberon
+			distance 252
+			period 13.303
+		object
+			sprite planet/ice8
+			distance 359
+			period 22.6198
+		object
+			sprite planet/dust3
+			distance 506
+			period 37.8506
+
+system Turing
+	pos -195.202 44.9797
+	government "Keter Dominion"
+	habitable 320
+	link Solsys
+	asteroids "small rock" 3 2.5942
+	asteroids "medium rock" 226 3.0226
+	asteroids "large rock" 7 3.2844
+	asteroids "small metal" 1 3.4034
+	asteroids "medium metal" 3 1.8802
+	asteroids "large metal" 1 2.7608
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock10
+		distance 170.25
+		period 49.6725
+	object
+		sprite planet/gas11
+		distance 770.49
+		period 478.229
+		object
+			sprite planet/luna
+			distance 240
+			period 12.2629
+	object
+		sprite planet/gas8
+		distance 1458.93
+		period 1246.05
+		object
+			sprite planet/ice8
+			distance 198
+			period 14.8311
+	object
+		sprite planet/gas1
+		distance 2466.17
+		period 2738.54
+		object
+			sprite planet/tethys
+			distance 235
+			period 14.3985
+		object
+			sprite planet/rock14
+			distance 345
+			period 25.612
+
