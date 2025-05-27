@@ -1,41 +1,121 @@
-#+title: Oa Endless Sky Mod
+#+title: OA Endless Sky Mod
+#+FILETAGS: :work:
 * TODO "OA Endless Sky Mod" [0%]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-** TODO plan "OA Endless Sky Mod" [0/6]
+** basket
+*** use ChatGPT to convert descriptions on the EG of important star systems (the capital systems of Major Empires) to files for an ES mod
+[2025-05-24 শনি 18:32]
+*** stuff I came up with in my productive meditation session
+- why am I doing this?
+
+	- to make a test bed upon which we could make content for a Real Game
+	- to graph OA's Map
+- what is the objective?
+	- create planets, ships, and star systems representing OA in Endless Sky
+- what do I already know
+	- there are some groups of factions that I should include
+		- Muuh
+		- Other Aliens
+		- Caretaker Gods
+		- The Eternal
+		- Sephirotic Empires
+		- Stella Umma
+		- Ahuman Empires
+			- Diamond Network
+			- Panvirtuality
+		- Silicon Generation
+	- here are some I could make first
+		- Heartland
+		- Turing
+		- Crystallographer's Nightmare
+- what don't I know that I need to find out?
+	- is Endless Sky the best option to scaffold upon?
+	- what will the members think of me making this?
+
+*** more stuff
+- why am I doing this?
+  for fun. and for scaffolding. and also so that I can play the OA game I never had!
+- what is the objective?
+  Create a Endless Sky Mod representing the planets, stations, and stars of the OA universe to help with scaffolding stuff for the Real Game
+- what do I already know about this project?
+  - I know that I need to add stuff from these factions
+    - ahuman empires (Panvirtuallity, Diamond Network)
+    - Sephirotic Empires
+    - Minor Polities
+      - Stella Umma
+      - Perseus Princes
+      - Orion Federation
+  - I also need to add descriptions
+  - I'll definitely have to come up with my own systems; most of the galactographic stuff in OA isn't really filled in
+    - that'll be fun though!
+  - I'll also have to add archai nodes
+  - I will reuse most of the graphics from Endless Sky, but will have to come up with some of my own for special cases (like Heartland's stations)
+    - I must make sure to look them look like ES though!
+  - let's imagine the end product
+    - I'll have to add wormholes instead of hyperlanes for sure
+    - I also need to add hard sci-fi ships... or maybe not, since I'm simply scaffolding stars and planets and campaigns and stuff. but then again you need ships for campaigns
+    - I might also add multiple starts, like one for starting as a nearbaseline, another for starting as an AI, another for starting as a member of one of the provolve clades, e.t.c
+    - I could add a "slowboat" feature to ES itself to simulate manually going through flatspace lol, which is a much slower alternative to the Jump Drive.
+- what don't I know that I need to find out?
+  - how do I best make this?
+  - whom can I recruit?
+  - why did previous OA gamemaking attempts fail? like Freehauler
+    - ask the Forum
+- what can I read or listen to for relevant ideas?
+  - Modmakers
+- who can I talk to who might provide insights?
+  - modmakers
+- stuff from notes
+  - an interstellar war might be good for a campaign... but only if it is between modosophonts; wars between transaps is irrelevant to modosophonts except to hide or run from.
+  - see if NAEV is a better option for scaffolding
+** TODO plan "OA Endless Sky Mod" [2/5]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-*** TODO capture your thoughts on "OA Endless Sky Mod" :think:@computer:
+*** DONE capture your thoughts on "OA Endless Sky Mod" :think:@computer:
 :PROPERTIES:
 :EFFORT:   8min
 :END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-27 মঙ্গল 15:07]
+CLOCK: [2025-05-27 মঙ্গল 15:01]--[2025-05-27 মঙ্গল 15:07] =>  0:06
+:END:
+<2025-05-27 মঙ্গল 15:15-15:23>
 **** questions to ask during an initial project brainstorm
 ***** what is my goal or intention?
 ***** what do I already know about this project?
 ***** what don't I know that I need to find out?
 ***** what can I read or listen to for relevant ideas?
 ***** who can I talk to who might provide insights?
-*** TODO search for notes related to "OA Endless Sky Mod" and dump them into the "basket" :@computer:
+*** DONE search for notes related to "OA Endless Sky Mod" and dump them into the "basket" :@computer:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-27 মঙ্গল 15:12]
+CLOCK: [2025-05-27 মঙ্গল 15:07]--[2025-05-27 মঙ্গল 15:12] =>  0:05
+:END:
+<2025-05-27 মঙ্গল 15:23-15:31>
 **** make sure to scour the project archives as well
 *** TODO consolidate the basket of "OA Endless Sky Mod" into a component outline :think:@computer:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
+<2025-05-27 মঙ্গল 15:31-15:36>
 
 *** TODO break down the components of "OA Endless Sky Mod" into smaller ones :think:@computer:
 :PROPERTIES:
 :EFFORT:   10min
 :END:
+<2025-05-27 মঙ্গল 15:36-15:46>
 
 *** TODO sketch out tasks of "OA Endless Sky Mod" :flow:@computer:
 :PROPERTIES:
 :EFFORT:   15min
 :END:
+<2025-05-27 মঙ্গল 15:46-16:00>
 
 ** TODO finish "OA Endless Sky Mod" [0/1]
 :PROPERTIES:

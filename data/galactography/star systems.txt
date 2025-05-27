@@ -1,3 +1,6 @@
+galaxy "OA Galaxy"
+    pos 1000 1000
+	sprite image/OAMOD_milkyway
 
 system "Ain Soph Aur"
 	pos -342.313 -169.606
@@ -75,21 +78,17 @@ system Betelgeuse
 
 system "Crystallographer's Nightmare"
 	pos -86.3434 -27.0101
-	government Uninhabited
+	government "Silicon Generation"
 	habitable 2140.92
 	link Solsys
 	asteroids "large rock" 1 4.3605
 	asteroids "small metal" 4 5.7375
 	asteroids "large metal" 6 5.4621
 	object
-		sprite star/f5
+		sprite star/carbon-core
 		distance 25.6636
 		period 12.6661
 		offset 180
-	object
-		sprite star/k5
-		distance 103.336
-		period 12.6661
 	object
 		sprite planet/lava4
 		distance 255.586
@@ -303,8 +302,8 @@ system "Tau Ceti"
 			period 37.8506
 
 system Turing
-	pos -195.202 44.9797
-	government "Keter Dominion"
+	pos -47.0 -6.44
+	government "Technorapture Hypernation"
 	habitable 320
 	link Solsys
 	asteroids "small rock" 3 2.5942
@@ -316,7 +315,7 @@ system Turing
 	object
 		sprite star/m0
 		period 10
-	object
+	object "TuringPlanet"
 		sprite planet/rock10
 		distance 170.25
 		period 49.6725

@@ -1,0 +1,7 @@
+name "OA in Endless Sky"
+about "This is a testbed for making a game of OA lol"
+version 0.0
+authors
+    DSPE
+tags
+    "prototype"

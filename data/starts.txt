@@ -1,0 +1,17 @@
+start OAstart
+      name "start in OA Universe!"
+      description "You are a Blue Homo Superior."
+      date 05 03 11000
+      system "Turing"
+      system "TuringPlanet"
+      account
+            credits 1000000000
+            salaries 5000
+      conversation "OAstarter Conversation"
+
+conversation "OAstarter Conversation"
+             "You were born 5 years ago. Now, you have come of age and must pick your own name"
+             name
+             action
+                  log "it is time to go for the stars!"
+             accept
