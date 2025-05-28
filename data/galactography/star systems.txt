@@ -1,5 +1,3 @@
-		# GAIA
-
 galaxy "OA Galaxy"
 	pos 1000 1000
 	sprite images/OAMOD_milkyway.png
@@ -80,6 +78,7 @@ system Aksijaha
 			period 49.7977
 	object "Einstein's Gate Planet"
 		sprite planet/wormhole
+		  scale 10
 		distance 30000
 		period 30000
 
@@ -174,107 +173,195 @@ system Heartland
 	asteroids "medium metal" 3 2.808
 	asteroids "large metal" 2 3.0537
 	attributes station
+	# torus 2
+    object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 45
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 90
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 135
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 180
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 225
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 270
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 315
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 360
+		attributes station
+	# torus 1
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 40
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 60
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 80
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 100
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 120
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 140
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 160
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 180
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 200
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 220
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 240
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 260
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 280
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 300
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 320
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 340
 		attributes station
 	object "Heartland Station"
 		sprite planet/ringworld
+		   scale 0.2
 		distance 300
 		period 500
 		offset 360
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 380
 		attributes station
 
 system Resonance
@@ -378,6 +465,7 @@ system Sierpens
 		offset 71.7469
 	object PlutonOA
 		sprite planet/Pluton2
+		   scale 2
 		distance 3492.95
 		period 1695.2
 		offset 290.171
@@ -521,6 +609,7 @@ system Solsys
 		period 24012.7
 	object "Einstein's Gate Planet"
 		sprite planet/wormhole
+		  scale 10
 		distance 30000
 		period 30000
 
@@ -619,6 +708,7 @@ planet EarthOA
 	landscape images/land/canyon3
 	description `You shouldn't be here!`
 	"display name" Earth
+	government "GAIA"
 	port
 		recharges all
 
@@ -650,3 +740,7 @@ wormhole "Einstein's Gate"
 	link Solsys Aksijaha
 	color green
 
+
+planet LunaOA
+   "display name" "Luna"
+   landscape images/land/moon0

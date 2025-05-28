@@ -1,2 +1,2 @@
 government "Perseus Princes"
-  color "teal"
+   color 000 255 64
