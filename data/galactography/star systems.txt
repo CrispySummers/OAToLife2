@@ -1,6 +1,10 @@
 
+galaxy "OA Galaxy"
+	pos 1000 1000
+	sprite images/OAMOD_milkyway.png
+
 system "Ain Soph Aur"
-	pos -342.313 -169.606
+	pos -303 -164
 	government "Keter Dominion"
 	habitable 135
 	link Solsys
@@ -34,9 +38,9 @@ system "Ain Soph Aur"
 			distance 222
 			period 14.132
 
-system Betelgeuse
-	pos -185.182 -223.465
-	government "Keter Dominion"
+system BetelgeuseOA
+	pos -151 79
+	government "Stella Umma"
 	habitable 425.92
 	link Solsys
 	asteroids "small rock" 39 3.192
@@ -74,22 +78,18 @@ system Betelgeuse
 		period 2412.42
 
 system "Crystallographer's Nightmare"
-	pos -86.3434 -27.0101
-	government Uninhabited
+	pos -264 9
+	government "Silicon Generation"
 	habitable 2140.92
 	link Solsys
 	asteroids "large rock" 1 4.3605
 	asteroids "small metal" 4 5.7375
 	asteroids "large metal" 6 5.4621
 	object
-		sprite star/f5
+		sprite star/carbon-core
 		distance 25.6636
 		period 12.6661
 		offset 180
-	object
-		sprite star/k5
-		distance 103.336
-		period 12.6661
 	object
 		sprite planet/lava4
 		distance 255.586
@@ -115,59 +115,123 @@ system "Crystallographer's Nightmare"
 		distance 2874.72
 		period 1332.45
 
-system Pluton
-	pos -56.6868 -155.343
-	government "Perseus Princes"
-	habitable 2372.76
+system Heartland
+	pos -97 53
+	government "Silicon Generation"
+	habitable 1080
 	link Solsys
-	asteroids "medium rock" 6 3.375
-	asteroids "large rock" 1 3.375
-	asteroids "medium metal" 79 1.9875
-	asteroids "large metal" 45 4.05
-	object
-		sprite star/f0
-		period 10
-	object
-		sprite planet/desert5
-		distance 293.41
-		period 41.271
-		offset 319.41
-		object
-			sprite planet/rock17
-			distance 126
-			period 15.5521
-	object
-		sprite planet/desert0
-		distance 648.1
-		period 135.487
-		offset 262.369
-	object
-		sprite planet/lava0
-		distance 852.46
-		period 204.383
-		offset 355.202
-	object
-		sprite planet/ocean7
-		distance 1460.95
-		period 458.549
-		offset 71.7469
-	object
-		sprite planet/gas10
-		distance 3492.95
-		period 1695.2
-		offset 290.171
-		object
-			sprite planet/io
-			distance 190
-			period 13.7857
-		object
-			sprite planet/dust3
-			distance 342
-			period 33.2917
+	attributes station
+	asteroids "small rock" 12 4.4577
+	asteroids "medium rock" 7 4.9842
+	asteroids "large rock" 4 2.8431
+	asteroids "medium metal" 3 2.808
+	asteroids "large metal" 2 3.0537
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 40
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 60
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 80
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 100
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 120
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 140
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 160
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 180
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 200
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 220
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 240
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 260
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 280
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 300
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 320
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 340
+	object "Heartland Station"
+		sprite planet/ringworld
+			   scale 0.3
+		distance 300
+		period 500
+		offset 360
 
 system Resonance
 	pos -4.37376 -91.7676
-	government "Keter Dominion"
+	government Independent
 	habitable 1948.28
 	link Solsys
 	asteroids "small rock" 12 1.596
@@ -214,6 +278,56 @@ system Resonance
 			distance 688
 			period 89.9114
 
+system Sierpens
+	pos -56.6868 -155.343
+	government "Perseus Princes"
+	habitable 2372.76
+	link Solsys
+	asteroids "medium rock" 6 3.375
+	asteroids "large rock" 1 3.375
+	asteroids "medium metal" 79 1.9875
+	asteroids "large metal" 45 4.05
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/desert5
+		distance 293.41
+		period 41.271
+		offset 319.41
+	object
+		sprite planet/rock17
+		distance 126
+		period 15.5521
+	object
+		sprite planet/desert0
+		distance 648.1
+		period 135.487
+		offset 262.369
+	object
+		sprite planet/gas0
+		distance 852.46
+		period 204.383
+		offset 355.202
+	object
+		sprite planet/gas3
+		distance 1460.95
+		period 458.549
+		offset 71.7469
+	object PlutonOA
+		sprite planet/Pluton2
+		distance 3492.95
+		period 1695.2
+		offset 290.171
+		object
+			sprite planet/io
+			distance 300
+			period 13.7857
+		object
+			sprite planet/dust3
+			distance 600
+			period 33.2917
+
 system Solsys
 	pos -201 -131
 	habitable 486.68
@@ -222,8 +336,10 @@ system Solsys
 	link "Tau Ceti"
 	link "Ain Soph Aur"
 	link Betelgeuse
-	link Pluton
+	link Sierpens
 	link "Crystallographer's Nightmare"
+	link "Sol"
+	link Heartland
 	asteroids "small rock" 4 0.988
 	asteroids "medium rock" 5 0.715
 	asteroids "large rock" 9 1.391
@@ -303,8 +419,8 @@ system "Tau Ceti"
 			period 37.8506
 
 system Turing
-	pos -195.202 44.9797
-	government "Keter Dominion"
+	pos -47 -6.44
+	government "Technorapture Hypernation"
 	habitable 320
 	link Solsys
 	asteroids "small rock" 3 2.5942
@@ -316,7 +432,7 @@ system Turing
 	object
 		sprite star/m0
 		period 10
-	object
+	object TuringPlanet
 		sprite planet/rock10
 		distance 170.25
 		period 49.6725
@@ -349,3 +465,24 @@ system Turing
 			distance 345
 			period 25.612
 
+planet "Heartland Station"
+    "display name" "Heartland"
+	landscape land/station0
+	description `Heartland is the main capital of the Communion of Worlds, though the Communion has seemed to abandoned it. It is a megastructure adrift in interstellar space, larger than Sol, made of multiple stations organized into a torus. It is beautiful.`
+	port
+		recharges all
+	    services
+		   trading
+		   "job board"
+		   bank
+
+planet PlutonOA
+	landscape images/land/canyon2
+	description `Pluton was formerly an ice giant that was colonized by the Muuh several million years ago. Prior to Terragen contact, most of its resources went un-utilized as the local Muuh had long ago reached a steady state where they achieved a constant population and concentrated themselves in habitats below the clouds. The Muuh Polity that existed within YTS 37739 990 prior to the Terragens were the Ice-Cloud Dwellers, a society that had good relationships with a number of client xenosophonts, such as the Epp (a subclade of the species by Terragens known as Soft Ones).`
+	"display name" Pluton
+	port
+		recharges hull energy fuel
+  	    services
+    	  trading
+	      "job board"
+    	  bank
