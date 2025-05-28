@@ -78,10 +78,12 @@ system Aksijaha
 			sprite planet/rock0
 			distance 464
 			period 49.7977
-	object "Einstein's Gate"
+	object "Einstein's Gate Planet"
 		sprite planet/wormhole
 		distance 30000
 		period 30000
+
+planet "Einstein's Gate Planet"
 
 system BetelgeuseOA
 	pos -151 79
@@ -503,7 +505,7 @@ system Solsys
 		sprite planet/neptune
 		distance 15730
 		period 24012.7
-	object "Einstein's Gate"
+	object "Einstein's Gate Planet"
 		sprite planet/wormhole
 		distance 30000
 		period 30000
