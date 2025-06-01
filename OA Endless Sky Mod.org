@@ -1,12 +1,17 @@
 #+title: OA Endless Sky Mod
 #+FILETAGS: :work:
-* TODO "OA Endless Sky Mod" [0%]
+* TODO "OA Endless Sky Mod" [33%]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-** TODO plan "OA Endless Sky Mod" [3/6]
+** objective
+create an ES Mod that represents the planets, stations, and ships of the setting of Orion's Arm
+** DONE plan "OA Endless Sky Mod" [0/0]
 :PROPERTIES:
 :ORDERED:  t
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 14:47]
 :END:
 *** DONE capture your thoughts on "OA Endless Sky Mod" :think:@computer:
 :PROPERTIES:
@@ -32,7 +37,6 @@ CLOCK: [2025-05-27 মঙ্গল 15:01]--[2025-05-27 মঙ্গল 15:07] =>
 CLOCK: [2025-05-27 মঙ্গল 15:07]--[2025-05-27 মঙ্গল 15:12] =>  0:05
 :END:
 <2025-05-27 মঙ্গল 15:23-15:31>
-**** make sure to scour the project archives as well
 *** DONE consolidate the basket of "OA Endless Sky Mod" into a component outline :think:@computer:
 :PROPERTIES:
 :EFFORT:   5min
@@ -42,60 +46,661 @@ CLOCK: [2025-05-27 মঙ্গল 15:13]--[2025-05-27 মঙ্গল 15:20] =>
 :END:
 <2025-05-27 মঙ্গল 15:31-15:36>
 
-*** TODO break down the components of "OA Endless Sky Mod" into smaller ones :think:@computer:
+*** DONE break down the components of "OA Endless Sky Mod" into smaller ones :think:@computer:
 :PROPERTIES:
 :EFFORT:   10min
 :END:
-<2025-05-27 মঙ্গল 15:36-15:46>
-
-*** TODO sketch out tasks of "OA Endless Sky Mod" :flow:@computer:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-28 বুধ 15:18]
+CLOCK: [2025-05-28 বুধ 15:13]--[2025-05-28 বুধ 15:18] =>  0:05
+:END:
+<2025-05-28 বুধ 14:55-15:03>
+*** DONE sketch out tasks of "OA Endless Sky Mod" :flow:@computer:
 :PROPERTIES:
 :EFFORT:   15min
 :END:
-<2025-05-27 মঙ্গল 15:46-16:00>
-
-** TODO components [/]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 14:46]
+CLOCK: [2025-05-29 বৃহঃ 14:32]--[2025-05-29 বৃহঃ 14:46] =>  0:14
+CLOCK: [2025-05-28 বুধ 15:18]--[2025-05-28 বুধ 15:25] =>  0:07
+:END:
+<2025-05-29 বৃহঃ 14:30-14:36>
+** TODO components [0/5]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-**** research
-***** research what factions there are
-***** research is Endless Sky the best option to scaffold upon?
-***** research how to make mods in general
-***** research how to make Endless Sky mods
-****** discuss this on the Forum
-what
-**** MVP [/]
-**** multiple starts
-**** star systems
-***** use ChatGPT to convert descriptions on the EG of important star systems (the capital systems of Major Empires) to files for an ES mod
-***** aliens
-***** Muuh
-***** Other Aliens
-***** Caretaker Gods
-***** Sephirotic Empires
-****** Negentropist Alliance
-******* Gevurah
-****** Communion Of Worlds
-******* Heartland
-****** Technorapture Hypernation
-******* Turing
-***** Minor Factions
-****** Stella Umma
-****** The Eternal
-****** Silicon Generation
-***** Ahuman Empires
-****** Diamond Network
-****** Panvirtuality
-***** interesting rareities
-****** The Archivists
-****** Crystallographer's Nightmare
-****** Einstein's Revenge Cluster
-***** fill in the gaps
-**** planets
-***** sprites
-******** descriptions
-**** spaceships
+*** TODO research
+**** DONE research why previous OA games failed [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 15:01]
+:END:
+***** DONE ask the Forum why previous OA games failed and wait :@internet:
+:PROPERTIES:
+:EFFORT:   2min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 14:49]
+CLOCK: [2025-05-29 বৃহঃ 14:47]--[2025-05-29 বৃহঃ 14:49] =>  0:02
+:END:
+<2025-05-29 বৃহঃ 14:36-14:38>
+***** DONE look online for and take notes on why previous OA games failed :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 14:56]
+CLOCK: [2025-05-29 বৃহঃ 14:49]--[2025-05-29 বৃহঃ 14:56] =>  0:07
+:END:
+<2025-05-29 বৃহঃ 14:38-14:48>
+***** DONE look online for and take notes on why game development projects in general fail :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 15:01]
+CLOCK: [2025-05-29 বৃহঃ 14:56]--[2025-05-29 বৃহঃ 15:01] =>  0:05
+:END:
+<2025-05-29 বৃহঃ 14:48-14:58>
+***** KILL look online for and take notes on why game adaptations fail :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-05-29 বৃহঃ 15:01]
+:END:
+<2025-05-29 বৃহঃ 14:58-15:08>
+**** TODO research what factions there are in Orion's Arm [1/1]
+***** DONE look online for and take notes on what factions there are in Orion's Arm :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   15min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 15:15]
+CLOCK: [2025-05-29 বৃহঃ 15:01]--[2025-05-29 বৃহঃ 15:15] =>  0:14
+:END:
+<2025-05-29 বৃহঃ 15:15-15:30>
+**** TODO research is Endless Sky the best option to scaffold upon? [0/1]
+***** TODO look online for and take notes on is Endless Sky the best option to scaffold upon? :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+**** TODO research how to make mods in general [0/1]
+***** TODO look online for and take notes on how to make mods in general :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+**** TODO research how to make Endless Sky mods [1/1]
+***** DONE look online for and take notes on how to make Endless Sky mods :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 15:26]
+CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
+:END:
+<2025-05-29 বৃহঃ 15:50-16:00>
+*** TODO MVP [0/4]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+**** TODO use ChatGPT to convert descriptions on the EG of 30 important star systems (the capital systems of Major Empires) to files for this mod :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO prototype star systems (3) [0/3]
+***** TODO prototype Solsys [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO feed Solsys's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO change the sprites and orbital distances of prototype Solsys until it looks accurate in position and planets :@computer:think:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO prototype Resonance [/]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO feed Resonance's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO change the sprites and orbital distances of prototype Resonance until it looks accurate in position and planets :@computer:think:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO prototype Ain Soph Aur [/]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO feed Ain Soph Aur's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO change the sprites and orbital distances of prototype Ain Soph Aur until it looks accurate in position and planets :@computer:think:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO prototype Heartland [/]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO feed Heartland's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO change the sprites and orbital distances of prototype Heartland until it looks accurate in position and planets :@computer:think:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO prototype planets [0/4]
+***** TODO prototype Solsys Planets [0/1]
+****** TODO change the textures of the Solsys Planets to something good :@computer:think:
+:PROPERTIES:
+:EFFORT:   3min
+:END:
+***** TODO prototype Resonance Planets [/]
+****** TODO change the textures of the Resonance Planets to something good :@computer:think:
+:PROPERTIES:
+:EFFORT:   3min
+:END:
+***** TODO prototype Ain Soph Aur [/]
+****** TODO change the textures of the Ain Soph Aur Planets to something good :@computer:think:
+:PROPERTIES:
+:EFFORT:   3min
+:END:
+***** TODO prototype Heartland [/]
+****** TODO change the textures of the Heartland Planets to something good :@computer:think:
+:PROPERTIES:
+:EFFORT:   3min
+:END:
+**** Archai Nodes
+**** TODO feedback on MVP [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+***** TODO post images, videos, and maybe even a pack of my mod prototype on the Forum :@internet:
+***** WAIT wait for feedback on the MVP
+*** TODO discuss the idea on the Forum [0/1]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+**** TODO write a post on the forum asking for thoughts on this :@internet:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** WAIT wait for feedback on this project's concept
+*** TODO star systems [0/6]
+**** TODO aliens [0/2]
+***** TODO Muuh [0/1]
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Muuh mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Muuh with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Soft Ones [/]
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Soft Ones mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Soft Ones with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO Caretaker Gods [/]
+***** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO create more templates for the star systems of the Caretaker Gods mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO add the planets for the star systems of the Caretaker Gods with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO Sephirotic Empires [0/3]
+***** TODO Negentropist Alliance [/]
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Negentropist Alliance mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Negentropist Alliance with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Communion Of Worlds [/]
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Communion Of Worlds mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Communion Of Worlds with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO Heartland [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Heartland
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Heartland
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Technorapture Hypernation [/]
+****** TODO Turing [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Turing
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Turing
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Technorapture Hypernation mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Technorapture Hypernation with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Solar Dominion [/]
+****** TODO Solar Dominion Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Dominion Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Dominion Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Solar Dominion mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Solar Dominion with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Formalhaut Acquisition Society [/]
+****** TODO FAS Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for FAS Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for FAS Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Formalhaut Acqusition Society mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Formalhaut Acqusition Society with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Terragen Federation [/]
+****** TODO Fed Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Fed Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Fed Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Negentropist Alliance mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Negentropist Alliance with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Metasoft [/]
+****** TODO NewRoot [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for NewRoot
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for NewRoot
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Metasoft mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Metasoft with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO Sophic League [/]
+***** TODO SophLeag Cap [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO create templates for SophLeag Cap
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO add the planets for SophLeag Cap
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+****** TODO create more templates for the star systems of the Sophic League mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO add the planets for the star systems of the Sophic League with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO {Empire Name} [/]
+****** TODO {Capital} [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for {Capital}
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for {Capital}
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the {Empire Name} mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the {Empire Name} with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO Minor Factions [/]
+***** TODO Stella Umma [/]
+****** TODO Umma Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Umma Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Umma Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Stella Umma mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Stella Umma with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO The Eternal [/]
+****** TODO The Eternal [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for {Capital}
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for {Capital}
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the The Eternal mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the The Eternal with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Silicon Generation [/]
+****** TODO Sili Cap [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Sili Cap
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Sili Cap
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Silicon Generation mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Silicon Generation with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Perseus Princes [/]
+****** TODO Serpiens [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Serpiens
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Serpiens
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Perseus Princes mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Perseus Princes with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Orion Federation [/]
+****** TODO Enremdea[0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Enremdea
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Enremdea
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Orion Federation mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Orion Federation with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+**** TODO Ahuman Empires [/]
+***** TODO Diamond Network [/]
+****** TODO Diamond Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Diamond Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Diamond Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Diamond Network mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Diamond Network with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+***** TODO Solipsist Panvirtuality [/]
+****** TODO Panvirt Capital [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create templates for Panvirt Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for Panvirt Capital
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+****** TODO flesh out the star systems mentioned in the EG [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+******* TODO create more templates for the star systems of the Solipsist Panvirtuality mentioned in the EG
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+******* TODO add the planets for the star systems of the Solipsist Panvirtuality with distances and textures
+:PROPERTIES:
+:EFFORT:   5min
+:END:
+*** TODO textures [0/1]
+**** TODO Heartland's rings [0/1]
+***** TODO create a vector image for Heartland's rings :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+*** spaceships
+**** transport
+**** passenger transport
+**** utility
+**** combat
+*** outfits
+*** multiple starts [/]
+**** Nearbaseline Human Start
+**** AI Start
+**** Vec Start
+**** Space Amoeba Start
+*** TODO upload OAToLife To github [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+- Refiled on [2025-06-01 রবি 07:56]
+:END:
+**** TODO research how to sign in to Github [0/1]
+***** TODO look online for and take notes on how to sign in to Github :@computer:think:
+:PROPERTIES:
+:EFFORT:   3min
+:END:
+:LOGBOOK:
+CLOCK: [2025-06-01 রবি 07:56]
+:END:
+**** TODO push my local stuff on OAToLife to the Github Repo :@computer:think:
+:PROPERTIES:
+:EFFORT:   5min
+:END:
 ** TODO finish "OA Endless Sky Mod" [0/1]
 :PROPERTIES:
 :ORDERED:  t
