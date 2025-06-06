@@ -1,7 +1,7 @@
 galaxy "OA Galaxy"
 	pos 1000 1000
 	sprite map/OAMOD_milkyway
-	   scale 10
+	   scale 20
 
 system "Ain Soph Aur"
 	pos 697 836
@@ -852,16 +852,16 @@ system Solsys
 		period 10
 	object
 		sprite planet/mercury
-		distance 289
-		period 32.8581
+		distance 289.647
+		period 60.0000
 	object
 		sprite planet/venus
 		distance 533.534
-		period 150
+		period 150.000
 	object EarthOA
 		sprite planet/earth
-		distance 965
-		period 365
+		distance 965.669
+		period 365.250
 		object LunaOA
 			sprite planet/luna
 			distance 201.24
@@ -905,6 +905,10 @@ system Solsys
 			distance 150
 			period 20
 			offset 315
+	object MarsOA
+		sprite planet/mars
+		distance 1471.43
+		period 687.001
 	object
 		sprite planet/jupiter
 		distance 3339
@@ -928,7 +932,7 @@ system Solsys
 	object
 		sprite planet/saturn
 		distance 5562
-		period 5048
+		period 5048.87
 		object
 			sprite planet/tethys
 			distance 590
@@ -962,6 +966,33 @@ system Solsys
 		   scale 16
 		distance 30000
 		period 30000
+
+planet EarthOA
+    "display name" "Earth"
+    government "GAIA"
+    landscape images/land/canyon3
+    description `You shouldn't be here!`
+    "display name" Earth
+    port
+	recharges all
+
+planet LunaOA
+    landscape images/land/moon0
+    "display name" "Luna"
+    government "Solar Organization"
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+
+planet MarsOA
+    "display name" "Mars"
+    government "Solar Organization"
 
 system "Tau Ceti"
 	pos 666 960
@@ -1021,7 +1052,7 @@ system Turing
 	object
 		sprite star/m0
 		period 10
-	object TuringPlanet
+	object "TuringPlanet"
 		sprite planet/rock10
 		distance 170.25
 		period 49.6725
@@ -1110,6 +1141,94 @@ planet EarthOA
 	government GAIA
 	port
 		recharges all
+
+system Ain Soph Aur
+	"display name" "Ain Soph Aur"
+	pos 1350 900
+	government "Keter Dominion"
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids computronium 2000 0.95
+	minables computronium 1500 0.98
+	object
+		sprite star/a8
+	object NodeEuclid
+		sprite "planet/forest2"
+			scale 0.5
+		distance 100
+		period 60
+		offset 0
+		object NodeAlpha
+			sprite planet/forest4
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object NodeSagan
+		sprite "planet/forest6-b"
+			scale 0.5
+		distance 120
+		period 70
+		offset 0
+		object NodeBeta
+			sprite planet/forest5-b
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object Transfinity
+	    distance 10000
+	    period 10000
+	    offset 0
+	object "Bright Door"
+	    distance 10000
+	    period 10000
+	    offset 60
+	object Eschaton
+	    distance 10000
+	    period 10000
+	    offset 120
+
+wormhole Transfinity
+
+wormhole "Bright Door"
+
+wormhole Eschaton
+
+planet NodeEuclid
+	"display name" "Jupiter Node Euclid"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
+
+planet NodeSagan
+	"display name" "Jupiter Node Sagan"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
 
 planet "Einstein's Gate Planet"
 	landscape ""

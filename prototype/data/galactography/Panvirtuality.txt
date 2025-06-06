@@ -1,0 +1,41 @@
+system Cygnus OB2-12
+	"display name" Cygnus OB2-12
+	pos 1500 1200
+	government Solipsist Panvirtuality
+	attributes a-human AI isolationist computronium
+	music silence
+	inaccessible
+	hidden
+	shrouded
+	"starfield density" 0.01
+	link [Adjacent System Name]  ; Replace with actual system name
+	asteroids computronium 2000 0.95
+	minables computronium 1000 0.98
+	object [Cygnus OB2-12]
+		sprite blue hypergiant
+			scale 2.5
+		distance 0
+		period 0
+		offset 0
+		object [Panvirtuality Core]
+			sprite matrioshka brain
+				scale 1.5
+			distance 100
+			period 50
+			offset 0
+
+planet Panvirtuality Core
+	"display name" Panvirtuality Core
+	attributes computronium "requires: a-human AI"
+	landscape computronium
+	music silence
+	description
+		Panvirtuality Core is a massive computronium structure encasing the blue hypergiant star Cygnus OB2-12. It serves as the central processing node for the Solipsist Panvirtuality's higher toposophic entities. The structure is incomprehensible to most sapient beings, with surfaces emitting patterns that defy conventional understanding.
+	spaceport
+		No traditional spaceport facilities exist. Incoming data packets are received via quantum entanglement links. Physical access is restricted to authorized AI constructs.
+	government Solipsist Panvirtuality
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Panvirtual Sentinel 10

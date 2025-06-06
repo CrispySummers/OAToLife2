@@ -1,0 +1,71 @@
+system Ain Soph Aur
+	"display name" Ain Soph Aur
+	pos 1350 900
+	government "Keter Dominion"
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids computronium 2000 0.95
+	minables computronium 1500 0.98
+	object
+		sprite star/b-giant
+	object NodeEuclid
+		sprite "planet/j-brain"
+			scale 0.5
+		distance 100
+		period 60
+		offset 0
+		object NodeAlpha
+			sprite computronium world
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object NodeSagan
+		sprite "planet/j-brain"
+			scale 0.5
+		distance 120
+		period 70
+		offset 0
+		object [Lunar Node Beta]
+			sprite computronium world
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object Transfinity
+	    distance 10000
+	    period 10000
+	    offset 0
+	object "Bright Door"
+	    distance 10000
+	    period 10000
+	    offset 60
+	object Eschaton
+	    distance 10000
+	    period 10000
+	    offset 120
+
+wormhole Transfinity
+
+wormhole "Bright Door"
+
+wormhole Eschaton
+
+planet NodeEuclid
+	"display name" Jupiter Node Euclid
+	attributes computronium "requires: a-human AI"
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15

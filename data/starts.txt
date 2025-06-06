@@ -1,0 +1,18 @@
+
+start "oa start"
+    name "OA Start"
+    description `You are a Blue Homo Superior.``
+    date 16 11 3013
+    system Solsys
+    planet LunaOA
+    account
+        credits 10000000
+        score 400
+    set "species: human"
+    conversation "OAstarter Conversation"
+
+conversation "OAstarter Conversation"
+    `You were born 5 years ago. Now, you have come of age and must pick your own name!`
+    name
+    action
+        log "it is time to go for the stars!"

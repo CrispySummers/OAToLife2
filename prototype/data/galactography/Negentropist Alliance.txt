@@ -1,0 +1,43 @@
+system SeatOfJudgement
+	"display name" Seat of Judgement
+	pos 62800 0
+	government Negentropy Alliance
+	attributes shrouded inaccessible
+	music "ambient/void"
+	"jump range" 0
+	"starfield density" 0.05
+	"hazard" "Dust Storms" 80
+	"hazard" "Radiation" 70
+	"hazard" "AI Intrusion" 90
+	link Gegton
+	link Daffy
+	link Ken Ferjik
+	link Greylag
+	object [SeatOfJudgement]
+		sprite object/monolith
+		scale 3
+		distance 0
+		period 0
+		offset 0
+		visibility 1000
+		object [Mercy]
+			sprite object/gas_giant
+			scale 1.2
+			distance 5
+			period 0
+			offset 0
+			visibility 500
+		object [Strictness]
+			sprite object/gas_giant
+			scale 1.2
+			distance 10
+			period 0
+			offset 0
+			visibility 500
+		object [Dyson Sphere]
+			sprite object/dyson_sphere
+			scale 2
+			distance 15
+			period 0
+			offset 0
+			visibility 1000

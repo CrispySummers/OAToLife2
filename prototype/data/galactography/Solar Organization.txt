@@ -1,0 +1,168 @@
+# one possible definition
+system "Solsys"
+    pos 0 0
+    star "Sol" 0 0
+    description "The birthplace of Terragen civilization, Solsys is a vibrant and densely populated system. It serves as a hub of cultural, economic, and scientific activity, with a rich history spanning millennia."
+
+    # Planets
+    planet "Mercury"
+        pos -387 0
+        description "The innermost planet, Mercury is a hot, rocky world with extreme temperature variations."
+    planet "Venus"
+        pos -723 0
+        description "Once inhospitable, Venus has been terraformed into a lush, Earth-like world."
+    planet "Earth"
+        pos -1000 0
+        description "The cradle of humanity, Earth remains a bustling center of culture and governance."
+    planet "Mars"
+        pos -1524 0
+        description "Mars has been transformed into a habitable world, supporting a thriving population."
+    planet "Jupiter"
+        pos -5204 0
+        description "A gas giant with a complex system of moons and orbital habitats."
+    planet "Saturn"
+        pos -9583 0
+        description "Known for its stunning rings, Saturn hosts numerous research stations and colonies."
+    planet "Uranus"
+        pos -19220 0
+        description "An ice giant with a unique axial tilt, surrounded by a network of scientific outposts."
+    planet "Neptune"
+        pos -30110 0
+        description "The outermost planet, Neptune is a hub for deep-space exploration missions."
+
+    # Asteroid Belt
+    asteroid "Main Belt"
+        pos -2500 0
+        description "A dense region of asteroids between Mars and Jupiter, rich in minerals and mining operations."
+
+    # Kuiper Belt
+    asteroid "Kuiper Belt"
+        pos -40000 0
+        description "A vast expanse of icy bodies beyond Neptune, home to dwarf planets and scientific stations."
+
+    # Oort Cloud
+    asteroid "Oort Cloud"
+        pos -100000 0
+        description "A distant spherical shell of icy objects, marking the boundary of the Solar System."
+
+    # Wormhole
+    wormhole "Einstein Gate" "Aksijaha"
+        pos 500 500
+        description "A massive stargate facilitating rapid travel between Solsys and the Aksijaha system."
+
+    # Spaceports
+    spaceport "Luna Orbital Station"
+        pos -1000 100
+        description "A major hub for traffic between Earth and the rest of the Solar System."
+    spaceport "Mars Highport"
+        pos -1524 100
+        description "The primary spaceport serving the Martian colonies and research facilities."
+    spaceport "Jovian Gateway"
+        pos -5204 100
+        description "A critical junction for missions to the outer planets and beyond."
+
+    # Hazard Ratings
+    hazard "Mercury" 0.5
+    hazard "Venus" 0.2
+    hazard "Earth" 0.1
+    hazard "Mars" 0.2
+    hazard "Jupiter" 0.3
+    hazard "Saturn" 0.3
+    hazard "Uranus" 0.4
+    hazard "Neptune" 0.4
+    hazard "Main Belt" 0.5
+    hazard "Kuiper Belt" 0.6
+    hazard "Oort Cloud" 0.7
+
+    # Notes
+    note "Solsys is a well-developed system with extensive infrastructure, making it a safe and prosperous region for travelers and traders alike."
+
+# another one, copied from the Endless Sky official repo and just tweaked a bitsystem Sol
+system Solsys
+	pos -400 100
+	government "Solar Organization"
+	attributes "near earth"
+	arrival 1080
+	habitable 1080
+	belt 1529
+	haze _menu/haze-67
+	asteroids "small rock" 30 2.691
+	asteroids "large rock" 50 5.0508
+	asteroids "medium metal" 4 2.8566
+	asteroids "large metal" 1 2.2356
+	minables iron 8 4.64499
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/mercury
+		distance 289.647
+		period 60.0000
+	object
+		sprite planet/venus
+		distance 533.534
+		period 150.000
+	object Earth
+		sprite planet/earth
+		distance 965.669
+		period 365.250
+		object Luna
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+	object Mars
+		sprite planet/mars
+		distance 1471.43
+		period 687.001
+	object Jupiter
+		sprite planet/jupiter
+		distance 3339
+		period 2348.40
+		object
+			sprite planet/io
+			distance 238.221
+			period 10.614
+		object
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+	object
+		sprite planet/saturn
+		distance 5562
+		period 5048.87
+		object
+			sprite planet/tethys
+			distance 590
+			period 1.9
+		object
+			sprite planet/rhea
+			distance 791
+			period 4.5
+		object
+			sprite planet/titan
+			distance 1222
+			period 16
+	object
+		sprite planet/uranus
+		distance 10373
+		period 12858.9
+		object
+			sprite planet/miranda
+			distance 195
+			period 1.4
+		object
+			sprite planet/oberon
+			distance 584
+			period 13
+	object
+		sprite planet/neptune
+		distance 15730
+		period 24012.7
