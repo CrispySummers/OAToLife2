@@ -81,10 +81,6 @@ system Aksijaha
 		  scale 10
 		distance 10000
 		period 10000
-		object "Einstein's Station"
-		    sprite planet/station0
-			distance 2000
-			period 1000
 
 planet "Einstein's Station"
     government "Solar Organization"
@@ -634,7 +630,12 @@ system Solsys
 		sprite planet/wormhole
 		  scale 10
 		distance 30000
-		period 30000
+		period 10000
+		object "Einstein's Station"
+		    sprite planet/station0
+			distance 5000
+			period 1000
+
 
 planet EarthOA
     "display name" "Earth"
