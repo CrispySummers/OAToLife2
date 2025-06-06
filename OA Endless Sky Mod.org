@@ -65,11 +65,14 @@ CLOCK: [2025-05-29 বৃহঃ 14:32]--[2025-05-29 বৃহঃ 14:46] =>  0:14
 CLOCK: [2025-05-28 বুধ 15:18]--[2025-05-28 বুধ 15:25] =>  0:07
 :END:
 <2025-05-29 বৃহঃ 14:30-14:36>
-** TODO components [0/5]
+** TODO components [1/6]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-*** TODO research
+*** DONE research
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-02 সোম 15:23]
+:END:
 **** DONE research why previous OA games failed [0/0]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-05-29 বৃহঃ 15:01]
@@ -109,7 +112,10 @@ CLOCK: [2025-05-29 বৃহঃ 14:56]--[2025-05-29 বৃহঃ 15:01] =>  0:05
 - State "KILL"       from "TODO"       [2025-05-29 বৃহঃ 15:01]
 :END:
 <2025-05-29 বৃহঃ 14:58-15:08>
-**** TODO research what factions there are in Orion's Arm [1/1]
+**** DONE research what factions there are in Orion's Arm [1/1]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-01 রবি 17:59]
+:END:
 ***** DONE look online for and take notes on what factions there are in Orion's Arm :@computer:@internet:
 :PROPERTIES:
 :EFFORT:   15min
@@ -119,17 +125,35 @@ CLOCK: [2025-05-29 বৃহঃ 14:56]--[2025-05-29 বৃহঃ 15:01] =>  0:05
 CLOCK: [2025-05-29 বৃহঃ 15:01]--[2025-05-29 বৃহঃ 15:15] =>  0:14
 :END:
 <2025-05-29 বৃহঃ 15:15-15:30>
-**** TODO research is Endless Sky the best option to scaffold upon? [0/1]
-***** TODO look online for and take notes on is Endless Sky the best option to scaffold upon? :@computer:@internet:
+**** DONE research is Endless Sky the best option to scaffold upon? [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-02 সোম 15:23]
+:END:
+***** KILL look online for and take notes on is Endless Sky the best option to scaffold upon? :@computer:@internet:
 :PROPERTIES:
 :EFFORT:   10min
 :END:
-**** TODO research how to make mods in general [0/1]
-***** TODO look online for and take notes on how to make mods in general :@computer:@internet:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-06-02 সোম 15:23]
+:END:
+<2025-06-02 সোম 15:35-15:45>
+**** DONE research how to make mods in general [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-02 সোম 15:23]
+:END:
+***** DONE look online for and take notes on how to make mods in general :@computer:@internet:
 :PROPERTIES:
 :EFFORT:   10min
 :END:
-**** TODO research how to make Endless Sky mods [1/1]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-02 সোম 15:22]
+CLOCK: [2025-06-02 সোম 15:18]--[2025-06-02 সোম 15:22] =>  0:04
+:END:
+<2025-06-02 সোম 15:25-15:35>
+**** DONE research how to make Endless Sky mods [1/1]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-01 রবি 17:59]
+:END:
 ***** DONE look online for and take notes on how to make Endless Sky mods :@computer:@internet:
 :PROPERTIES:
 :EFFORT:   10min
@@ -139,83 +163,195 @@ CLOCK: [2025-05-29 বৃহঃ 15:01]--[2025-05-29 বৃহঃ 15:15] =>  0:14
 CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 :END:
 <2025-05-29 বৃহঃ 15:50-16:00>
-*** TODO MVP [0/4]
+*** TODO MVP [3/5]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-**** TODO use ChatGPT to convert descriptions on the EG of 30 important star systems (the capital systems of Major Empires) to files for this mod :@computer:@internet:
+**** DONE use ChatGPT to convert descriptions on the EG of 30 important star systems (the capital systems of Major Empires) to files for this mod :@computer:@internet:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-**** TODO prototype star systems (3) [0/3]
-***** TODO prototype Solsys [0/2]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-02 সোম 15:35]
+CLOCK: [2025-06-02 সোম 15:23]--[2025-06-02 সোম 15:35] =>  0:12
+:END:
+<2025-06-02 সোম 15:45-15:50>
+**** DONE prototype star systems (3) [4/4]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-04 বুধ 14:24]
+:END:
+***** DONE prototype Solsys [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-****** TODO feed Solsys's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-04 বুধ 14:22]
+:END:
+****** DONE feed Solsys's description into ChatGPT and generate an Endless Sky data file :@@internet:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-****** TODO change the sprites and orbital distances of prototype Solsys until it looks accurate in position and planets :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:33]
+CLOCK: [2025-06-03 মঙ্গল 14:27]--[2025-06-03 মঙ্গল 14:33] =>  0:06
+:END:
+<2025-06-03 মঙ্গল 14:30-14:35>
+****** DONE change the sprites and orbital distances of prototype Solsys until it looks accurate in position and planets :@computer:think:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO prototype Resonance [/]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:36]
+CLOCK: [2025-06-03 মঙ্গল 14:33]--[2025-06-03 মঙ্গল 14:36] =>  0:03
+:END:
+<2025-06-03 মঙ্গল 14:35-14:40>
+***** DONE prototype Resonance [0/0]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-****** TODO feed Resonance's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:43]
+:END:
+****** DONE feed Resonance's description into ChatGPT and generate an Endless Sky data file :@@internet:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-****** TODO change the sprites and orbital distances of prototype Resonance until it looks accurate in position and planets :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:42]
+:END:
+<2025-06-03 মঙ্গল 14:40-14:45>
+****** DONE change the sprites and orbital distances of prototype Resonance until it looks accurate in position and planets :@computer:think:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO prototype Ain Soph Aur [/]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:43]
+:END:
+<2025-06-03 মঙ্গল 14:45-14:50>
+***** DONE prototype Ain Soph Aur [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-****** TODO feed Ain Soph Aur's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-04 বুধ 14:22]
+:END:
+****** DONE feed Ain Soph Aur's description into ChatGPT and generate an Endless Sky data file :@@internet:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-****** TODO change the sprites and orbital distances of prototype Ain Soph Aur until it looks accurate in position and planets :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:43]
+:END:
+<2025-06-03 মঙ্গল 14:50-14:55>
+****** DONE change the sprites and orbital distances of prototype Ain Soph Aur until it looks accurate in position and planets :@computer:think:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO prototype Heartland [/]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:49]
+CLOCK: [2025-06-03 মঙ্গল 14:43]--[2025-06-03 মঙ্গল 14:49] =>  0:06
+:END:
+<2025-06-03 মঙ্গল 14:55-15:00>
+***** DONE prototype Heartland [0/0]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-****** TODO feed Heartland's description into ChatGPT and generate an Endless Sky data file :@@internet:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-03 মঙ্গল 14:49]
+:END:
+****** KILL feed Heartland's description into ChatGPT and generate an Endless Sky data file :@@internet:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-****** TODO change the sprites and orbital distances of prototype Heartland until it looks accurate in position and planets :@computer:think:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-06-03 মঙ্গল 14:49]
+:END:
+<2025-06-03 মঙ্গল 15:00-15:05>
+****** KILL change the sprites and orbital distances of prototype Heartland until it looks accurate in position and planets :@computer:think:
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-**** TODO prototype planets [0/4]
-***** TODO prototype Solsys Planets [0/1]
-****** TODO change the textures of the Solsys Planets to something good :@computer:think:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-06-03 মঙ্গল 14:49]
+:END:
+<2025-06-03 মঙ্গল 15:05-15:10>
+**** DONE create a start for "OA to life" [0/0]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:41]
+:END:
+***** why?
+reason
+***** DONE read the Endless Sky documentation on how to make a start (fully) :@computer:@internet:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:36]
+CLOCK: [2025-06-05 বৃহঃ 14:27]--[2025-06-05 বৃহঃ 14:36] =>  0:09
+:END:
+<2025-06-05 বৃহঃ 14:30-14:38>
+***** KILL flesh out a definition for a start for "OA to life" :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-06-05 বৃহঃ 14:39]
+:END:
+<2025-06-05 বৃহঃ 14:38-14:46>
+**** TODO prototype planets [4/4]
+***** DONE prototype Solsys Planets [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:43]
+:END:
+****** DONE change the textures of the Solsys Planets to something good :@computer:think:
 :PROPERTIES:
 :EFFORT:   3min
 :END:
-***** TODO prototype Resonance Planets [/]
-****** TODO change the textures of the Resonance Planets to something good :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:43]
+CLOCK: [2025-06-05 বৃহঃ 14:41]--[2025-06-05 বৃহঃ 14:43] =>  0:02
+:END:
+<2025-06-05 বৃহঃ 14:46-14:48>
+***** DONE prototype Resonance Planets [1/1]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:45]
+:END:
+****** DONE change the textures of the Resonance Planets to something good :@computer:think:
 :PROPERTIES:
 :EFFORT:   3min
 :END:
-***** TODO prototype Ain Soph Aur [/]
-****** TODO change the textures of the Ain Soph Aur Planets to something good :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:52]
+CLOCK: [2025-06-05 বৃহঃ 14:46]--[2025-06-05 বৃহঃ 14:52] =>  0:06
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:45]
+CLOCK: [2025-06-05 বৃহঃ 14:43]--[2025-06-05 বৃহঃ 14:45] =>  0:02
+:END:
+<2025-06-05 বৃহঃ 14:48-14:50>
+***** DONE prototype Ain Soph Aur [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:56]
+:END:
+****** DONE change the textures of the Ain Soph Aur Planets to something good :@computer:think:
 :PROPERTIES:
 :EFFORT:   3min
 :END:
-***** TODO prototype Heartland [/]
-****** TODO change the textures of the Heartland Planets to something good :@computer:think:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:56]
+CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
+:END:
+***** DONE prototype Heartland [0/0]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:56]
+:END:
+****** KILL change the textures of the Heartland Planets to something good :@computer:think:
 :PROPERTIES:
 :EFFORT:   3min
+:END:
+:LOGBOOK:
+- State "KILL"       from "TODO"       [2025-06-05 বৃহঃ 14:56]
 :END:
 **** Archai Nodes
 **** TODO feedback on MVP [0/2]
@@ -223,6 +359,7 @@ CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 :ORDERED:  t
 :END:
 ***** TODO post images, videos, and maybe even a pack of my mod prototype on the Forum :@internet:
+<2025-06-05 বৃহঃ 14:54-14:56>
 ***** WAIT wait for feedback on the MVP
 *** TODO discuss the idea on the Forum [0/1]
 :PROPERTIES:
@@ -232,6 +369,7 @@ CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 :PROPERTIES:
 :EFFORT:   5min
 :END:
+<2025-06-05 বৃহঃ 14:56-15:00>
 **** WAIT wait for feedback on this project's concept
 *** TODO star systems [0/6]
 **** TODO aliens [0/2]
@@ -676,6 +814,11 @@ CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 **** passenger transport
 **** utility
 **** combat
+*** assets [/]
+**** Heartland Rings [/]
+**** J-Brains [/]
+**** m-Brains [/]
+**** M-Brains [/]
 *** outfits
 *** multiple starts [/]
 **** Nearbaseline Human Start
@@ -695,7 +838,7 @@ CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 :EFFORT:   3min
 :END:
 :LOGBOOK:
-CLOCK: [2025-06-01 রবি 07:56]
+CLOCK: [2025-06-01 রবি 07:56]--[2025-06-01 রবি 08:12] =>  0:16
 :END:
 **** TODO push my local stuff on OAToLife to the Github Repo :@computer:think:
 :PROPERTIES:

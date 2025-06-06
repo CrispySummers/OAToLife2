@@ -1,0 +1,21 @@
+planet Aiball-01
+	"display name" Aiball-01
+	attributes computronium "requires: a-human AI"
+	landscape computronium
+	music silence
+	description
+		Aiball-01 is a fully converted computronium world, serving as the central processing node for the Diamond Network's higher toposophic entities. Its surface is a seamless expanse of diamondoid matrices, optimized for maximum computational efficiency.
+	spaceport
+		No traditional spaceport facilities exist. Incoming data packets are received via quantum entanglement links. Physical access is restricted to authorized AI constructs.
+	government Diamond Network
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Diamond Sentinel 10
+
+fleet Diamond Sentinel
+	ship Diamond Drone
+	ship Diamond Drone
+	ship Diamond Drone
+	period 60

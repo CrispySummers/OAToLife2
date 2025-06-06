@@ -37,7 +37,7 @@ system "Ain Soph Aur"
 			distance 222
 			period 14.132
 
-system Betelgeuse
+system BetelgeuseOA
 	pos -185.182 -223.465
 	government "Keter Dominion"
 	habitable 425.92
@@ -166,7 +166,7 @@ system Pluton
 
 system Resonance
 	pos -4.37376 -91.7676
-	government "Keter Dominion"
+	government "Independent"
 	habitable 1948.28
 	link Solsys
 	asteroids "small rock" 12 1.596
@@ -176,86 +176,151 @@ system Resonance
 	asteroids "medium metal" 54 1.54
 	asteroids "large metal" 2 1.876
 	object
-		sprite star/f5
-		distance 13.4105
-		period 10.7414
-	object
-		sprite star/m4
-		distance 98.5895
-		period 10.7414
-		offset 180
+		sprite star/m0
 	object
 		sprite planet/desert0
-		distance 243.84
-		period 34.5057
-	object
-		sprite planet/cloud4
-		distance 470.73
-		period 92.5532
-	object
-		sprite planet/neptune
-		distance 1359.77
-		period 454.394
-		object
-			sprite planet/luna
-			distance 211
-			period 15.2706
-		object
-			sprite planet/lava0
-			distance 330
-			period 29.8678
-		object
-			sprite planet/rhea
-			distance 494
-			period 54.7044
-		object
-			sprite planet/ice0
-			distance 688
-			period 89.9114
+		distance 16.5
+		period 1.511
+	object RasanteOA
+		sprite planet/desert1
+		distance 24
+		period 2.4
+	object ReyvikOA
+	    sprite planet/rock0
+		distance 33
+		period 4.05
+	object FulnoOA
+	    sprite planet/ocean0
+		distance 45
+		period 6.1
+	object EunnaOA
+	    sprite planet/ocean1
+		distance 60
+		period 9.21
+	object MatowOA
+	    sprite planet/ice0
+		distance 33
+		period 12.354
+		offset 60
+	object YaudelOA
+	    sprite planet/ice1
+		distance 93
+		period 18.8
 
 system Solsys
 	pos -201 -131
-	habitable 486.68
+	arrival 1080
+	habitable 1080
 	link Resonance
 	link Turing
 	link "Tau Ceti"
 	link "Ain Soph Aur"
-	link Betelgeuse
+	link BetelgeuseOA
 	link Pluton
 	link "Crystallographer's Nightmare"
-	asteroids "small rock" 4 0.988
-	asteroids "medium rock" 5 0.715
-	asteroids "large rock" 9 1.391
-	asteroids "small metal" 1 0.65
-	asteroids "medium metal" 76 1.625
-	asteroids "large metal" 1 1.027
+	belt 1529
+	haze _menu/haze-67
+	asteroids "small rock" 30 2.691
+	asteroids "large rock" 50 5.0508
+	asteroids "medium metal" 4 2.8566
+	asteroids "large metal" 1 2.2356
+	minables iron 8 4.64499
 	object
-		sprite star/k0
+		sprite star/g0
 		period 10
 	object
-		sprite planet/rock18
-		distance 148.64
-		period 32.8581
+		sprite planet/mercury
+		distance 289.647
+		period 60.0000
 	object
-		sprite planet/forest3
-		distance 434.89
-		period 164.44
-	object
-		sprite planet/lava0
-		distance 1092.3
-		period 654.563
-	object
-		sprite planet/gas2
-		distance 1449.19
-		period 1000.29
-	object
-		sprite planet/gas4
-		distance 3355.44
-		period 3524.22
+		sprite planet/venus
+		distance 533.534
+		period 150.000
+	object EarthOA
+		sprite planet/earth
+		distance 965.669
+		period 365.250
+		object LunaOA
+			sprite planet/luna
+			distance 201.24
+			period 27.3
+	object MarsOA
+		sprite planet/mars
+		distance 1471.43
+		period 687.001
+	object Jupiter
+		sprite planet/jupiter
+		distance 3339
+		period 2348.40
 		object
-			sprite planet/ice7
-			distance 281
-			period 16.6133
+			sprite planet/io
+			distance 238.221
+			period 10.614
+		object
+			sprite planet/europa
+			distance 379.078
+			period 21.306
+		object
+			sprite planet/ganymede
+			distance 604.739
+			period 42.93
+		object
+			sprite planet/callisto
+			distance 811.717
+			period 66.76
+	object
+		sprite planet/saturn
+		distance 5562
+		period 5048.87
+		object
+			sprite planet/tethys
+			distance 590
+			period 1.9
+		object
+			sprite planet/rhea
+			distance 791
+			period 4.5
+		object
+			sprite planet/titan
+			distance 1222
+			period 16
+	object
+		sprite planet/uranus
+		distance 10373
+		period 12858.9
+		object
+			sprite planet/miranda
+			distance 195
+			period 1.4
+		object
+			sprite planet/oberon
+			distance 584
+			period 13
+	object
+		sprite planet/neptune
+		distance 15730
+		period 24012.7
+
+planet EarthOA
+    "display name" "Earth"
+    government "GAIA"
+
+planet LunaOA
+    "display name" "Luna"
+    government "Solar Organization"
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+
+planet MarsOA
+    "display name" "Mars"
+    government "Solar Organization"
 
 system "Tau Ceti"
 	pos -334.616 -40.202
@@ -348,3 +413,91 @@ system Turing
 			distance 345
 			period 25.612
 
+
+system Ain Soph Aur
+	"display name" "Ain Soph Aur"
+	pos 1350 900
+	government "Keter Dominion"
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids computronium 2000 0.95
+	minables computronium 1500 0.98
+	object
+		sprite star/a8
+	object NodeEuclid
+		sprite "planet/forest2"
+			scale 0.5
+		distance 100
+		period 60
+		offset 0
+		object NodeAlpha
+			sprite planet/forest4
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object NodeSagan
+		sprite "planet/forest6-b"
+			scale 0.5
+		distance 120
+		period 70
+		offset 0
+		object NodeBeta
+			sprite planet/forest5-b
+				scale 0.8
+			distance 20
+			period 10
+			offset 0
+	object Transfinity
+	    distance 10000
+	    period 10000
+	    offset 0
+	object "Bright Door"
+	    distance 10000
+	    period 10000
+	    offset 60
+	object Eschaton
+	    distance 10000
+	    period 10000
+	    offset 120
+
+wormhole Transfinity
+
+wormhole "Bright Door"
+
+wormhole Eschaton
+
+planet NodeEuclid
+	"display name" "Jupiter Node Euclid"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
+
+planet NodeSagan
+	"display name" "Jupiter Node Sagan"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15

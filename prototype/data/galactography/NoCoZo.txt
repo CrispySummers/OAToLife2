@@ -1,0 +1,43 @@
+system Argelander
+	"display name" "Argelander"
+	pos 219 0
+	government "None"
+	attributes "NoCoZo"
+	music "ambient/marketplace"
+	arrival [100]
+		link 200
+		jump 300
+	departure [100]
+		link 200
+		jump 300
+	habitable 0.5
+	belt 100
+	ramscoop
+		universal 0.5
+		addend 0
+		multiplier 1.5
+	"jump range" 0.5
+	link "Merrion"
+	asteroids "Argelander Belt" 500 0.1
+	minables "Argelander Ore" 500 0.1
+	trade "Argelander Goods" 100
+	fleet "Argelander Fleet" 100
+	raid "Argelander Raid" [0.5]
+	hazard "None" 0
+	"starfield density" 0.1
+	object "Starlark Replica"
+		sprite "starlark_replica"
+			scale 1
+		distance 0.5
+		period 1
+		offset 0
+	visibility 100
+	object "Landing Place Cathedral"
+		sprite "cathedral"
+			scale 1
+		distance 0.5
+		period 1
+		offset 0
+	visibility 100
+	"object description" "A nanoscale-accurate replica of the ancient starship Starlark, a popular tourist attraction."
+	"object description" "The Landing Place Cathedral, marking the first colonists' landing site, a magnificent Byzantine cathedral."
