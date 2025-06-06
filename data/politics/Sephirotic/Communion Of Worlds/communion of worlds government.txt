@@ -1,0 +1,2 @@
+government "Communion Of Worlds"
+   color 255 200 200

@@ -1,0 +1,2 @@
+government "Stella Umma"
+   color 000 64 255

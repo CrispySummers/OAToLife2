@@ -1,9 +1,9 @@
 galaxy "OA Galaxy"
     pos 1000 1000
-	sprite image/OAMOD_milkyway
+    sprite image/OAMOD_milkyway
 
 system "Ain Soph Aur"
-	pos -342.313 -169.606
+	pos -303 -164
 	government "Keter Dominion"
 	habitable 135
 	link Solsys
@@ -37,9 +37,57 @@ system "Ain Soph Aur"
 			distance 222
 			period 14.132
 
+system Aksijaha
+	pos -289 294
+	habitable 2372.76
+	link Solsys
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/desert5
+		distance 211.96
+		period 25.3404
+	object
+		sprite planet/rock19
+		distance 609.17
+		period 123.464
+	object
+		sprite planet/gas2
+		distance 882.33
+		period 215.219
+	object
+		sprite planet/forest5
+		distance 1350.49
+		period 407.54
+	object
+		sprite planet/neptune
+		distance 2177.7
+		period 834.507
+		object
+			sprite planet/miranda
+			distance 219
+			period 16.1472
+		object
+			sprite planet/rock7
+			distance 347
+			period 32.2052
+		object
+			sprite planet/rock0
+			distance 464
+			period 49.7977
+	object "Einstein's Gate Planet"
+		sprite planet/wormhole
+		  scale 10
+		distance 30000
+		period 30000
+
+planet "Einstein's Gate Planet"
+
 system BetelgeuseOA
-	pos -185.182 -223.465
-	government "Keter Dominion"
+	pos -151 79
+	"display name" Betelgeuse
+	government "Stella Umma"
 	habitable 425.92
 	link Solsys
 	asteroids "small rock" 39 3.192
@@ -77,7 +125,7 @@ system BetelgeuseOA
 		period 2412.42
 
 system "Crystallographer's Nightmare"
-	pos -86.3434 -27.0101
+	pos -264 9
 	government "Silicon Generation"
 	habitable 2140.92
 	link Solsys
@@ -114,7 +162,272 @@ system "Crystallographer's Nightmare"
 		distance 2874.72
 		period 1332.45
 
-system Pluton
+system Heartland
+	pos -97 53
+	government "Communion Of Worlds"
+	habitable 1080
+	link Solsys
+	asteroids "small rock" 12 4.4577
+	asteroids "medium rock" 7 4.9842
+	asteroids "large rock" 4 2.8431
+	asteroids "medium metal" 3 2.808
+	asteroids "large metal" 2 3.0537
+	attributes station
+	# torus 2
+    object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 45
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 90
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 135
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 180
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 225
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 270
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 315
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.4
+		distance 500
+		period 500
+		offset 360
+		attributes station
+	# torus 1
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 40
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 60
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 80
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 100
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 120
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 140
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 160
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 180
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 200
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 220
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 240
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 260
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 280
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 300
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 320
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 340
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 360
+		attributes station
+	object "Heartland Station"
+		sprite planet/ringworld
+		   scale 0.2
+		distance 300
+		period 500
+		offset 380
+		attributes station
+
+system Resonance
+	pos -4.37376 -91.7676
+	"display name" "Resonance (TRAPPIST-1)"
+	government Independent
+	habitable 300
+	link Solsys
+	asteroids "small rock" 12 1.596
+	asteroids "medium rock" 107 2.212
+	asteroids "large rock" 9 2.632
+	asteroids "small metal" 27 1.764
+	asteroids "medium metal" 54 1.54
+	asteroids "large metal" 2 1.876
+	object
+		sprite star/m-dwarf
+		   scale 5
+		distance 13.4105
+	object
+		sprite planet/rock0
+		   scale 0.2
+		distance 200
+		period 1.5
+	object
+		sprite planet/rock0-b
+		   scale 0.2
+		distance 360
+		period 4
+	object Fulno
+	    sprite planet/ocean2
+		   scale 0.2
+		distance 600
+		period 6
+	object Shinoh
+	    sprite planet/ocean1
+		   scale 0.2
+	    distance 800
+	    period 9.2
+	object
+	    sprite planet/ice1
+		   scale 0.2
+		distance 600
+		period 12.4
+	object
+	    sprite planet/ice0
+		   scale 0.2
+		distance 720
+		period 18.8
+
+planet Fulno
+	port
+		recharges all
+			services
+			trading
+			"job board"
+			bank
+
+planet Shinoh
+	port
+		recharges all
+			services
+			trading
+			"job board"
+			bank
+
+system Sierpens
 	pos -56.6868 -155.343
 	government "Perseus Princes"
 	habitable 2372.76
@@ -124,94 +437,54 @@ system Pluton
 	asteroids "medium metal" 79 1.9875
 	asteroids "large metal" 45 4.05
 	object
-		sprite star/f0
+		sprite star/g3
 		period 10
 	object
 		sprite planet/desert5
 		distance 293.41
 		period 41.271
 		offset 319.41
-		object
-			sprite planet/rock17
-			distance 126
-			period 15.5521
+	object
+		sprite planet/rock17
+		distance 126
+		period 15.5521
 	object
 		sprite planet/desert0
 		distance 648.1
 		period 135.487
 		offset 262.369
 	object
-		sprite planet/lava0
+		sprite planet/gas0
 		distance 852.46
 		period 204.383
 		offset 355.202
 	object
-		sprite planet/ocean7
+		sprite planet/gas3
 		distance 1460.95
 		period 458.549
 		offset 71.7469
-	object
-		sprite planet/gas10
+	object PlutonOA
+		sprite planet/Pluton2
+		   scale 2
 		distance 3492.95
 		period 1695.2
 		offset 290.171
 		object
 			sprite planet/io
-			distance 190
+			distance 300
 			period 13.7857
 		object
 			sprite planet/dust3
-			distance 342
+			distance 600
 			period 33.2917
 
-system Resonance
-	pos -4.37376 -91.7676
-	government "Independent"
-	habitable 1948.28
-	link Solsys
-	asteroids "small rock" 12 1.596
-	asteroids "medium rock" 107 2.212
-	asteroids "large rock" 9 2.632
-	asteroids "small metal" 27 1.764
-	asteroids "medium metal" 54 1.54
-	asteroids "large metal" 2 1.876
-	object
-		sprite star/m0
-	object
-		sprite planet/desert0
-		distance 16.5
-		period 1.511
-	object RasanteOA
-		sprite planet/desert1
-		distance 24
-		period 2.4
-	object ReyvikOA
-	    sprite planet/rock0
-		distance 33
-		period 4.05
-	object FulnoOA
-	    sprite planet/ocean0
-		distance 45
-		period 6.1
-	object EunnaOA
-	    sprite planet/ocean1
-		distance 60
-		period 9.21
-	object MatowOA
-	    sprite planet/ice0
-		distance 33
-		period 12.354
-		offset 60
-	object YaudelOA
-	    sprite planet/ice1
-		distance 93
-		period 18.8
 
 system Solsys
 	pos -201 -131
 	arrival 1080
 	habitable 1080
 	link Resonance
+	link Aksijaha
 	link Turing
 	link "Tau Ceti"
 	link "Ain Soph Aur"
@@ -244,14 +517,53 @@ system Solsys
 			sprite planet/luna
 			distance 201.24
 			period 27.3
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 45
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 90
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 135
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 180
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 225
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 270
+		object
+			sprite planet/dyson0
+			distance 150
+			period 20
+			offset 315
 	object MarsOA
 		sprite planet/mars
 		distance 1471.43
 		period 687.001
-	object Jupiter
+	object
 		sprite planet/jupiter
 		distance 3339
-		period 2348.40
+		period 2348.4
 		object
 			sprite planet/io
 			distance 238.221
@@ -300,12 +612,23 @@ system Solsys
 		sprite planet/neptune
 		distance 15730
 		period 24012.7
+	object "Einstein's Gate Planet"
+		sprite planet/wormhole
+		  scale 10
+		distance 30000
+		period 30000
 
 planet EarthOA
     "display name" "Earth"
     government "GAIA"
+    landscape images/land/canyon3
+    description `You shouldn't be here!`
+    "display name" Earth
+    port
+	recharges all
 
 planet LunaOA
+    landscape images/land/moon0
     "display name" "Luna"
     government "Solar Organization"
 	shipyard "Basic Ships"
@@ -367,7 +690,7 @@ system "Tau Ceti"
 			period 37.8506
 
 system Turing
-	pos -47.0 -6.44
+	pos -47 -6.44
 	government "Technorapture Hypernation"
 	habitable 320
 	link Solsys
@@ -501,3 +824,32 @@ planet NodeSagan
 	tribute 1000000
 		threshold 100
 		fleet Keter Guardian 15
+
+planet "Heartland Station"
+	landscape land/station0
+	description `Heartland is the main capital of the Communion of Worlds, though the Communion has seemed to abandoned it. It is a megastructure adrift in interstellar space, larger than Sol, made of multiple stations organized into a torus. It is beautiful.`
+	"display name" Heartland
+	port
+		recharges all
+			services
+			trading
+			"job board"
+			bank
+
+planet PlutonOA
+	landscape images/land/canyon2
+	description `Pluton was formerly an ice giant that was colonized by the Muuh several million years ago. Prior to Terragen contact, most of its resources went un-utilized as the local Muuh had long ago reached a steady state where they achieved a constant population and concentrated themselves in habitats below the clouds. The Muuh Polity that existed within YTS 37739 990 prior to the Terragens were the Ice-Cloud Dwellers, a society that had good relationships with a number of client xenosophonts, such as the Epp (a subclade of the species by Terragens known as Soft Ones).`
+	"display name" Pluton
+	port
+		recharges hull energy fuel
+			services
+			trading
+			"job board"
+			bank
+
+wormhole "Einstein's Gate"
+	"display name" "Einstein's Gate"
+	mappable
+	link Solsys Aksijaha
+	color green
+
