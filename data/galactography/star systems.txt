@@ -79,8 +79,26 @@ system Aksijaha
 	object "Einstein's Gate Planet"
 		sprite planet/wormhole
 		  scale 10
-		distance 30000
-		period 30000
+		distance 10000
+		period 10000
+		object "Einstein's Station"
+		    sprite planet/station0
+			distance 2000
+			period 1000
+
+planet "Einstein's Station"
+    government "Solar Organization"
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	port
+		recharges all
 
 planet "Einstein's Gate Planet"
 
@@ -640,6 +658,8 @@ planet LunaOA
 	outfitter "Lovelace Basics"
 	outfitter "Syndicate Basics"
 	outfitter "Ammo North"
+	port
+		recharges all
 
 planet MarsOA
     "display name" "Mars"
