@@ -1,5 +1,5 @@
 government "Keter Dominion"
-           color blue
-           reputation
-                "player reputation" 1
-           "provoked on scan"
+   color blue
+   reputation
+      "player reputation" 1
+   "provoked on scan"
