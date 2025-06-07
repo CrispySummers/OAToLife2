@@ -962,7 +962,7 @@ system Solsys
 		sprite planet/neptune
 		distance 15730
 		period 24012.7
-	object "Einstein's Gate Planet"
+	object "Einstein's Gate"
 		sprite planet/wormhole
 		   scale 16
 		distance 30000
@@ -1238,8 +1238,6 @@ planet NodeSagan
 		threshold 100
 		fleet Keter Guardian 15
 
-planet "Einstein's Gate Planet"
-	landscape ""
 
 planet Fulno
 	landscape ""
