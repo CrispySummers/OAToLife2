@@ -2,7 +2,7 @@
 start "oa start"
     name "OA Start"
     description `You are a Blue Homo Superior.``
-    date 16 11 3013
+    date 06 02 11000
     system Solsys
     planet LunaOA
     account
@@ -14,5 +14,6 @@ start "oa start"
 conversation "OAstarter Conversation"
     `You were born 5 years ago. Now, you have come of age and must pick your own name!`
     name
+    `Stars, here we come!`
     action
         log "it is time to go for the stars!"
