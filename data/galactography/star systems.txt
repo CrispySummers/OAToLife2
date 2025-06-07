@@ -1,10 +1,9 @@
 galaxy "OA Galaxy"
-	pos 1000 1000
+	pos 5000 5000
 	sprite map/OAMOD_milkyway
-	   scale 20
 
 system "Ain Soph Aur"
-	pos 1000 1000
+	pos 4600 4600
 	government "Keter Dominion"
 	habitable 135
 	link Solsys
@@ -39,7 +38,7 @@ system "Ain Soph Aur"
 			period 14.132
 
 system Aksijaha
-	pos 1000 1000
+	pos 5200 5500
 	habitable 2372.76
 	link Solsys
 	object
@@ -82,6 +81,11 @@ system Aksijaha
 		  scale 10
 		distance 10000
 		period 10000
+	object "Relay 09"
+		sprite planet/wormhole
+		  scale 2
+		distance 12000
+		period 12000
 
 planet "Einstein's Station"
 
@@ -94,7 +98,7 @@ planet "Einstein's Gate Planet"
 		offset 180
 
 system BetelgeuseOA
-	pos 1000 1000
+	pos 5000 4500
 	government "Stella Umma"
 	habitable 425.92
 	link Solsys
@@ -141,7 +145,7 @@ system BetelgeuseOA
 		"display name" Betelgeuse
 
 system "Crystallographer's Nightmare"
-	pos 1000 1000
+	pos 6000 6000
 	government "Caretaker God"
 	habitable 2140.92
 	link Solsys
@@ -179,7 +183,7 @@ system "Crystallographer's Nightmare"
 		period 1332.45
 
 system Ecotopia
-	pos 1000 1000
+	pos 6000 8000
 	government "Communion Of Worlds"
 	habitable 233.28
 	asteroids "small rock" 105 3.458
@@ -229,7 +233,7 @@ system Ecotopia
 			period 35.9592
 
 system Heartland
-	pos 1000 1000
+	pos 8000 8000
 	government "Communion Of Worlds"
 	habitable 1080
 	asteroids "small rock" 12 4.4577
@@ -654,7 +658,7 @@ system Heartland
 			attributes station
 
 system NewRoot
-	pos 1000 1000
+	pos 6500 5000
 	government "Metasoft Version Tree"
 	habitable 425.92
 	asteroids "small rock" 42 2.5425
@@ -700,7 +704,7 @@ system NewRoot
 			period 16.548
 
 system Resonance
-	pos 1000 1000
+	pos 4000 4000
 	government Independent
 	habitable 300
 	link Solsys
@@ -740,7 +744,7 @@ system Resonance
 		period 18.8
 
 system Sierpens
-	pos 1000 1000
+	pos 4000 6000
 	government "Perseus Princes"
 	habitable 2372.76
 	link Solsys
@@ -790,7 +794,7 @@ system Sierpens
 			period 33.2917
 
 system "Solar Dominion Capital"
-	pos 1000 1000
+	pos 3000 6000
 	government "Communion Of Worlds"
 	habitable 5486.68
 	asteroids "small rock" 6 5.5566
@@ -834,7 +838,7 @@ system "Solar Dominion Capital"
 			period 22.991
 
 system Solsys
-	pos 1000 1000
+	pos 5000 6500
 	habitable 486.68
 	link Resonance
 	link Aksijaha
@@ -1006,7 +1010,7 @@ planet MarsOA
     government "Solar Organization"
 
 system "Tau Ceti"
-	pos 1000 1000
+	pos 5000 5000
 	government "Keter Dominion"
 	habitable 1111.68
 	link Solsys
@@ -1050,7 +1054,7 @@ system "Tau Ceti"
 			period 37.8506
 
 system Turing
-	pos 1000 1000
+	pos 5000 5000
 	government "Technorapture Hypernation"
 	habitable 320
 	link Solsys
@@ -1097,7 +1101,7 @@ system Turing
 			period 25.612
 
 system Tylansian
-	pos 1000 1000
+	pos 5000 5000
 	government Tylansia
 	habitable 486.68
 	asteroids "small rock" 4 0.988
@@ -1155,7 +1159,7 @@ planet EarthOA
 
 system Ain Soph Aur
 	"display name" "Ain Soph Aur"
-	pos 1000 1000
+	pos 5000 5000
 	government "Keter Dominion"
 	attributes archai dyson-swarm angelnetted
 	"starfield density" 0.01
@@ -1280,7 +1284,6 @@ planet PlutonOA
 			bank
 
 planet "Relay 09"
-	landscape ""
 
 planet Shinoh
 	landscape ""
