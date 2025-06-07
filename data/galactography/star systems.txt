@@ -77,7 +77,7 @@ system Aksijaha
 			sprite planet/rock0
 			distance 464
 			period 49.7977
-	object "Einstein's Gate Planet"
+	object "Einstein's Gate"
 		sprite planet/wormhole
 		  scale 10
 		distance 10000
@@ -85,13 +85,6 @@ system Aksijaha
 
 planet "Einstein's Station"
 
-planet "Einstein's Gate Planet"
-	object "Relay 09"
-		sprite planet/wormhole
-		   scale 16
-		distance 30000
-		period 30000
-		offset 180
 
 system BetelgeuseOA
 	pos 1000 1000
@@ -871,41 +864,41 @@ system Solsys
 			distance 201.24
 			period 27.3
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 45
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 90
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 135
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 180
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 225
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 270
 		object
-			sprite planet/dyson0
+			sprite planet/dyson1
 			distance 150
 			period 20
 			offset 315
@@ -979,14 +972,14 @@ system Solsys
 planet EarthOA
     "display name" "Earth"
     government "GAIA"
-    landscape images/land/canyon3
+    landscape land/canyon3
     description `You shouldn't be here!`
     "display name" Earth
     port
 	recharges all
 
 planet LunaOA
-    landscape images/land/moon0
+    landscape land/moon0
     "display name" "Luna"
     government "Solar Organization"
 	shipyard "Basic Ships"
@@ -1146,7 +1139,7 @@ system Tylansian
 planet "Tylansian Wormhole"
 
 planet EarthOA
-	landscape images/land/canyon3
+	landscape land/canyon3
 	description `You shouldn't be here!`
 	"display name" Earth
 	government GAIA
@@ -1166,42 +1159,42 @@ system Ain Soph Aur
 	minables computronium 1500 0.98
 	object
 		sprite star/a8
-	object NodeEuclid
+	object
 		sprite "planet/forest2"
 			scale 0.5
 		distance 100
 		period 60
 		offset 0
-		object NodeAlpha
+		object
 			sprite planet/forest4
 				scale 0.8
 			distance 20
 			period 10
 			offset 0
-	object NodeSagan
+	object
 		sprite "planet/forest6-b"
 			scale 0.5
 		distance 120
 		period 70
 		offset 0
-		object NodeBeta
+		object
 			sprite planet/forest5-b
 				scale 0.8
 			distance 20
 			period 10
 			offset 0
 	object Transfinity
-	    distance 10000
+	    distance 1000
 	    period 10000
 	    offset 0
 	object "Bright Door"
-	    distance 10000
-	    period 10000
-	    offset 60
+	    distance 1500
+	    period 24000
 	object Eschaton
-	    distance 10000
-	    period 10000
-	    offset 120
+	    distance 2000
+	    period 30000
+
+system Branswerg
 
 wormhole Transfinity
 
@@ -1265,11 +1258,11 @@ planet "Heartland Station"
 			bank
 
 planet LunaOA
-	landscape images/land/moon0
+	landscape land/moon0
 	"display name" Luna
 
 planet PlutonOA
-	landscape images/land/canyon2
+	landscape land/canyon2
 	description `Pluton was formerly an ice giant that was colonized by the Muuh several million years ago. Prior to Terragen contact, most of its resources went un-utilized as the local Muuh had long ago reached a steady state where they achieved a constant population and concentrated themselves in habitats below the clouds. The Muuh Polity that existed within YTS 37739 990 prior to the Terragens were the Ice-Cloud Dwellers, a society that had good relationships with a number of client xenosophonts, such as the Epp (a subclade of the species by Terragens known as Soft Ones).`
 	"display name" Pluton
 	port
