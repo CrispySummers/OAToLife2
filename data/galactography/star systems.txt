@@ -776,7 +776,7 @@ system Sierpens
 		period 458.549
 		offset 71.7469
 	object PlutonOA
-		sprite planet/Pluton2
+		sprite planet/pluton
 		distance 3492.95
 		period 1695.2
 		offset 290.171
