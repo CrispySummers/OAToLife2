@@ -163,7 +163,7 @@ CLOCK: [2025-06-02 সোম 15:18]--[2025-06-02 সোম 15:22] =>  0:04
 CLOCK: [2025-05-29 বৃহঃ 15:17]--[2025-05-29 বৃহঃ 15:26] =>  0:09
 :END:
 <2025-05-29 বৃহঃ 15:50-16:00>
-*** TODO MVP [3/5]
+*** TODO MVP [4/5]
 :PROPERTIES:
 :ORDERED:  t
 :END:
@@ -301,7 +301,10 @@ CLOCK: [2025-06-05 বৃহঃ 14:27]--[2025-06-05 বৃহঃ 14:36] =>  0:09
 - State "KILL"       from "TODO"       [2025-06-05 বৃহঃ 14:39]
 :END:
 <2025-06-05 বৃহঃ 14:38-14:46>
-**** TODO prototype planets [4/4]
+**** DONE prototype planets [4/4]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-07 শনি 14:36]
+:END:
 ***** DONE prototype Solsys Planets [0/0]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-06-05 বৃহঃ 14:43]
