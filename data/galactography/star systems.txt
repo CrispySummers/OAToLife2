@@ -1155,28 +1155,31 @@ system Ain Soph Aur
 	asteroids computronium 2000 0.95
 	minables computronium 1500 0.98
 	object
-		sprite star/a8
+		sprite star/a5
 	object
-		sprite "planet/forest2"
+	    sprite planet/Mat-brain
+		period 0
+	object
+		sprite "planet/j-brain"
 			scale 0.5
 		distance 100
 		period 60
 		offset 0
 		object
-			sprite planet/forest4
-				scale 0.8
+			sprite planet/rock0
+				scale 0.5
 			distance 20
 			period 10
 			offset 0
 	object
-		sprite "planet/forest6-b"
+		sprite "planet/j-brain"
 			scale 0.5
 		distance 120
 		period 70
 		offset 0
 		object
-			sprite planet/forest5-b
-				scale 0.8
+			sprite planet/rock0
+				scale 0.5
 			distance 20
 			period 10
 			offset 0
@@ -1194,6 +1197,9 @@ system Ain Soph Aur
 system Branswerg
 
 wormhole Transfinity
+    "display name" "Transfinity"
+    mappable
+    link "Ain Soph Aur" "Aksijaha"
 
 wormhole "Bright Door"
 
