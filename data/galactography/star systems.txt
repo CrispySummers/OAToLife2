@@ -2,40 +2,6 @@ galaxy "OA Galaxy"
 	pos 5000 5000
 	sprite map/OAMOD_milkyway
 
-system "Ain Soph Aur"
-	pos 4600 4600
-	government "Keter Dominion"
-	habitable 135
-	link Solsys
-	asteroids "small rock" 16 2.574
-	asteroids "medium rock" 11 1.116
-	asteroids "large rock" 17 1.206
-	asteroids "small metal" 44 1.026
-	asteroids "medium metal" 75 1.44
-	asteroids "large metal" 18 1.908
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/ice5
-		distance 193.96
-		period 92.9954
-	object
-		sprite planet/desert6
-		distance 501.6
-		period 386.749
-	object
-		sprite planet/ganymede
-		distance 938.24
-		period 989.382
-	object
-		sprite planet/uranus
-		distance 1914.4
-		period 2883.65
-		object
-			sprite planet/ice7
-			distance 222
-			period 14.132
 
 system Aksijaha
 	pos 5200 5500
@@ -1143,10 +1109,17 @@ planet EarthOA
 	port
 		recharges all
 
-system Ain Soph Aur
+system "Ain Soph Aur"
 	"display name" "Ain Soph Aur"
-	pos 5000 5000
+	pos 4600 4600
 	government "Keter Dominion"
+	habitable 135
+	link Solsys
+	asteroids "small rock" 16 2.574
+	asteroids "medium rock" 11 1.116
+	asteroids "large rock" 17 1.206
+	asteroids "small metal" 44 1.026
+	asteroids "medium metal" 75 1.44
 	attributes archai dyson-swarm angelnetted
 	"starfield density" 0.01
 	link Aksijaha
@@ -1155,45 +1128,50 @@ system Ain Soph Aur
 	asteroids computronium 2000 0.95
 	minables computronium 1500 0.98
 	object
-		sprite star/a8
+		sprite star/a5
 	object
-		sprite "planet/forest2"
+	        sprite star/Mat-brain
+	object
+		sprite "planet/j-brain"
 			scale 0.5
-		distance 100
+		distance 200
 		period 60
 		offset 0
 		object
-			sprite planet/forest4
-				scale 0.8
+			sprite planet/rock0
+				scale 0.5
 			distance 20
 			period 10
 			offset 0
 	object
-		sprite "planet/forest6-b"
+		sprite "planet/j-brain"
 			scale 0.5
-		distance 120
+		distance 200
 		period 70
 		offset 0
 		object
-			sprite planet/forest5-b
-				scale 0.8
+			sprite planet/rock0
+				scale 0.5
 			distance 20
 			period 10
 			offset 0
 	object Transfinity
-	    distance 1000
+	    distance 3000
 	    period 10000
 	    offset 0
 	object "Bright Door"
-	    distance 1500
+	    distance 4000
 	    period 24000
 	object Eschaton
-	    distance 2000
+	    distance 6000
 	    period 30000
 
 system Branswerg
 
 wormhole Transfinity
+    "display name" "Transfinity"
+    mappable
+    link "Ain Soph Aur" "Aksijaha"
 
 wormhole "Bright Door"
 
