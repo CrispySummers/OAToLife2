@@ -6,7 +6,6 @@ galaxy "OA Galaxy"
 system Aksijaha
 	pos 5200 5500
 	habitable 2372.76
-	link Solsys
 	object
 		sprite star/f0
 		period 10
@@ -46,15 +45,19 @@ system Aksijaha
 		sprite planet/wormhole
 		    scale 8
 		distance 10000
-		period 10000
+		period 3696
 	object "Relay 09"
 		sprite planet/wormhole
 		    scale 2
-		distance 12000
-		period 12000
+		distance 18000
+		period 6652.78
+	object Transfinity
+		sprite planet/wormhole
+		    scale 2
+		distance 32400
+		period 11975.012
 
 planet "Einstein's Station"
-
 
 system BetelgeuseOA
 	pos 5000 4500
@@ -793,10 +796,8 @@ system Solsys
 	pos 5000 6500
 	habitable 486.68
 	link Resonance
-	link Aksijaha
 	link Turing
 	link "Tau Ceti"
-	link "Ain Soph Aur"
 	link BetelgeuseOA
 	link Sierpens
 	link "Crystallographer's Nightmare"
@@ -1130,43 +1131,58 @@ system "Ain Soph Aur"
 	object
 		sprite star/a5
 	object
-	        sprite star/Mat-brain
+        sprite planet/Mat-brain
+		    scale 0.5
+		distance 0
+		period 10
 	object
 		sprite "planet/j-brain"
-			scale 0.5
-		distance 200
-		period 60
-		offset 0
+		distance 900
+		period 322
 		object
 			sprite planet/rock0
-				scale 0.5
-			distance 20
+			distance 200
 			period 10
-			offset 0
 	object
 		sprite "planet/j-brain"
-			scale 0.5
-		distance 200
-		period 70
-		offset 0
+		distance 1620
+		period 598.75
 		object
 			sprite planet/rock0
-				scale 0.5
-			distance 20
+			distance 200
 			period 10
-			offset 0
+	object
+		sprite "planet/j-brain"
+		distance 2916
+		period 1077.75
+	object
+		sprite "planet/j-brain"
+		distance 5248
+		period 1939.65
+	object
+		sprite "planet/j-brain"
+		distance 9447
+		period 3491.6
 	object Transfinity
-	    distance 3000
-	    period 10000
+	    sprite "planet/wormhole"
+		    scale 2
+	    distance 30610
+	    period 11313
 	    offset 0
 	object "Bright Door"
-	    distance 4000
-	    period 24000
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
 	object Eschaton
-	    distance 6000
-	    period 30000
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 60
 
 system Branswerg
+
+planet Transfinity
 
 wormhole Transfinity
     "display name" "Transfinity"
@@ -1174,6 +1190,9 @@ wormhole Transfinity
     link "Ain Soph Aur" "Aksijaha"
 
 wormhole "Bright Door"
+    "display name" "Bright Door"
+    mappable
+    link "Ain Soph Aur" "Branswerg"
 
 wormhole Eschaton
 
