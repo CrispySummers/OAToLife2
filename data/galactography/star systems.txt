@@ -1338,6 +1338,10 @@ system "Ain Soph Aur"
 		offset 60
 
 system Branswerg
+    pos 6000 6000
+
+system Eschaton
+    pos 6200 6000
 
 planet Transfinity
 
