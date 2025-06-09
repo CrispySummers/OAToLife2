@@ -1294,3 +1294,7 @@ wormhole "Einstein's Gate"
 	mappable
 	link Solsys Aksijaha
 
+
+system Alfirk
+system Alcor
+system Mizar
