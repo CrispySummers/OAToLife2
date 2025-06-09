@@ -800,7 +800,6 @@ system Solsys
 	link BetelgeuseOA
 	link Sierpens
 	link "Crystallographer's Nightmare"
-	link Sol
 	asteroids "small rock" 4 0.988
 	asteroids "medium rock" 5 0.715
 	asteroids "large rock" 9 1.391
