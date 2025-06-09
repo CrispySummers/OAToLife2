@@ -56,7 +56,7 @@ system "Relay 10"
 		    scale 2
 
 system Aksijaha
-	pos 5200 5500
+	pos 5200 5200
 	habitable 2372.76
 	object
 		sprite star/f0
@@ -108,51 +108,61 @@ system Aksijaha
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 36
 	object "Relay 03 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 72
 	object "Relay 04 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 72
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 108
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 144
 	object "Relay 06 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 180
 	object "Relay 07 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 216
 	object "Relay 08 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 252
 	object "Relay 09 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 288
 	object "Relay 10 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
 		period 6652.78
+		offset 324
 	object Transfinity
 		sprite planet/wormhole
 		    scale 2
@@ -1437,6 +1447,8 @@ wormhole "Heartland - Relay 09"
 	"display name" "Relay 09"
 	mappable
 	link Heartland "Relay 09"
+
+planet "Einstein's Gate"
 
 wormhole "Einstein's Gate"
 	"display name" "Einstein's Gate"
