@@ -2,6 +2,58 @@ galaxy "OA Galaxy"
 	pos 5000 5000
 	sprite map/OAMOD_milkyway
 
+system "Relay 01"
+	pos 5200 5220
+	object "Relay 01 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 02"
+	pos 5180.16 5197.44
+	object "Relay 02 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 03"
+	pos 5205.07 5180.65
+	object "Relay 03 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 04"
+	pos 5218.54 5207.51
+	object "Heartland - Relay 09"
+	    sprite sprite/wormhole
+	object "Relay 04 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 05"
+	pos 5190.18 5217.423
+	object "Relay 05 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 06"
+	pos 5183.98 5188.03
+	object "Relay 06 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 07"
+	pos 5213.92 5185.64
+	object "Relay 07 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 08"
+	pos 5212.46 5215.64
+	object "Relay 08 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 09"
+	pos 5182.88 5210.36
+	object "Relay 09 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+system "Relay 10"
+	pos 5191.92 5181.71
+	object "Relay 10 Wormhole"
+		sprite planet/wormhole
+		    scale 2
 
 system Aksijaha
 	pos 5200 5500
@@ -46,7 +98,57 @@ system Aksijaha
 		    scale 8
 		distance 10000
 		period 3696
-	object "Relay 09"
+	object "Relay 01 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 02 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 03 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 04 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 05 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 05 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 06 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 07 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 08 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 09 Wormhole"
+		sprite planet/wormhole
+		    scale 2
+		distance 18000
+		period 6652.78
+	object "Relay 10 Wormhole"
 		sprite planet/wormhole
 		    scale 2
 		distance 18000
@@ -56,6 +158,51 @@ system Aksijaha
 		    scale 2
 		distance 32400
 		period 11975.012
+
+planet "Relay 01 Wormhole"
+
+wormhole "Relay 01 Wormhole"
+    "display name" "Relay 01"
+    mappable
+    link Aksijaha "Relay 01"
+
+wormhole "Relay 02 Wormhole"
+    "display name" "Relay 02"
+    mappable
+    link Aksijaha "Relay 02"
+
+wormhole "Relay 03 Wormhole"
+    "display name" "Relay 03"
+    mappable
+    link Aksijaha "Relay 03"
+wormhole "Relay 04 Wormhole"
+    "display name" "Relay 04"
+    mappable
+    link Aksijaha "Relay 04"
+wormhole "Relay 05 Wormhole"
+    "display name" "Relay 05"
+    mappable
+    link Aksijaha "Relay 05"
+wormhole "Relay 06 Wormhole"
+    "display name" "Relay 06"
+    mappable
+    link Aksijaha "Relay 06"
+wormhole "Relay 07 Wormhole"
+    "display name" "Relay 07"
+    mappable
+    link Aksijaha "Relay 07"
+wormhole "Relay 08 Wormhole"
+    "display name" "Relay 08"
+    mappable
+    link Aksijaha "Relay 08"
+wormhole "Relay 09 Wormhole"
+    "display name" "Relay 09"
+    mappable
+    link Aksijaha "Relay 09"
+wormhole "Relay 10 Wormhole"
+    "display name" "Relay 10"
+    mappable
+    link Aksijaha "Relay 10"
 
 planet "Einstein's Station"
 
@@ -606,7 +753,7 @@ system Heartland
 			distance 500
 			period 500
 			attributes station
-	object "Relay 09"
+	object "Heartland - Relay 09"
 		sprite planet/wormhole
 		   scale 2
 		distance 10000
@@ -793,7 +940,7 @@ system "Solar Dominion Capital"
 			period 22.991
 
 system Solsys
-	pos 5000 6500
+	pos 5000 6000
 	habitable 486.68
 	link Resonance
 	link Turing
@@ -1053,7 +1200,7 @@ system Turing
 			distance 345
 			period 25.612
 
-system Tylansian
+system Tylansia
 	pos 5000 5000
 	government Tylansia
 	habitable 486.68
@@ -1070,7 +1217,7 @@ system Tylansian
 		sprite planet/rock6
 		distance 208.84
 		period 54.7216
-	object Tylansia
+	object "Tylansia (Planet)"
 		sprite planet/ocean2
 		distance 383.25
 		period 136.039
@@ -1240,7 +1387,7 @@ planet Fulno
 
 planet "Heartland Station"
 	landscape land/station0
-	description `Heartland is the main capital of the Communion of Worlds, though the Communion has seemed to abandoned it. It is a megastructure adrift in interstellar space, larger than Sol, made of multiple stations organized into a torus. It is beautiful.`
+	description `Heartland is the main capital of the Communion of Worlds, though the Communion has seemed to abandoned it. It is a megastructure adrift in interstellar space, larger than Sol, made of multiple stations organized into a torus. It is beautiful as Eve.`
 	"display name" Heartland
 	port
 		recharges all
@@ -1264,7 +1411,7 @@ planet PlutonOA
 			"job board"
 			bank
 
-planet "Relay 09"
+planet "Heartland - Relay 09"
 
 planet Shinoh
 	landscape ""
@@ -1275,26 +1422,120 @@ planet Shinoh
 			"job board"
 			bank
 
-planet Tylansia
+planet "Tylansia (Planet)"
+    "display name" "Tylansia"
 	attributes human
 	landscape ""
+	government "Tylansia"
 	spaceport `Tylansia is a world filled with baseline humans, but has been stuck at an Information Age-level of technology for thousands of years. Bruh moment`
 
 wormhole "Tylansia Wormhole"
    mappable
    link Tylansian Aksijaha
 
-wormhole "Relay 09"
+wormhole "Heartland - Relay 09"
 	"display name" "Relay 09"
 	mappable
-	link Heartland Aksijaha
+	link Heartland "Relay 09"
 
 wormhole "Einstein's Gate"
 	"display name" "Einstein's Gate"
 	mappable
 	link Solsys Aksijaha
 
-
 system Alfirk
 system Alcor
 system Mizar
+
+system "Djed (System)"
+    "display name" "Djed"
+    pos 4800 4800
+	object
+	    sprite star/m-giant
+	object # Hila Ring
+	    sprite planet/mercury-b
+		distance 300
+		period 60
+	object
+	    sprite planet/j-brain
+		distance 468.75
+		period 173.25
+	object "Djed (Planet)"
+	    sprite planet/ice1
+	    distance 585.93
+		period 216.6
+		object "Tri-Arc"
+		   sprite "planet/tri-arc x-parallel"
+		   period 0
+		   distance 0
+		object "Tri-Arc"
+		   sprite "planet/tri-arc y-parallel"
+		   period 0
+		   distance 0
+		object "Tri-Arc"
+		   sprite "planet/tri-arc z-parallel"
+		   period 0
+		   distance 0
+	# J-Brain Nodes
+	object
+	    sprite planet/j-brain
+		distance 732.42
+		period 270.7
+	object
+	    sprite planet/j-brain
+		distance 732.42
+		period 270.7
+		offset 90
+	object
+	    sprite planet/j-brain
+		distance 732.42
+		period 270.7
+		offset 180
+	object
+	    sprite planet/j-brain
+		distance 732.42
+		period 270.7
+		offset 360
+	object Mainline
+	    sprite planet/wormhole
+		distance 3000
+		period 1108.8
+
+planet Mainline
+
+wormhole Mainline
+    "display name" "Mainline"
+	mappable
+	link "Djed (System)" "Relay 04"
+
+system "Relay 04"
+
+planet "Djed (Planet)"
+    government "Mutual Progress Association"
+    landscape land/city6
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	port
+		recharges all
+
+planet "Tri-Arc"
+    government "Mutual Progress Association"
+    landscape land/station2
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	port
+		recharges all
