@@ -16,3 +16,4 @@ This project aims to create an Endless Sky Mod that represents OA's planets, sta
 ![Einstein's Gate](https://github.com/user-attachments/assets/d39a0817-44de-4f29-ac3f-9555c2331659)
 ![PlutonShowcase](https://github.com/user-attachments/assets/4f44a91a-78e5-408b-9305-98140e1c27f3)
 ![Ain Soph Aur](https://github.com/user-attachments/assets/d521db22-38a2-4779-8043-9fb574608f7a)
+![Ecotopia](https://github.com/user-attachments/assets/92523f77-5e36-4448-b5e3-8fcbddb37a46)
