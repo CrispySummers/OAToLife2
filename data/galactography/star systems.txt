@@ -3,7 +3,7 @@
 
 galaxy "OA Galaxy"
 	pos 5000 5000
-	sprite map/OAMOD_milkyway
+	sprite "map/milky way OA"
 
 system "Ain Soph Aur"
 	pos 4803 5183
@@ -179,7 +179,7 @@ system Aksijaha
 		sprite planet/wormhole
 		distance 18000
 		period 6652.78
-		offset 72
+		offset 360
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
 		distance 18000
@@ -1050,6 +1050,11 @@ system "Relay 02"
 	habitable nan
 	object "Relay 02 Wormhole"
 		sprite planet/wormhole
+	object "Go With the Flow"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 180
 
 system "Relay 03"
 	pos 5210.43 5159.2
@@ -1949,3 +1954,118 @@ wormhole "Wadai Wormhole"
 
 wormhole "Deep Gate"
 
+system Ecotopia
+    pos 6000 6000
+	"display name" "Ecotopia"
+	government "Zoeific Biopolity"
+	habitable 1100
+	object
+	    sprite star/g5
+	object
+	    sprite planet/Mat-brain
+		    scale 0.25
+		period 0
+		distance 0
+	object # The Forge
+	    sprite planet/station10
+		distance 200
+		period 30
+	# the lab
+	object "Labworld"
+	    sprite planet/forest0
+		distance 900
+		period 360
+	object "Labworld"
+	    sprite planet/forest1-b
+		distance 900
+		period 360
+		offset 36
+	object "Labworld"
+	    sprite planet/forest2
+		distance 900
+		period 360
+		offset 72
+	object "Labworld"
+	    sprite planet/forest2-b
+		distance 900
+		period 360
+		offset 108
+	object "Labworld"
+	    sprite planet/forest1
+		distance 900
+		period 360
+		offset 144
+	object "Labworld"
+	    sprite planet/forest3
+		distance 900
+		period 360
+		offset 180
+	object "Labworld"
+	    sprite planet/forest3-b
+		distance 900
+		period 360
+		offset 216
+	object "Labworld"
+	    sprite planet/forest4
+		distance 900
+		period 360
+		offset 252
+	object "Labworld"
+	    sprite planet/forest4-b
+		distance 900
+		period 360
+		offset 288
+	object "Labworld"
+	    sprite planet/forest5
+		distance 900
+		period 360
+		offset 324
+
+	# stargates
+	object "Olive Branch"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 36
+	object "Migrations Way"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 72
+	object "River of Life"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 108
+	object "The Pipeline"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 144
+	object "Go With the Flow"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 180
+
+planet "Labworld"
+    "display name" "Labworld"
+	government "Zoeific Biopolity"
+	landscape land/forest3
+	port
+		recharges all
+
+planet "Olive Branch"
+planet "Migrations Way"
+planet "River of Life"
+planet "The Pipeline"
+planet "Go With the Flow"
+
+wormhole "Olive Branch"
+wormhole "Migrations Way"
+wormhole "River of Life"
+wormhole "The Pipeline"
+wormhole "Go With the Flow"
+    mappable
+	"display name" "Go With The Flow"
+	link "Ecotopia" "Relay 02"
