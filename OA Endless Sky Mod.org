@@ -633,8 +633,8 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :EFFORT:   5min
 :END:
 **** TODO Minor Factions [0/5]
-***** TODO Stella Umma [0/2]
-****** TODO Umma Capital [1/2]
+***** TODO Stella Umma [1/2]
+****** DONE Umma Capital [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
@@ -646,9 +646,12 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 - State "DONE"       from "TODO"       [2025-06-09 Mon 12:12]
 CLOCK: [2025-06-09 Mon 12:03]--[2025-06-09 Mon 12:12] =>  0:09
 :END:
-******* TODO add the planets for Umma Capital
+******* DONE add the planets for Umma Capital
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:21]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:

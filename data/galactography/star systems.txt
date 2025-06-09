@@ -201,32 +201,39 @@ planet "Relay 09 Wormhole"
 planet "Relay 10 Wormhole"
 
 wormhole "Relay 01 Wormhole"
+    color 16 192 0
     "display name" "Relay 01"
     mappable
     link Aksijaha "Relay 01"
 
 wormhole "Relay 02 Wormhole"
+    color 16 192 0
     "display name" "Relay 02"
     mappable
     link Aksijaha "Relay 02"
 
 wormhole "Relay 03 Wormhole"
+    color 16 192 0
     "display name" "Relay 03"
     mappable
     link Aksijaha "Relay 03"
 wormhole "Relay 04 Wormhole"
+    color 16 192 0
     "display name" "Relay 04"
     mappable
     link Aksijaha "Relay 04"
 wormhole "Relay 05 Wormhole"
+    color 16 192 0
     "display name" "Relay 05"
     mappable
     link Aksijaha "Relay 05"
 wormhole "Relay 06 Wormhole"
+    color 16 192 0
     "display name" "Relay 06"
     mappable
     link Aksijaha "Relay 06"
 wormhole "Relay 07 Wormhole"
+    color 16 192 0
     "display name" "Relay 07"
     mappable
     link Aksijaha "Relay 07"
@@ -235,10 +242,12 @@ wormhole "Relay 08 Wormhole"
     mappable
     link Aksijaha "Relay 08"
 wormhole "Relay 09 Wormhole"
+    color 16 192 0
     "display name" "Relay 09"
     mappable
     link Aksijaha "Relay 09"
 wormhole "Relay 10 Wormhole"
+    color 16 192 0
     "display name" "Relay 10"
     mappable
     link Aksijaha "Relay 10"
@@ -1384,16 +1393,19 @@ system Eschaton
 planet Transfinity
 
 wormhole Transfinity
+    color 16 192 0
     "display name" "Transfinity"
     mappable
     link "Ain Soph Aur" "Aksijaha"
 
 wormhole "Bright Door"
+    color 16 192 0
     "display name" "Bright Door"
     mappable
     link "Ain Soph Aur" "Branswerg"
 
 wormhole Eschaton
+    color 16 192 0
 
 planet NodeEuclid
 	"display name" "Jupiter Node Euclid"
@@ -1482,10 +1494,12 @@ planet "Tylansia (Planet)"
 	spaceport `Tylansia is a world filled with baseline humans, but has been stuck at an Information Age-level of technology for thousands of years. Bruh moment`
 
 wormhole "Tylansia Wormhole"
+    color 16 192 0
    mappable
    link Tylansian Aksijaha
 
 wormhole "Heartland - Relay 09"
+    color 16 192 0
 	"display name" "Relay 09"
 	mappable
 	link Heartland "Relay 09"
@@ -1493,6 +1507,7 @@ wormhole "Heartland - Relay 09"
 planet "Einstein's Gate"
 
 wormhole "Einstein's Gate"
+    color 16 192 0
 	"display name" "Einstein's Gate"
 	mappable
 	link Solsys Aksijaha
@@ -1558,6 +1573,7 @@ system "Djed (System)"
 planet Mainline
 
 wormhole Mainline
+    color 16 192 0
     "display name" "Mainline"
 	mappable
 	link "Djed (System)" "Relay 04"
@@ -1724,6 +1740,7 @@ planet "Wadai Ringworld"
 
 planet "Wadai Wormhole"
 wormhole "Wadai Wormhole"
+    color 16 192 0
     mappable
 	"display name" "Wadai Wormhole"
 	link Wadai "Relay 06"
