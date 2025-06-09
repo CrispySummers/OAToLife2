@@ -7,53 +7,69 @@ system "Relay 01"
 	object "Relay 01 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 02"
 	pos 5180.16 5197.44
 	object "Relay 02 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 03"
 	pos 5205.07 5180.65
 	object "Relay 03 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 04"
 	pos 5218.54 5207.51
-	object "Heartland - Relay 09"
-	    sprite sprite/wormhole
 	object "Relay 04 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
+	object Mainline
+	    sprite planet/wormhole
+		distance 625
+		period 231.0
+	object "Heartland - Relay 09"
+	    sprite sprite/wormhole
+		distance 500
+		period 184.8
 system "Relay 05"
 	pos 5190.18 5217.423
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 06"
 	pos 5183.98 5188.03
 	object "Relay 06 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 07"
 	pos 5213.92 5185.64
 	object "Relay 07 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 08"
 	pos 5212.46 5215.64
 	object "Relay 08 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 09"
 	pos 5182.88 5210.36
 	object "Relay 09 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 system "Relay 10"
 	pos 5191.92 5181.71
 	object "Relay 10 Wormhole"
 		sprite planet/wormhole
 		    scale 2
+		period 0
 
 system Aksijaha
 	pos 5200 5200
@@ -170,6 +186,15 @@ system Aksijaha
 		period 11975.012
 
 planet "Relay 01 Wormhole"
+planet "Relay 02 Wormhole"
+planet "Relay 03 Wormhole"
+planet "Relay 04 Wormhole"
+planet "Relay 05 Wormhole"
+planet "Relay 06 Wormhole"
+planet "Relay 07 Wormhole"
+planet "Relay 08 Wormhole"
+planet "Relay 09 Wormhole"
+planet "Relay 10 Wormhole"
 
 wormhole "Relay 01 Wormhole"
     "display name" "Relay 01"
