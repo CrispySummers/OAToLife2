@@ -46,6 +46,10 @@ system "Relay 06"
 		sprite planet/wormhole
 		    scale 2
 		period 0
+	object "Wadai Wormhole"
+	    sprite planet/wormhole
+		    scale 4
+		period 0
 system "Relay 07"
 	pos 5213.92 5185.64
 	object "Relay 07 Wormhole"
@@ -1707,8 +1711,22 @@ system Wadai
 		period 20.3
 	object # Abishi
 	    sprite planet/gas4
-	    sprite 15980
+	    distance 15980
 		period 79.21
+	object "Wadai Wormhole"
+	    sprite planet/wormhole
+		    scale 4
+		distance 30000
+		period 1108
+
+planet "Wadai Ringworld"
+    government "Stella Umma"
+
+planet "Wadai Wormhole"
+wormhole "Wadai Wormhole"
+    mappable
+	"display name" "Wadai Wormhole"
+	link Wadai "Relay 06"
 
 planet "Yathrib"
 planet "Medina"
