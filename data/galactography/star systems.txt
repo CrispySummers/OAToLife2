@@ -1339,9 +1339,19 @@ system "Ain Soph Aur"
 
 system Branswerg
     pos 6000 6000
+	object "Bright Door"
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
 
 system Eschaton
     pos 6200 6000
+	object "Eschaton"
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
 
 planet Transfinity
 
