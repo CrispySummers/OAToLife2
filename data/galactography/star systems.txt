@@ -1749,3 +1749,52 @@ planet "Yathrib"
 planet "Medina"
 
 system Zamzam
+
+system Hightower
+    pos 4000 4000
+	government "Deeper Covenant"
+	object # Hightower
+	    sprite planet/gas8
+		period 0
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 60
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 120
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 180
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 240
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 300
+	object "Deep Gate"
+	    sprite planet/wormhole
+		distance 30000
+		period 11081
+
+planet "Hightower Station"
+    government "Deeper Covenant"
+
+planet "Deep Gate"
+
+wormhole "Deep Gate"
+
+system "Dam Tellion"

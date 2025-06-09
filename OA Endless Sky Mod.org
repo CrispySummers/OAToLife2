@@ -632,7 +632,17 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-**** TODO Minor Factions [0/5]
+**** TODO Minor Factions [1/6]
+***** DONE Deeper Covenant [1/1]
+****** DONE Hightower [1/1]
+******* DONE create objects for Hightower :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:38]
+CLOCK: [2025-06-09 Mon 12:31]--[2025-06-09 Mon 12:38] =>  0:07
+:END:
 ***** TODO Stella Umma [1/2]
 ****** DONE Umma Capital [2/2]
 :PROPERTIES:
@@ -741,7 +751,7 @@ CLOCK: [2025-06-09 Mon 12:03]--[2025-06-09 Mon 12:12] =>  0:09
 :EFFORT:   5min
 :END:
 ***** TODO Orion Federation [/]
-****** TODO Enremdea[0/2]
+****** TODO Enremdea [0/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
