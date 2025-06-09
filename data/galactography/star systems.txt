@@ -1968,6 +1968,7 @@ system Ecotopia
 		distance 0
 	object # The Forge
 	    sprite planet/station10
+		    scale 0.5
 		distance 200
 		period 30
 	# the lab
@@ -2050,6 +2051,7 @@ system Ecotopia
 
 planet "Labworld"
     "display name" "Labworld"
+	description `This planet is part of the ring of habitable planets, habitats, and such that the Biopolity has constructed around the central star.`
 	government "Zoeific Biopolity"
 	landscape land/forest3
 	port

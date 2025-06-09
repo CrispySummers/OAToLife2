@@ -1,0 +1,2 @@
+government "Zoeific Biopolity"
+    color .06 .8 0
