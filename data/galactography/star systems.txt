@@ -244,6 +244,7 @@ planet "Einstein's Station"
 system BetelgeuseOA
 	pos 5000 4500
 	government "Stella Umma"
+	"display name" Betelgeuse
 	habitable 425.92
 	link Solsys
 	asteroids "small rock" 39 3.192
@@ -252,41 +253,50 @@ system BetelgeuseOA
 	asteroids "small metal" 29 2.232
 	asteroids "medium metal" 123 2.376
 	asteroids "large metal" 68 3.12
-	"display name" Betelgeuse
 	object
-		sprite star/k5
+		sprite star/m-supergiant
 		period 10
-		"display name" Betelgeuse
 	object
-		sprite planet/lava6
-		distance 157.16
-		period 38.1864
-		"display name" Betelgeuse
+		sprite planet/desert2-b
+		distance 679.44
+		period 120.608
 	object
-		sprite planet/gas0
-		distance 631.2
-		period 307.359
-		"display name" Betelgeuse
+		sprite planet/rock0-b
+		distance 1035.69
+		period 226.983
+	object
+		sprite planet/dust6
+		distance 1582.62
+		period 428.761
 		object
-			sprite planet/dust5
-			distance 298
-			period 15.0758
-			"display name" Betelgeuse
+			sprite planet/lava1-b
+			distance 182
+			period 21.6509
 	object
-		sprite planet/cloud0
-		distance 1295.41
-		period 903.664
-		"display name" Betelgeuse
+		sprite planet/fog0
+		distance 2215.83
+		period 710.321
+	object Prime
+		sprite planet/forest2-b
+		distance 3581.98
+		period 1459.94
 	object
-		sprite planet/oberon
-		distance 1653.9
-		period 1303.65
-		"display name" Betelgeuse
-	object
-		sprite planet/rock7
-		distance 2492.9
-		period 2412.42
-		"display name" Betelgeuse
+		sprite planet/gas13-b
+		distance 5080.11
+		period 2465.81
+		object
+			sprite planet/rock17-b
+			distance 282
+			period 12.7057
+		object
+			sprite planet/lava2
+			distance 372
+			period 19.2504
+		object
+			sprite planet/oberon-b
+			distance 516
+			period 31.4485
+
 
 system "Crystallographer's Nightmare"
 	pos 6000 6000
@@ -1579,3 +1589,128 @@ planet "Tri-Arc"
 	outfitter "Ammo North"
 	port
 		recharges all
+
+system Wadai
+    pos 7500 7500
+	object
+		sprite star/b-dwarf
+	# Wadai Ringworld
+	object "Wadai Ringworld"
+	    sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 140
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 160
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		offset 300
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+	object  # Wara
+	    sprite planet/neptune-b
+		distance 6444
+		period 20.3
+	object # Abishi
+	    sprite planet/gas4
+	    sprite 15980
+		period 79.21
+
+planet "Yathrib"
+planet "Medina"
+
+system Zamzam
