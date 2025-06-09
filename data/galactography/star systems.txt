@@ -734,11 +734,6 @@ system Sierpens
 		distance 1460.95
 		period 458.549
 		offset 71.7469
-	object PlutonOA
-		sprite planet/pluton
-		distance 3492.95
-		period 1695.2
-		offset 290.171
 		object
 			sprite planet/io
 			distance 300
@@ -747,6 +742,11 @@ system Sierpens
 			sprite planet/dust3
 			distance 600
 			period 33.2917
+	object PlutonOA
+		sprite planet/pluton
+		distance 3492.95
+		period 1695.2
+		offset 290.171
 
 system "Solar Dominion Capital"
 	pos 3000 6000
