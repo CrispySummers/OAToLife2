@@ -1,5 +1,3 @@
-	# J-Brain Nodes
-	# Wadai Ringworld
 
 galaxy "OA Galaxy"
 	pos 5000 5000
@@ -37,7 +35,7 @@ system "Ain Soph Aur"
 		"starfield density" 0.01
 		minables computronium 1500 0.98
 	object
-		sprite planet/j-brain
+		sprite "planet/j-brain 2"
 		distance 900
 		period 322
 		"display name" "Ain Soph Aur"
@@ -69,7 +67,7 @@ system "Ain Soph Aur"
 			"starfield density" 0.01
 			minables computronium 1500 0.98
 	object
-		sprite planet/j-brain
+		sprite "planet/j-brain 2"
 		distance 2916
 		period 1077.75
 		"display name" "Ain Soph Aur"
@@ -85,7 +83,7 @@ system "Ain Soph Aur"
 		"starfield density" 0.01
 		minables computronium 1500 0.98
 	object
-		sprite planet/j-brain
+		sprite "planet/j-brain 2"
 		distance 9447
 		period 3491.6
 		"display name" "Ain Soph Aur"
@@ -412,7 +410,7 @@ system "Djed (System)"
 			sprite "planet/tri-arc z-parallel"
 			"display name" Djed
 	object
-		sprite planet/j-brain
+		sprite "planet/j-brain 2"
 		distance 732.42
 		period 270.7
 		"display name" Djed
@@ -423,7 +421,7 @@ system "Djed (System)"
 		offset 90
 		"display name" Djed
 	object
-		sprite planet/j-brain
+		sprite "planet/j-brain 2"
 		distance 732.42
 		period 270.7
 		offset 180
@@ -1095,6 +1093,10 @@ system "Relay 07"
 	habitable nan
 	object "Relay 07 Wormhole"
 		sprite planet/wormhole
+	object "Orion's Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4051.5
 
 system "Relay 08"
 	pos 5230.69 5233.87
@@ -2067,7 +2069,55 @@ wormhole "Olive Branch"
 wormhole "Migrations Way"
 wormhole "River of Life"
 wormhole "The Pipeline"
+    mappable
+	"display name" "The Pipeline"
+	link "Ecotopia"
 wormhole "Go With the Flow"
     mappable
 	"display name" "Go With The Flow"
 	link "Ecotopia" "Relay 02"
+
+system "Enremdea System"
+    "display name" "Enremdea"
+	pos 5200 5200
+	habitable 1100
+    object
+	    sprite star/g0
+		period 0
+	object
+	    sprite planet/gas11
+		distance 1100
+		period 408.8
+		object Enremdea
+		    sprite planet/forest0
+			    scale 0.5
+			distance
+			distance 300
+			period 12.1
+	# stargate
+	object "Orion's Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4051.5
+
+planet "Orion's Path"
+wormhole "Orion's Path"
+    mappable
+	"display name" "Orion's Path"
+	link "Enremdea System" "Relay 07"
+
+planet Enremdea
+    government "Orion Federation"
+	landscape land/city4
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	"display name" Enremdea
+	port
+		recharges all

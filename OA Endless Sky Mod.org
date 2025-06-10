@@ -725,18 +725,24 @@ CLOCK: [2025-06-09 Mon 12:03]--[2025-06-09 Mon 12:12] =>  0:09
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO Perseus Princes [/]
-****** TODO Serpiens [0/2]
+***** TODO Perseus Princes [1/2]
+****** DONE Serpiens [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for Serpiens
+******* DONE create templates for Serpiens
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for Serpiens
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 20:29]
+:END:
+******* DONE add the planets for Serpiens
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 20:29]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
@@ -750,18 +756,26 @@ CLOCK: [2025-06-09 Mon 12:03]--[2025-06-09 Mon 12:12] =>  0:09
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO Orion Federation [/]
-****** TODO Enremdea [0/2]
+***** TODO Orion Federation [1/2]
+****** DONE Enremdea [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for Enremdea
+******* DONE create templates for Enremdea
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for Enremdea
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-10 Tue 08:18]
+CLOCK: [2025-06-10 Tue 08:07]--[2025-06-10 Tue 08:18] =>  0:11
+CLOCK: [2025-06-09 Mon 20:29]--[2025-06-09 Mon 20:30] =>  0:01
+:END:
+******* DONE add the planets for Enremdea
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-10 Tue 08:18]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
