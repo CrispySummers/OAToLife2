@@ -532,189 +532,193 @@ system Heartland
 	asteroids "large rock" 4 2.8431
 	asteroids "medium metal" 3 2.808
 	asteroids "large metal" 2 3.0537
+	object "Heartland - Relay 09"
+		sprite planet/wormhole
+		distance 5000
+		period 4080
 	# Level 1
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 6
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 12
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 18
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 24
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 30
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 36
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 42
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 48
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 54
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 60
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 66
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 72
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 78
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 84
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 90
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 96
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 108
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 114
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 120
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 126
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 132
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 138
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 144
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 150
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 156
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 162
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 168
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 174
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 180
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 186
 		attributes station
@@ -726,7 +730,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 198
 		attributes station
@@ -738,7 +742,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 210
 		attributes station
@@ -750,7 +754,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 222
 		attributes station
@@ -762,7 +766,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 234
 		attributes station
@@ -774,7 +778,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 246
 		attributes station
@@ -786,7 +790,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 258
 		attributes station
@@ -798,7 +802,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 270
 		attributes station
@@ -810,7 +814,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 282
 		attributes station
@@ -822,7 +826,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 294
 		attributes station
@@ -834,7 +838,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		attributes station
 	object "Heartland Station"
@@ -845,7 +849,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 312
 		attributes station
@@ -857,7 +861,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 324
 		attributes station
@@ -869,7 +873,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 336
 		attributes station
@@ -881,7 +885,7 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 348
 		attributes station
@@ -893,223 +897,223 @@ system Heartland
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		offset 360
 		attributes station
 	# Level 2
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		distance 200
+		distance 500
 		period 0
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 6
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 12
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 18
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 24
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 30
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 36
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 42
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 48
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 54
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 60
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 66
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 72
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 78
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 84
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 90
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 96
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 108
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 114
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 120
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 126
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 132
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 138
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 144
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 150
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 156
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 162
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 168
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 174
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 180
 		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 186
 		attributes station
@@ -1123,7 +1127,7 @@ system Heartland
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 198
 		attributes station
@@ -1137,7 +1141,7 @@ system Heartland
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 210
 		attributes station
@@ -1151,7 +1155,7 @@ system Heartland
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		    scale 1.27
-		distance 200
+		distance 500
 		period 0
 		offset 222
 		attributes station
