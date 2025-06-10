@@ -1463,6 +1463,13 @@ system "Relay 06"
 		sprite planet/wormhole
 	object "Wadai Wormhole"
 		sprite planet/wormhole
+		distance 5000
+		period 4080.82
+		offset 120
+	object "Titawin Stargate"
+	    sprite planet/wormhole
+		distance 5000
+		period 4080.82
 
 system "Relay 07"
 	pos 5271.83 5182.42
@@ -2629,3 +2636,65 @@ planet Enremdea
 	"display name" Enremdea
 	port
 		recharges all
+
+# Titawin Xenological Garden
+system "Titawin"
+    pos 4500 4500
+	object
+	    sprite star/m5
+	object Saffar
+	    attributes "gas giant"
+	    sprite planet/gas4-b
+		distance 400
+		period 91
+		object "New Tohul"
+		    sprite planet/titan
+			distance 300
+			period 20
+		object "New Scharamouche"
+		    sprite planet/rock3
+			distance 200
+			period 30
+		object
+		    sprite planet/miranda
+			distance 150
+			period 10
+		object "New Natfaire"
+		    sprite planet/lava0
+			distance 100
+			period 5
+	object Samh
+	    sprite planet/gas0
+	    attributes "gas giant"
+		distance 700
+        period 213.8
+		object "New Iridule"
+		    sprite planet/ocean0-b
+			distance 100
+			period 5
+		object "New Alpha"
+		    sprite planet/desert0
+			distance 150
+			period 15
+		object
+		    sprite planet/forest6-b
+			distance 225
+			period 30
+		object
+		    sprite planet/rock3
+			distance 337.5
+			period 50
+	object Jayyani
+	object Zarqali
+	object Aflah
+	# stargate
+	object "Titawin Stargate"
+	    sprite planet/wormhole
+		distance 5000
+		period 4080.82
+
+planet "Titawin Stargate"
+wormhole "Titawin Stargate"
+    mappable
+	"display name" "Titawin Entry Point"
+	link "Titawin" "Relay 06"
