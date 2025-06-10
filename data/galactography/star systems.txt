@@ -1,62 +1,124 @@
+
 galaxy "OA Galaxy"
 	pos 5000 5000
-	sprite map/OAMOD_milkyway
+	sprite "map/milky way OA"
 
-system "Relay 01"
-	pos 5200 5220
-	object "Relay 01 Wormhole"
+system "Ain Soph Aur"
+	pos 4803 5183
+	government "Keter Dominion"
+	habitable 135
+	link Solsys
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids "small rock" 16 2.574
+	asteroids "medium rock" 11 1.116
+	asteroids "large rock" 17 1.206
+	asteroids "small metal" 44 1.026
+	asteroids "medium metal" 75 1.44
+	asteroids computronium 2000 0.95
+	"display name" "Ain Soph Aur"
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	minables computronium 1500 0.98
+	object
+		sprite star/a5
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/Mat-brain
+		period 10
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite "planet/j-brain 2"
+		distance 900
+		period 322
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 1620
+		period 598.75
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+	object
+		sprite "planet/j-brain 2"
+		distance 2916
+		period 1077.75
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 5248
+		period 1939.65
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite "planet/j-brain 2"
+		distance 9447
+		period 3491.6
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object Transfinity
 		sprite planet/wormhole
-		    scale 2
-system "Relay 02"
-	pos 5180.16 5197.44
-	object "Relay 02 Wormhole"
+		distance 30610
+		period 11313
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object "Bright Door"
 		sprite planet/wormhole
-		    scale 2
-system "Relay 03"
-	pos 5205.07 5180.65
-	object "Relay 03 Wormhole"
+		distance 30610
+		period 11313
+		offset 30
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object Eschaton
 		sprite planet/wormhole
-		    scale 2
-system "Relay 04"
-	pos 5218.54 5207.51
-	object "Heartland - Relay 09"
-	    sprite sprite/wormhole
-	object "Relay 04 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 05"
-	pos 5190.18 5217.423
-	object "Relay 05 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 06"
-	pos 5183.98 5188.03
-	object "Relay 06 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 07"
-	pos 5213.92 5185.64
-	object "Relay 07 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 08"
-	pos 5212.46 5215.64
-	object "Relay 08 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 09"
-	pos 5182.88 5210.36
-	object "Relay 09 Wormhole"
-		sprite planet/wormhole
-		    scale 2
-system "Relay 10"
-	pos 5191.92 5181.71
-	object "Relay 10 Wormhole"
-		sprite planet/wormhole
-		    scale 2
+		distance 30610
+		period 11313
+		offset 60
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 
 system Aksijaha
-	pos 5200 5200
+	pos 5221.45 5193.57
 	habitable 2372.76
 	object
 		sprite star/f0
@@ -95,129 +157,77 @@ system Aksijaha
 			period 49.7977
 	object "Einstein's Gate"
 		sprite planet/wormhole
-		    scale 8
 		distance 10000
 		period 3696
 	object "Relay 01 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 	object "Relay 02 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 36
 	object "Relay 03 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 72
 	object "Relay 04 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
-		offset 72
+		offset 360
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 108
 	object "Relay 05 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 144
 	object "Relay 06 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 180
 	object "Relay 07 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 216
 	object "Relay 08 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 252
 	object "Relay 09 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 288
 	object "Relay 10 Wormhole"
 		sprite planet/wormhole
-		    scale 2
 		distance 18000
 		period 6652.78
 		offset 324
 	object Transfinity
 		sprite planet/wormhole
-		    scale 2
 		distance 32400
-		period 11975.012
+		period 11975
 
-planet "Relay 01 Wormhole"
+system Alcor
+	pos 0 0
+	habitable nan
 
-wormhole "Relay 01 Wormhole"
-    "display name" "Relay 01"
-    mappable
-    link Aksijaha "Relay 01"
-
-wormhole "Relay 02 Wormhole"
-    "display name" "Relay 02"
-    mappable
-    link Aksijaha "Relay 02"
-
-wormhole "Relay 03 Wormhole"
-    "display name" "Relay 03"
-    mappable
-    link Aksijaha "Relay 03"
-wormhole "Relay 04 Wormhole"
-    "display name" "Relay 04"
-    mappable
-    link Aksijaha "Relay 04"
-wormhole "Relay 05 Wormhole"
-    "display name" "Relay 05"
-    mappable
-    link Aksijaha "Relay 05"
-wormhole "Relay 06 Wormhole"
-    "display name" "Relay 06"
-    mappable
-    link Aksijaha "Relay 06"
-wormhole "Relay 07 Wormhole"
-    "display name" "Relay 07"
-    mappable
-    link Aksijaha "Relay 07"
-wormhole "Relay 08 Wormhole"
-    "display name" "Relay 08"
-    mappable
-    link Aksijaha "Relay 08"
-wormhole "Relay 09 Wormhole"
-    "display name" "Relay 09"
-    mappable
-    link Aksijaha "Relay 09"
-wormhole "Relay 10 Wormhole"
-    "display name" "Relay 10"
-    mappable
-    link Aksijaha "Relay 10"
-
-planet "Einstein's Station"
+system Alfirk
+	pos 0 0
+	habitable nan
 
 system BetelgeuseOA
-	pos 5000 4500
+	pos 5119.04 4804.59
 	government "Stella Umma"
 	habitable 425.92
 	link Solsys
@@ -229,42 +239,105 @@ system BetelgeuseOA
 	asteroids "large metal" 68 3.12
 	"display name" Betelgeuse
 	object
-		sprite star/k5
+		sprite star/m-supergiant
 		period 10
 		"display name" Betelgeuse
 	object
-		sprite planet/lava6
-		distance 157.16
-		period 38.1864
+		sprite planet/desert2-b
+		distance 679.44
+		period 120.608
 		"display name" Betelgeuse
 	object
-		sprite planet/gas0
-		distance 631.2
-		period 307.359
+		sprite planet/rock0-b
+		distance 1035.69
+		period 226.983
+		"display name" Betelgeuse
+	object
+		sprite planet/dust6
+		distance 1582.62
+		period 428.761
 		"display name" Betelgeuse
 		object
-			sprite planet/dust5
-			distance 298
-			period 15.0758
+			sprite planet/lava1-b
+			distance 182
+			period 21.6509
 			"display name" Betelgeuse
 	object
-		sprite planet/cloud0
-		distance 1295.41
-		period 903.664
+		sprite planet/fog0
+		distance 2215.83
+		period 710.321
+		"display name" Betelgeuse
+	object Prime
+		sprite planet/forest2-b
+		distance 3581.98
+		period 1459.94
 		"display name" Betelgeuse
 	object
-		sprite planet/oberon
-		distance 1653.9
-		period 1303.65
+		sprite planet/gas13-b
+		distance 5080.11
+		period 2465.81
 		"display name" Betelgeuse
+		object
+			sprite planet/rock17-b
+			distance 282
+			period 12.7057
+			"display name" Betelgeuse
+		object
+			sprite planet/lava2
+			distance 372
+			period 19.2504
+			"display name" Betelgeuse
+		object
+			sprite planet/oberon-b
+			distance 516
+			period 31.4485
+			"display name" Betelgeuse
+
+system Branswerg
+	pos 5021.88 5312.53
+	habitable 233.28
 	object
-		sprite planet/rock7
-		distance 2492.9
-		period 2412.42
-		"display name" Betelgeuse
+		sprite star/m4
+		period 10
+	object
+		sprite planet/forest5
+		distance 213.41
+		period 81.6476
+	object
+		sprite planet/rock1
+		distance 431.17
+		period 234.474
+	object
+		sprite planet/rock14
+		distance 740.73
+		period 527.972
+	object
+		sprite planet/gas17
+		distance 1271.73
+		period 1187.72
+		object
+			sprite planet/tethys
+			distance 211
+			period 13.0947
+	object
+		sprite planet/gas2
+		distance 4042.69
+		period 6731.73
+		object
+			sprite planet/lava0
+			distance 223
+			period 20.1777
+		object
+			sprite planet/rock3
+			distance 357
+			period 40.8712
+		object
+			sprite planet/dust5
+			distance 534
+			period 74.7699
 
 system "Crystallographer's Nightmare"
-	pos 6000 6000
+	pos 5251.4 5597.82
 	government "Caretaker God"
 	habitable 2140.92
 	link Solsys
@@ -300,6 +373,70 @@ system "Crystallographer's Nightmare"
 		sprite planet/gas5
 		distance 2874.72
 		period 1332.45
+
+system "Dam Tellion"
+	pos 0 0
+	habitable nan
+
+system "Djed (System)"
+	pos 4800 4800
+	habitable nan
+	"display name" Djed
+	object
+		sprite star/m-giant
+		"display name" Djed
+	object #
+		sprite planet/mercury-b
+		distance 300
+		period 60
+		"display name" Djed
+	object
+		sprite planet/j-brain
+		distance 468.75
+		period 173.25
+		"display name" Djed
+	object "Djed (Planet)"
+		sprite planet/ice1
+		distance 585.93
+		period 216.6
+		"display name" Djed
+		object Tri-Arc
+			sprite "planet/tri-arc x-parallel"
+			"display name" Djed
+		object Tri-Arc
+			sprite "planet/tri-arc y-parallel"
+			"display name" Djed
+		object Tri-Arc
+			sprite "planet/tri-arc z-parallel"
+			"display name" Djed
+	object
+		sprite "planet/j-brain 2"
+		distance 732.42
+		period 270.7
+		"display name" Djed
+	object
+		sprite planet/j-brain
+		distance 732.42
+		period 270.7
+		offset 90
+		"display name" Djed
+	object
+		sprite "planet/j-brain 2"
+		distance 732.42
+		period 270.7
+		offset 180
+		"display name" Djed
+	object
+		sprite planet/j-brain
+		distance 732.42
+		period 270.7
+		offset 360
+		"display name" Djed
+	object Mainline
+		sprite planet/wormhole
+		distance 3000
+		period 1108.8
+		"display name" Djed
 
 system Ecotopia
 	pos 6000 8000
@@ -351,6 +488,41 @@ system Ecotopia
 			distance 489
 			period 35.9592
 
+system Eschaton
+	pos 4896.91 5135.58
+	habitable 486.68
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/miranda
+		distance 173.24
+		period 41.3438
+	object
+		sprite planet/rock19
+		distance 330.2
+		period 108.794
+	object
+		sprite planet/forest0
+		distance 566.01
+		period 244.16
+	object
+		sprite planet/gas0
+		distance 1964.97
+		period 1579.33
+		object
+			sprite planet/desert4
+			distance 283
+			period 13.952
+		object
+			sprite planet/ice8
+			distance 376
+			period 21.3667
+		object
+			sprite planet/rock3
+			distance 518
+			period 34.5503
+
 system Heartland
 	pos 8000 8000
 	government "Communion Of Worlds"
@@ -360,414 +532,844 @@ system Heartland
 	asteroids "large rock" 4 2.8431
 	asteroids "medium metal" 3 2.808
 	asteroids "large metal" 2 3.0537
-	attributes station
-		object "Heartland Station"
-		sprite planet/ringworld
-			scale 0.4
-		distance 500
-		period 500
-		attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 25
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 50
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 75
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 100
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 125
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 150
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 175
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 200
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 225
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 250
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 275
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 300
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 325
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 350
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 500
-		period 500
-		offset 375
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 40
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 60
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 80
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 100
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 120
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 140
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 160
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 180
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 200
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 220
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 240
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 260
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 280
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 300
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 320
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 340
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 360
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
-	object "Heartland Station"
-		sprite planet/ringworld
-		distance 300
-		period 500
-		offset 380
-		attributes station
-			object "Heartland Station"
-			sprite planet/ringworld
-				scale 0.4
-			distance 500
-			period 500
-			attributes station
 	object "Heartland - Relay 09"
 		sprite planet/wormhole
-		   scale 2
-		distance 10000
-		period 10000
+		distance 5000
+		period 4080
+	# Level 1
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 6
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 12
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 18
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 24
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 30
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 36
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 42
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 48
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 54
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 60
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 66
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 72
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 78
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 84
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 90
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 96
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 108
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 114
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 120
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 126
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 132
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 138
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 144
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 150
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 156
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 162
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 168
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 174
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 180
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 186
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 192
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 198
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 204
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 210
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 216
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 222
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 228
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 234
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 240
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 246
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 252
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 258
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 264
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 270
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 276
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 282
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 288
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 294
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 300
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 306
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 312
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 318
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 324
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 330
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 336
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 342
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 348
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 300
+		period 0
+		offset 354
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		offset 360
+		attributes station
+	# Level 2
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		distance 500
+		period 0
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 6
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 12
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 18
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 24
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 30
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 36
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 42
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 48
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 54
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 60
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 66
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 72
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 78
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 84
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 90
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 96
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 108
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 114
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 120
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 126
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 132
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 138
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 144
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 150
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 156
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 162
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 168
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 174
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 180
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 186
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 192
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 198
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 204
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 210
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 216
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 500
+		period 0
+		offset 222
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 228
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 234
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 240
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 246
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 252
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 258
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 264
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 270
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 276
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 282
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 288
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 294
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 300
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 306
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 312
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 318
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 324
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 330
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 336
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 342
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 348
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 300
+		period 0
+		offset 354
+		attributes station
+	object "Heartland Station"
+		sprite "planet/heartland ring"
+		    scale 1.27
+		distance 200
+		period 0
+		offset 360
+		attributes station
+
+system Hightower
+	pos 4795 5030
+	government "Deeper Covenant"
+	habitable nan
+	object #
+		sprite planet/gas8
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 60
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 120
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 180
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 240
+		object "Hightower Station"
+			sprite planet/hightower
+			distance 300
+			period 1
+			offset 300
+	object "Deep Gate"
+		sprite planet/wormhole
+		distance 30000
+		period 11081
+
+system Mizar
+	pos 0 0
+	habitable nan
 
 system NewRoot
 	pos 6500 5000
@@ -815,8 +1417,87 @@ system NewRoot
 			distance 213
 			period 16.548
 
+system "Relay 01"
+	pos 5200 5220
+	habitable nan
+	object "Relay 01 Wormhole"
+		sprite planet/wormhole
+
+system "Relay 02"
+	pos 5156.56 5203.88
+	habitable nan
+	object "Relay 02 Wormhole"
+		sprite planet/wormhole
+	object "Go With the Flow"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 180
+
+system "Relay 03"
+	pos 5210.43 5159.2
+	habitable nan
+	object "Relay 03 Wormhole"
+		sprite planet/wormhole
+
+system "Relay 04"
+	pos 5256.08 5217.16
+	habitable nan
+	object "Relay 04 Wormhole"
+		sprite planet/wormhole
+	object Mainline
+		sprite planet/wormhole
+		distance 625
+		period 231
+
+system "Relay 05"
+	pos 5192.18 5232.42
+	habitable nan
+	object "Relay 05 Wormhole"
+		sprite planet/wormhole
+
+system "Relay 06"
+	pos 5153.95 5177.31
+	habitable nan
+	object "Relay 06 Wormhole"
+		sprite planet/wormhole
+	object "Wadai Wormhole"
+		sprite planet/wormhole
+
+system "Relay 07"
+	pos 5271.83 5182.42
+	habitable nan
+	object "Relay 07 Wormhole"
+		sprite planet/wormhole
+	object "Orion's Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4051.5
+
+system "Relay 08"
+	pos 5230.69 5233.87
+	habitable nan
+	object "Relay 08 Wormhole"
+		sprite planet/wormhole
+
+system "Relay 09"
+	pos 5157.88 5219.36
+	habitable nan
+	object "Relay 09 Wormhole"
+		sprite planet/wormhole
+	object "Heartland - Relay 09"
+		sprite planet/wormhole
+		distance 2000
+		period 10000
+
+system "Relay 10"
+	pos 5185.48 5163.48
+	habitable nan
+	object "Relay 10 Wormhole"
+		sprite planet/wormhole
+
 system Resonance
-	pos 4000 4000
+	pos 4639 5147
 	government Independent
 	habitable 300
 	link Solsys
@@ -830,33 +1511,40 @@ system Resonance
 	object
 		sprite star/m-dwarf
 		distance 13.4105
+		"display name" "Resonance (TRAPPIST-1)"
 	object
 		sprite planet/rock0
 		distance 200
 		period 1.5
+		"display name" "Resonance (TRAPPIST-1)"
 	object
 		sprite planet/rock0-b
 		distance 360
 		period 4
+		"display name" "Resonance (TRAPPIST-1)"
 	object Fulno
 		sprite planet/ocean2
 		distance 600
 		period 6
+		"display name" "Resonance (TRAPPIST-1)"
 	object Shinoh
 		sprite planet/ocean1
 		distance 800
 		period 9.2
+		"display name" "Resonance (TRAPPIST-1)"
 	object
 		sprite planet/ice1
 		distance 600
 		period 12.4
+		"display name" "Resonance (TRAPPIST-1)"
 	object
 		sprite planet/ice0
 		distance 720
 		period 18.8
+		"display name" "Resonance (TRAPPIST-1)"
 
 system Sierpens
-	pos 4000 6000
+	pos 4920.21 5665.38
 	government "Perseus Princes"
 	habitable 2372.76
 	link Solsys
@@ -950,7 +1638,7 @@ system "Solar Dominion Capital"
 			period 22.991
 
 system Solsys
-	pos 5000 6000
+	pos 5141.56 5569.94
 	habitable 486.68
 	link Resonance
 	link Turing
@@ -958,7 +1646,6 @@ system Solsys
 	link BetelgeuseOA
 	link Sierpens
 	link "Crystallographer's Nightmare"
-	link Sol
 	asteroids "small rock" 4 0.988
 	asteroids "medium rock" 5 0.715
 	asteroids "large rock" 9 1.391
@@ -971,15 +1658,15 @@ system Solsys
 	object
 		sprite planet/mercury
 		distance 289.647
-		period 60.0000
+		period 60
 	object
 		sprite planet/venus
 		distance 533.534
-		period 150.000
+		period 150
 	object EarthOA
 		sprite planet/earth
 		distance 965.669
-		period 365.250
+		period 365.25
 		object LunaOA
 			sprite planet/luna
 			distance 201.24
@@ -1081,46 +1768,15 @@ system Solsys
 		period 24012.7
 	object "Einstein's Gate"
 		sprite planet/wormhole
-		    scale 8
 		distance 30000
 		period 10000
 		object "Einstein's Station"
-		    sprite planet/station0
+			sprite planet/station0
 			distance 5000
 			period 1000
 
-
-planet EarthOA
-    "display name" "Earth"
-    government "GAIA"
-    landscape land/canyon3
-    description `You shouldn't be here!`
-    "display name" Earth
-    port
-	recharges all
-
-planet LunaOA
-    landscape land/moon0
-    "display name" "Luna"
-    government "Solar Organization"
-	shipyard "Basic Ships"
-	shipyard "Navy Basics"
-	shipyard "Betelgeuse Basics"
-	shipyard "Syndicate Basics"
-	shipyard "Tycho Crater Advanced"
-	outfitter "Common Outfits"
-	outfitter "Lovelace Basics"
-	outfitter "Syndicate Basics"
-	outfitter "Ammo North"
-	port
-		recharges all
-
-planet MarsOA
-    "display name" "Mars"
-    government "Solar Organization"
-
 system "Tau Ceti"
-	pos 5000 5000
+	pos 4978.55 5482.61
 	government "Keter Dominion"
 	habitable 1111.68
 	link Solsys
@@ -1177,7 +1833,7 @@ system Turing
 	object
 		sprite star/m0
 		period 10
-	object "TuringPlanet"
+	object TuringPlanet
 		sprite planet/rock10
 		distance 170.25
 		period 49.6725
@@ -1248,20 +1904,147 @@ system Tylansia
 			period 19.8302
 	object
 		sprite planet/ice0
-		distance 3359.9
-		period 3531.24
-		offset 359.769
-    object "Tylansian Wormhole"
-	    sprite planet/wormhole
-		   scale 4
 		distance 5000
 		period 3000
+		offset 359.769
 
-planet "Tylansian Wormhole"
+system Wadai
+	pos 7500 7500
+	habitable nan
+	object
+		sprite star/b-dwarf
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 20
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 40
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 60
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 80
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 100
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 120
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 140
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 160
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 180
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 200
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 220
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 240
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 260
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 280
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 320
+	object "Wadai Ringworld"
+		sprite planet/ringworld
+		distance 812
+		period 349.82
+		offset 340
+	object #
+		sprite planet/neptune-b
+		distance 6444
+		period 20.3
+	object #
+		sprite planet/gas4
+		distance 15980
+		period 79.21
+	object "Wadai Wormhole"
+		sprite planet/wormhole
+		distance 30000
+		period 1108
+
+system Zamzam
+	pos 0 0
+	habitable nan
+
+planet "Deep Gate"
+	landscape ""
+
+planet "Djed (Planet)"
+	landscape land/city6
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	government "Mutual Progress Association"
+	port
+		recharges all
 
 planet EarthOA
 	landscape land/canyon3
 	description `You shouldn't be here!`
+	description `	You shouldn't be here!`
+	"display name" Earth
+	government GAIA
+	"display name" Earth
+	port
+	recharges all
 	"display name" Earth
 	government GAIA
 	port
@@ -1398,7 +2181,9 @@ planet NodeSagan
 	tribute 1000000
 		threshold 100
 		fleet Keter Guardian 15
+planet "Einstein's Gate"
 
+planet "Einstein's Station"
 
 planet Fulno
 	landscape ""
@@ -1408,6 +2193,8 @@ planet Fulno
 			trading
 			"job board"
 			bank
+
+planet "Heartland - Relay 09"
 
 planet "Heartland Station"
 	landscape land/station0
@@ -1420,9 +2207,69 @@ planet "Heartland Station"
 			"job board"
 			bank
 
+planet "Hightower Station"
+	landscape ""
+	government "Deeper Covenant"
+
 planet LunaOA
 	landscape land/moon0
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
 	"display name" Luna
+	government "Solar Organization"
+	port
+		recharges all
+	"display name" Luna
+
+planet Mainline
+	landscape ""
+
+planet MarsOA
+	landscape ""
+	"display name" Mars
+	government "Solar Organization"
+
+planet Medina
+	landscape ""
+
+planet NodeEuclid
+	attributes computronium
+	landscape computronium
+	"required reputation" 1000
+	security 100
+	"display name" "Jupiter Node Euclid"
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
+
+planet NodeSagan
+	attributes computronium
+	landscape computronium
+	"required reputation" 1000
+	security 100
+	"display name" "Jupiter Node Sagan"
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
 
 planet PlutonOA
 	landscape land/canyon2
@@ -1435,7 +2282,35 @@ planet PlutonOA
 			"job board"
 			bank
 
-planet "Heartland - Relay 09"
+planet "Relay 01 Wormhole"
+	landscape ""
+
+planet "Relay 02 Wormhole"
+	landscape ""
+
+planet "Relay 03 Wormhole"
+	landscape ""
+
+planet "Relay 04 Wormhole"
+	landscape ""
+
+planet "Relay 05 Wormhole"
+	landscape ""
+
+planet "Relay 06 Wormhole"
+	landscape ""
+
+planet "Relay 07 Wormhole"
+	landscape ""
+
+planet "Relay 08 Wormhole"
+	landscape ""
+
+planet "Relay 09 Wormhole"
+	landscape ""
+
+planet "Relay 10 Wormhole"
+	landscape ""
 
 planet Shinoh
 	landscape ""
@@ -1446,114 +2321,302 @@ planet Shinoh
 			"job board"
 			bank
 
+planet Transfinity
+	landscape ""
+
+planet Tri-Arc
+	landscape land/station2
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	government "Mutual Progress Association"
+	port
+		recharges all
+
 planet "Tylansia (Planet)"
-    "display name" "Tylansia"
 	attributes human
 	landscape ""
-	government "Tylansia"
 	spaceport `Tylansia is a world filled with baseline humans, but has been stuck at an Information Age-level of technology for thousands of years. Bruh moment`
+	"display name" Tylansia
+	government Tylansia
+
+planet "Tylansian Wormhole"
+	landscape ""
+
+planet "Wadai Ringworld"
+	landscape ""
+	government "Stella Umma"
+
+planet "Wadai Wormhole"
+	landscape ""
+
+planet Yathrib
+	landscape ""
+
+wormhole "Relay 01 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 01"
+	mappable
+	link Aksijaha "Relay 01"
+
+wormhole "Relay 02 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 02"
+	mappable
+	link Aksijaha "Relay 02"
+
+wormhole "Relay 03 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 03"
+	mappable
+	link Aksijaha "Relay 03"
+
+wormhole "Relay 04 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 04"
+	mappable
+	link Aksijaha "Relay 04"
+
+wormhole "Relay 05 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 05"
+	mappable
+	link Aksijaha "Relay 05"
+
+wormhole "Relay 06 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 06"
+	mappable
+	link Aksijaha "Relay 06"
+
+wormhole "Relay 07 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 07"
+	mappable
+	link Aksijaha "Relay 07"
+
+wormhole "Relay 08 Wormhole"
+	"display name" "Relay 08"
+	mappable
+	link Aksijaha "Relay 08"
+
+wormhole "Relay 09 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 09"
+	mappable
+	link Aksijaha "Relay 09"
+
+wormhole "Relay 10 Wormhole"
+	color 0.625 0.75 0
+	"display name" "Relay 10"
+	mappable
+	link Aksijaha "Relay 10"
+
+wormhole Transfinity
+	color 0.625 0.75 0
+	"display name" Transfinity
+	mappable
+	link "Ain Soph Aur" Aksijaha
+
+wormhole "Bright Door"
+	color 0.625 0.75 0
+	"display name" "Bright Door"
+	mappable
+	link "Ain Soph Aur" Branswerg
+
+wormhole Eschaton
+	color 0.625 0.75 0
 
 wormhole "Tylansia Wormhole"
-   mappable
-   link Tylansian Aksijaha
+	color 0.625 0.75 0
+	mappable
+	link Tylansian Aksijaha
 
 wormhole "Heartland - Relay 09"
-	"display name" "Relay 09"
+	color 0.625 0.75 0
+	"display name" "Heartland - Relay 09"
 	mappable
 	link Heartland "Relay 09"
 
-planet "Einstein's Gate"
-
 wormhole "Einstein's Gate"
+	color 0.625 0.75 0
 	"display name" "Einstein's Gate"
 	mappable
 	link Solsys Aksijaha
 
-system Alfirk
-system Alcor
-system Mizar
-
-system "Djed (System)"
-    "display name" "Djed"
-    pos 4800 4800
-	object
-	    sprite star/m-giant
-	object # Hila Ring
-	    sprite planet/mercury-b
-		distance 300
-		period 60
-	object
-	    sprite planet/j-brain
-		distance 468.75
-		period 173.25
-	object "Djed (Planet)"
-	    sprite planet/ice1
-	    distance 585.93
-		period 216.6
-		object "Tri-Arc"
-		   sprite "planet/tri-arc x-parallel"
-		   period 0
-		   distance 0
-		object "Tri-Arc"
-		   sprite "planet/tri-arc y-parallel"
-		   period 0
-		   distance 0
-		object "Tri-Arc"
-		   sprite "planet/tri-arc z-parallel"
-		   period 0
-		   distance 0
-	# J-Brain Nodes
-	object
-	    sprite planet/j-brain
-		distance 732.42
-		period 270.7
-	object
-	    sprite planet/j-brain
-		distance 732.42
-		period 270.7
-		offset 90
-	object
-	    sprite planet/j-brain
-		distance 732.42
-		period 270.7
-		offset 180
-	object
-	    sprite planet/j-brain
-		distance 732.42
-		period 270.7
-		offset 360
-	object Mainline
-	    sprite planet/wormhole
-		distance 3000
-		period 1108.8
-
-planet Mainline
-
 wormhole Mainline
-    "display name" "Mainline"
+	color 0.625 0.75 0
+	"display name" Mainline
 	mappable
 	link "Djed (System)" "Relay 04"
 
-system "Relay 04"
+wormhole "Wadai Wormhole"
+	color 0.625 0.75 0
+	mappable
+	"display name" "Wadai Wormhole"
+	link Wadai "Relay 06"
 
-planet "Djed (Planet)"
-    government "Mutual Progress Association"
-    landscape land/city6
-	shipyard "Basic Ships"
-	shipyard "Navy Basics"
-	shipyard "Betelgeuse Basics"
-	shipyard "Syndicate Basics"
-	shipyard "Tycho Crater Advanced"
-	outfitter "Common Outfits"
-	outfitter "Lovelace Basics"
-	outfitter "Syndicate Basics"
-	outfitter "Ammo North"
+wormhole "Deep Gate"
+
+system Ecotopia
+    pos 6000 6000
+	"display name" "Ecotopia"
+	government "Zoeific Biopolity"
+	habitable 1100
+	object
+	    sprite star/g5
+	object
+	    sprite planet/Mat-brain
+		    scale 0.25
+		period 0
+		distance 0
+	object # The Forge
+	    sprite planet/station10
+		    scale 0.5
+		distance 200
+		period 30
+	# the lab
+	object "Labworld"
+	    sprite planet/forest0
+		distance 900
+		period 360
+	object "Labworld"
+	    sprite planet/forest1-b
+		distance 900
+		period 360
+		offset 36
+	object "Labworld"
+	    sprite planet/forest2
+		distance 900
+		period 360
+		offset 72
+	object "Labworld"
+	    sprite planet/forest2-b
+		distance 900
+		period 360
+		offset 108
+	object "Labworld"
+	    sprite planet/forest1
+		distance 900
+		period 360
+		offset 144
+	object "Labworld"
+	    sprite planet/forest3
+		distance 900
+		period 360
+		offset 180
+	object "Labworld"
+	    sprite planet/forest3-b
+		distance 900
+		period 360
+		offset 216
+	object "Labworld"
+	    sprite planet/forest4
+		distance 900
+		period 360
+		offset 252
+	object "Labworld"
+	    sprite planet/forest4-b
+		distance 900
+		period 360
+		offset 288
+	object "Labworld"
+	    sprite planet/forest5
+		distance 900
+		period 360
+		offset 324
+
+	# stargates
+	object "Olive Branch"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 36
+	object "Migrations Way"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 72
+	object "River of Life"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 108
+	object "The Pipeline"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 144
+	object "Go With the Flow"
+	    sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 180
+
+planet "Labworld"
+    "display name" "Labworld"
+	description `This planet is part of the ring of habitable planets, habitats, and such that the Biopolity has constructed around the central star.`
+	government "Zoeific Biopolity"
+	landscape land/forest3
 	port
 		recharges all
 
-planet "Tri-Arc"
-    government "Mutual Progress Association"
-    landscape land/station2
+planet "Olive Branch"
+planet "Migrations Way"
+planet "River of Life"
+planet "The Pipeline"
+planet "Go With the Flow"
+
+wormhole "Olive Branch"
+wormhole "Migrations Way"
+wormhole "River of Life"
+wormhole "The Pipeline"
+    mappable
+	"display name" "The Pipeline"
+	link "Ecotopia"
+wormhole "Go With the Flow"
+    mappable
+	"display name" "Go With The Flow"
+	link "Ecotopia" "Relay 02"
+
+system "Enremdea System"
+    "display name" "Enremdea"
+	pos 5200 5200
+	habitable 1100
+    object
+	    sprite star/g0
+		period 0
+	object
+	    sprite planet/gas11
+		distance 1100
+		period 408.8
+		object Enremdea
+		    sprite planet/forest0
+			    scale 0.5
+			distance
+			distance 300
+			period 12.1
+	# stargate
+	object "Orion's Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4051.5
+
+planet "Orion's Path"
+wormhole "Orion's Path"
+    mappable
+	"display name" "Orion's Path"
+	link "Enremdea System" "Relay 07"
+
+planet Enremdea
+    government "Orion Federation"
+	landscape land/city4
 	shipyard "Basic Ships"
 	shipyard "Navy Basics"
 	shipyard "Betelgeuse Basics"
@@ -1563,5 +2626,6 @@ planet "Tri-Arc"
 	outfitter "Lovelace Basics"
 	outfitter "Syndicate Basics"
 	outfitter "Ammo North"
+	"display name" Enremdea
 	port
 		recharges all

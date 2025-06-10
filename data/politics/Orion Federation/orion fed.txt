@@ -1,0 +1,2 @@
+government "Orion Federation"
+    color "beige"

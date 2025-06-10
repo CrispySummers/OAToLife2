@@ -65,10 +65,7 @@ CLOCK: [2025-05-29 বৃহঃ 14:32]--[2025-05-29 বৃহঃ 14:46] =>  0:14
 CLOCK: [2025-05-28 বুধ 15:18]--[2025-05-28 বুধ 15:25] =>  0:07
 :END:
 <2025-05-29 বৃহঃ 14:30-14:36>
-** TODO components [1/6]
-:PROPERTIES:
-:ORDERED:  t
-:END:
+** TODO components [2/6]
 *** DONE research
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-06-02 সোম 15:23]
@@ -374,7 +371,7 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :END:
 <2025-06-05 বৃহঃ 14:56-15:00>
 **** WAIT wait for feedback on this project's concept
-*** TODO star systems [0/6]
+*** TODO star systems [0/7]
 **** TODO aliens [0/2]
 ***** TODO Muuh [0/1]
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
@@ -604,44 +601,67 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO {Empire Name} [/]
-****** TODO {Capital} [0/2]
+**** TODO MPA [1/2]
+***** DONE Djed [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for {Capital}
+****** DONE create templates for Djed
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for {Capital}
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:03]
+:END:
+****** DONE add the planets for Djed
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-****** TODO flesh out the star systems mentioned in the EG [0/2]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:03]
+:END:
+***** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create more templates for the star systems of the {Empire Name} mentioned in the EG
+****** TODO create more templates for the star systems of the MPA mentioned in the EG
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for the star systems of the {Empire Name} with distances and textures
+****** TODO add the planets for the star systems of the MPA with distances and textures
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-**** TODO Minor Factions [/]
-***** TODO Stella Umma [/]
-****** TODO Umma Capital [0/2]
+**** TODO Minor Factions [1/6]
+***** DONE Deeper Covenant [1/1]
+****** DONE Hightower [1/1]
+******* DONE create objects for Hightower :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:38]
+CLOCK: [2025-06-09 Mon 12:31]--[2025-06-09 Mon 12:38] =>  0:07
+:END:
+***** TODO Stella Umma [1/2]
+****** DONE Umma Capital [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for Umma Capital
+******* DONE create templates for Umma Capital
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for Umma Capital
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:12]
+CLOCK: [2025-06-09 Mon 12:03]--[2025-06-09 Mon 12:12] =>  0:09
+:END:
+******* DONE add the planets for Umma Capital
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 12:21]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
@@ -705,18 +725,24 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO Perseus Princes [/]
-****** TODO Serpiens [0/2]
+***** TODO Perseus Princes [1/2]
+****** DONE Serpiens [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for Serpiens
+******* DONE create templates for Serpiens
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for Serpiens
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 20:29]
+:END:
+******* DONE add the planets for Serpiens
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-09 Mon 20:29]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
@@ -730,18 +756,26 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-***** TODO Orion Federation [/]
-****** TODO Enremdea[0/2]
+***** TODO Orion Federation [1/2]
+****** DONE Enremdea [2/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-******* TODO create templates for Enremdea
+******* DONE create templates for Enremdea
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-******* TODO add the planets for Enremdea
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-10 Tue 08:18]
+CLOCK: [2025-06-10 Tue 08:07]--[2025-06-10 Tue 08:18] =>  0:11
+CLOCK: [2025-06-09 Mon 20:29]--[2025-06-09 Mon 20:30] =>  0:01
+:END:
+******* DONE add the planets for Enremdea
 :PROPERTIES:
 :EFFORT:   5min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-10 Tue 08:18]
 :END:
 ****** TODO flesh out the star systems mentioned in the EG [0/2]
 :PROPERTIES:
@@ -806,11 +840,15 @@ CLOCK: [2025-06-05 বৃহঃ 14:52]--[2025-06-05 বৃহঃ 14:56] =>  0:04
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-*** TODO textures [0/1]
-**** TODO Heartland's rings [0/1]
-***** TODO create a vector image for Heartland's rings :@computer:think:
+*** DONE textures [1/1]
+**** DONE Heartland's rings [1/1]
+***** DONE create a vector image for Heartland's rings :@computer:think:
 :PROPERTIES:
 :EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-10 Tue 08:27]
+CLOCK: [2025-06-10 Tue 08:20]
 :END:
 *** spaceships
 **** transport
