@@ -1382,13 +1382,13 @@ system NewRoot
 	asteroids "medium metal" 6 1.3725
 	asteroids "large metal" 7 2.5875
 	object
-		sprite star/k5
+		sprite star/g2
 		period 10
-	object
-		sprite planet/fog0
+	object "NewRoot Planet"
+		sprite planet/rock10
 		distance 179.49
 		period 46.6076
-	object
+	object "Ordered Light"
 		sprite planet/gas17
 		distance 715.85
 		period 371.218
@@ -1400,7 +1400,7 @@ system NewRoot
 			sprite planet/rock3
 			distance 323
 			period 24.8015
-	object
+	object "Harmonic Path"
 		sprite planet/gas2
 		distance 1404.66
 		period 1020.36
@@ -1408,14 +1408,92 @@ system NewRoot
 			sprite planet/rock7
 			distance 212
 			period 18.7033
-	object
-		sprite planet/gas8
-		distance 2830.75
-		period 2919.1
-		object
-			sprite planet/dust3
-			distance 213
-			period 16.548
+	# stargates
+	object "The First Step"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+	object "Open Door"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 45
+	object "Safe Passage"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 90
+	object "Added Value"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 135
+	object "Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 180
+	object "Two Way Street"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 225
+	object "Hourglass"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 270
+	object "Wavering Light"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 315
+
+planet "The First Step"
+planet "Open Door"
+planet "Safe Passage"
+planet "Added Value"
+planet "Path"
+planet "Two Way Street"
+planet "Hourglass"
+planet "Wavering Light"
+
+wormhole "The First Step"
+    mappable
+	link NewRoot "Aries vector"
+	"display name" "The First Step"
+wormhole "Open Door"
+    mappable
+	link NewRoot "Church-Turing"
+	"display name"
+wormhole "Safe Passage"
+    mappable
+	link NewRoot "KapekNow"
+	"display name"
+wormhole "Added Value"
+    mappable
+	link NewRoot "Gatewai"
+	"display name"
+wormhole "Path"
+    mappable
+	link NewRoot "VAI-4"
+	"display name"
+wormhole "Two Way Street"
+    mappable
+	link NewRoot "Monostheria"
+	"display name"
+wormhole "Hourglass"
+    mappable
+	link NewRoot "Blueshift Archipelago"
+	"display name"
+wormhole "Wavering Light"
+    mappable
+	link NewRoot "Positive Heading"
+	"display name"
+
+planet "NewRoot Planet"
+planet "Ordered Light"
+    attributes "gas giant"
 
 system "Relay 01"
 	pos 5200 5220
