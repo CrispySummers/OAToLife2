@@ -1463,6 +1463,13 @@ system "Relay 06"
 		sprite planet/wormhole
 	object "Wadai Wormhole"
 		sprite planet/wormhole
+		distance 5000
+		period 4080.82
+		offset 120
+	object "Titawin Stargate"
+	    sprite planet/wormhole
+		distance 5000
+		period 4080.82
 
 system "Relay 07"
 	pos 5271.83 5182.42
@@ -2050,11 +2057,140 @@ planet EarthOA
 	port
 		recharges all
 
+system "Ain Soph Aur"
+	"display name" "Ain Soph Aur"
+	pos 4600 4600
+	government "Keter Dominion"
+	habitable 135
+	link Solsys
+	asteroids "small rock" 16 2.574
+	asteroids "medium rock" 11 1.116
+	asteroids "large rock" 17 1.206
+	asteroids "small metal" 44 1.026
+	asteroids "medium metal" 75 1.44
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids computronium 2000 0.95
+	minables computronium 1500 0.98
+	object
+		sprite star/a5
+	object
+        sprite planet/Mat-brain
+		    scale 0.5
+		distance 0
+		period 10
+	object
+		sprite "planet/j-brain"
+		distance 900
+		period 322
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+	object
+		sprite "planet/j-brain"
+		distance 1620
+		period 598.75
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+	object
+		sprite "planet/j-brain"
+		distance 2916
+		period 1077.75
+	object
+		sprite "planet/j-brain"
+		distance 5248
+		period 1939.65
+	object
+		sprite "planet/j-brain"
+		distance 9447
+		period 3491.6
+	object Transfinity
+	    sprite "planet/wormhole"
+		    scale 2
+	    distance 30610
+	    period 11313
+	    offset 0
+	object "Bright Door"
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
+	object Eschaton
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 60
+
+system Branswerg
+    pos 6000 6000
+	object "Bright Door"
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
+
+system Eschaton
+    pos 6200 6000
+	object "Eschaton"
+	    sprite "planet/wormhole"
+	    distance 30610
+	    period 11313
+		offset 30
+
+planet Transfinity
+
+wormhole Transfinity
+    "display name" "Transfinity"
+    mappable
+    link "Ain Soph Aur" "Aksijaha"
+
+wormhole "Bright Door"
+    "display name" "Bright Door"
+    mappable
+    link "Ain Soph Aur" "Branswerg"
+
+wormhole Eschaton
+
+planet NodeEuclid
+	"display name" "Jupiter Node Euclid"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
+
+planet NodeSagan
+	"display name" "Jupiter Node Sagan"
+	attributes computronium
+	landscape computronium
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	"required reputation" 1000
+	security 100
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
 planet "Einstein's Gate"
-	landscape ""
 
 planet "Einstein's Station"
-	landscape ""
 
 planet Fulno
 	landscape ""
@@ -2551,3 +2687,64 @@ wormhole "Sanguine"
 	object Sanguine
 	    distance 30000
 		period 59976.8
+
+system "Titawin"
+    pos 4500 4500
+	object
+	    sprite star/m5
+	object Saffar
+	    attributes "gas giant"
+	    sprite planet/gas4-b
+		distance 400
+		period 91
+		object "New Tohul"
+		    sprite planet/titan
+			distance 300
+			period 20
+		object "New Scharamouche"
+		    sprite planet/rock3
+			distance 200
+			period 30
+		object
+		    sprite planet/miranda
+			distance 150
+			period 10
+		object "New Natfaire"
+		    sprite planet/lava0
+			distance 100
+			period 5
+	object Samh
+	    sprite planet/gas0
+	    attributes "gas giant"
+		distance 700
+        period 213.8
+		object "New Iridule"
+		    sprite planet/ocean0-b
+			distance 100
+			period 5
+		object "New Alpha"
+		    sprite planet/desert0
+			distance 150
+			period 15
+		object
+		    sprite planet/forest6-b
+			distance 225
+			period 30
+		object
+		    sprite planet/rock3
+			distance 337.5
+			period 50
+	object Jayyani
+	object Zarqali
+	object Aflah
+	# stargate
+	object "Titawin Stargate"
+	    sprite planet/wormhole
+		distance 5000
+		period 4080.82
+
+planet "Titawin Stargate"
+wormhole "Titawin Stargate"
+    mappable
+	"display name" "Titawin Entry Point"
+	link "Titawin" "Relay 06"
