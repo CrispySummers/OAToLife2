@@ -2500,3 +2500,54 @@ planet Enremdea
 	"display name" Enremdea
 	port
 		recharges all
+
+system "Beta Arae"
+    pos 6000 4500
+	"display name" "Beta Area"
+	"government" "Utopia Sphere"
+	object
+	    sprite star/k-supergiant
+	object
+	    sprite star/m0
+		distance
+	object
+	    sprite star/m3
+	object
+	    sprite star/m4
+	object
+	    sprite star/m5
+	object Sanguine
+	    distance 30000
+		period 59976.8
+
+system "Eutopia"
+    pos 6000 4600
+	"display name" "Eutopia"
+	"government" "Utopia Sphere"
+	object Sanguine
+
+planet "Sanguine"
+wormhole "Sanguine"
+    mappable
+	"display name" "Sanguine"
+	link "Eutopia" "Beta Arae"
+	object
+	    sprite star/g5
+	object
+	    sprite planet/Mat-brain
+	object "Topia"
+	    sprite planet/earth-b
+		distance 1000
+		period 365
+		object
+		    sprite planet/station7c
+			distance 0
+			period 2
+	    object "The Topia Bracelet"
+		    sprite planet/station7cb
+			period 2
+			offset 180
+	# Mozi
+	object Sanguine
+	    distance 30000
+		period 59976.8
