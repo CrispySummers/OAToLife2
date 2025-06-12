@@ -2698,3 +2698,95 @@ wormhole "Titawin Stargate"
     mappable
 	"display name" "Titawin Entry Point"
 	link "Titawin" "Relay 06"
+
+# Diamond Network
+system "Gemstone"
+
+system AltairOA
+    pos 5300 4600
+	government "Diamond Network"
+	object
+	     sprite star/a7
+
+system "Luyten's Star"
+    pos 5400 4800
+	government
+
+system "Kaggen"
+    pos 6000 6000
+	government "Diamond Network"
+	object
+	    sprite star/m3
+	object # Mantis
+		sprite planet/neptune-b
+	    distance 200
+		period 1.94
+	object # Kongoni
+	    sprite planet/gas4-b
+		distance 1300
+		period 30.08
+		object "Aardwolf"
+		    sprite planet/rock0
+			distance 300
+			period 10
+	object # Eland
+	    sprite planet/gas5
+		distance 2185.9
+		period 61.09
+	object # Gnu
+	    sprite planet/gas6
+		distance 3514
+		period 124.5
+
+planet "Aardwolf"
+    government "Diamond Network"
+	port
+	    recharge all
+
+system "AlnitakOA"
+    "display name" "Alnitak"
+	government "Orion Federation"
+	object
+	    sprite star/o-supergiant
+
+system "Zeta Monocerotis"
+    pos 5500 5500
+    government "Orion Federation"
+	object Elmo
+	    sprite planet/forest0
+	    distance 1000
+		period 365
+
+planet "Elmo"
+    government "Orion Federation"
+
+# Silicon Generation
+system "Siliconia"
+    pos 5000 4000
+	government "Silicon Generation"
+	object
+	    sprite planet/browndwarf-t
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 72
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 144
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 216
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 288
