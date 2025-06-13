@@ -880,8 +880,8 @@ CLOCK: [2025-06-12 বৃহঃ 14:32]--[2025-06-12 বৃহঃ 14:43] =>  0:11
 :PROPERTIES:
 :EFFORT:   10min
 :END:
-*** DONE textures [1/1]
-**** DONE Heartland's rings [1/1]
+*** DONE assets [3/5]
+**** DONE Heartland's rings [1/2]
 ***** DONE create a vector image for Heartland's rings :@computer:think:
 :PROPERTIES:
 :EFFORT:   10min
@@ -889,16 +889,77 @@ CLOCK: [2025-06-12 বৃহঃ 14:32]--[2025-06-12 বৃহঃ 14:43] =>  0:11
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-06-10 Tue 08:27]
 :END:
+**** TODO DWIZ [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+***** TODO create a model of a DWIZ :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+***** TODO texture the model of a DWIZ :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+**** DONE J-Brains [0/0]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:55]
+:END:
+***** DONE create a model of a J-Brain :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:55]
+:END:
+***** DONE texture the model of a J-Brain :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:55]
+:END:
+**** TODO m-Brains [0/2]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+***** TODO create a model of a m-Brain :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+***** TODO texture the model of a m-Brain :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+**** DONE M-Brains [0/0]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:56]
+:END:
+***** DONE create a model of a M-Brain. :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:56]
+:END:
+***** DONE texture the model of a M-Brain. :@computer:think:
+:PROPERTIES:
+:EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 শুক্র 08:56]
+:END:
 *** spaceships
 **** transport
 **** passenger transport
 **** utility
 **** combat
-*** assets [/]
-**** Heartland Rings [/]
-**** J-Brains [/]
-**** m-Brains [/]
-**** M-Brains [/]
 *** outfits
 *** multiple starts [/]
 **** Nearbaseline Human Start
