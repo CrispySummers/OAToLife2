@@ -1367,7 +1367,7 @@ system Hightower
 		distance 30000
 		period 11081
 
-system Mizar
+system MizarOA
 	pos 0 0
 	habitable nan
 
