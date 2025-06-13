@@ -1382,13 +1382,13 @@ system NewRoot
 	asteroids "medium metal" 6 1.3725
 	asteroids "large metal" 7 2.5875
 	object
-		sprite star/k5
+		sprite star/g2
 		period 10
-	object
-		sprite planet/fog0
+	object "NewRoot Planet"
+		sprite planet/rock10
 		distance 179.49
 		period 46.6076
-	object
+	object "Ordered Light"
 		sprite planet/gas17
 		distance 715.85
 		period 371.218
@@ -1400,7 +1400,7 @@ system NewRoot
 			sprite planet/rock3
 			distance 323
 			period 24.8015
-	object
+	object "Harmonic Path"
 		sprite planet/gas2
 		distance 1404.66
 		period 1020.36
@@ -1408,14 +1408,92 @@ system NewRoot
 			sprite planet/rock7
 			distance 212
 			period 18.7033
-	object
-		sprite planet/gas8
-		distance 2830.75
-		period 2919.1
-		object
-			sprite planet/dust3
-			distance 213
-			period 16.548
+	# stargates
+	object "The First Step"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+	object "Open Door"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 45
+	object "Safe Passage"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 90
+	object "Added Value"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 135
+	object "Path"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 180
+	object "Two Way Street"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 225
+	object "Hourglass"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 270
+	object "Wavering Light"
+	    sprite planet/wormhole
+		distance 5000
+		period 4088
+		offset 315
+
+planet "The First Step"
+planet "Open Door"
+planet "Safe Passage"
+planet "Added Value"
+planet "Path"
+planet "Two Way Street"
+planet "Hourglass"
+planet "Wavering Light"
+
+wormhole "The First Step"
+    mappable
+	link NewRoot "Aries vector"
+	"display name" "The First Step"
+wormhole "Open Door"
+    mappable
+	link NewRoot "Church-Turing"
+	"display name"
+wormhole "Safe Passage"
+    mappable
+	link NewRoot "KapekNow"
+	"display name"
+wormhole "Added Value"
+    mappable
+	link NewRoot "Gatewai"
+	"display name"
+wormhole "Path"
+    mappable
+	link NewRoot "VAI-4"
+	"display name"
+wormhole "Two Way Street"
+    mappable
+	link NewRoot "Monostheria"
+	"display name"
+wormhole "Hourglass"
+    mappable
+	link NewRoot "Blueshift Archipelago"
+	"display name"
+wormhole "Wavering Light"
+    mappable
+	link NewRoot "Positive Heading"
+	"display name"
+
+planet "NewRoot Planet"
+planet "Ordered Light"
+    attributes "gas giant"
 
 system "Relay 01"
 	pos 5200 5220
@@ -2748,3 +2826,95 @@ wormhole "Titawin Stargate"
     mappable
 	"display name" "Titawin Entry Point"
 	link "Titawin" "Relay 06"
+
+# Diamond Network
+system "Gemstone"
+
+system AltairOA
+    pos 5300 4600
+	government "Diamond Network"
+	object
+	     sprite star/a7
+
+system "Luyten's Star"
+    pos 5400 4800
+	government
+
+system "Kaggen"
+    pos 6000 6000
+	government "Diamond Network"
+	object
+	    sprite star/m3
+	object # Mantis
+		sprite planet/neptune-b
+	    distance 200
+		period 1.94
+	object # Kongoni
+	    sprite planet/gas4-b
+		distance 1300
+		period 30.08
+		object "Aardwolf"
+		    sprite planet/rock0
+			distance 300
+			period 10
+	object # Eland
+	    sprite planet/gas5
+		distance 2185.9
+		period 61.09
+	object # Gnu
+	    sprite planet/gas6
+		distance 3514
+		period 124.5
+
+planet "Aardwolf"
+    government "Diamond Network"
+	port
+	    recharge all
+
+system "AlnitakOA"
+    "display name" "Alnitak"
+	government "Orion Federation"
+	object
+	    sprite star/o-supergiant
+
+system "Zeta Monocerotis"
+    pos 5500 5500
+    government "Orion Federation"
+	object Elmo
+	    sprite planet/forest0
+	    distance 1000
+		period 365
+
+planet "Elmo"
+    government "Orion Federation"
+
+# Silicon Generation
+system "Siliconia"
+    pos 5000 4000
+	government "Silicon Generation"
+	object
+	    sprite planet/browndwarf-t
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 72
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 144
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 216
+	object "Silicon Capital"
+	    sprite planet/station9
+		distance 500
+		period 127.8
+		offset 288
