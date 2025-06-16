@@ -1,16 +1,34 @@
+	# Level 1
+	# Level 2
+	# stargates
+	# the lab
+	# stargates
+	# stargate
+	# Mozi
+	# stargate
+# Diamond Network
+# Silicon Generation
 
 galaxy "OA Galaxy"
 	pos 5000 5000
 	sprite "map/milky way OA"
 
 system "Ain Soph Aur"
-	pos 4803 5183
+	pos 4914 5183
 	government "Keter Dominion"
 	habitable 135
-	link Solsys
 	link Aksijaha
 	link Barboro
 	link Branswerg
+	link Aksijaha
+	link Barboro
+	link Branswerg
+	asteroids "small rock" 16 2.574
+	asteroids "medium rock" 11 1.116
+	asteroids "large rock" 17 1.206
+	asteroids "small metal" 44 1.026
+	asteroids "medium metal" 75 1.44
+	asteroids computronium 2000 0.95
 	asteroids "small rock" 16 2.574
 	asteroids "medium rock" 11 1.116
 	asteroids "large rock" 17 1.206
@@ -21,8 +39,16 @@ system "Ain Soph Aur"
 	attributes archai dyson-swarm angelnetted
 	"starfield density" 0.01
 	minables computronium 1500 0.98
+	"display name" "Ain Soph Aur"
+	attributes archai dyson-swarm angelnetted
+	"starfield density" 0.01
+	minables computronium 1500 0.98
 	object
 		sprite star/a5
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		"display name" "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
@@ -30,6 +56,10 @@ system "Ain Soph Aur"
 	object
 		sprite planet/Mat-brain
 		period 10
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		"display name" "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
@@ -42,10 +72,18 @@ system "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
 		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		object
 			sprite planet/rock0
 			distance 200
 			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
 			"display name" "Ain Soph Aur"
 			attributes archai dyson-swarm angelnetted
 			"starfield density" 0.01
@@ -58,10 +96,18 @@ system "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
 		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		object
 			sprite planet/rock0
 			distance 200
 			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
 			"display name" "Ain Soph Aur"
 			attributes archai dyson-swarm angelnetted
 			"starfield density" 0.01
@@ -74,10 +120,18 @@ system "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
 		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 	object
 		sprite planet/j-brain
 		distance 5248
 		period 1939.65
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		"display name" "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
@@ -90,10 +144,18 @@ system "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
 		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 	object Transfinity
 		sprite planet/wormhole
 		distance 30610
 		period 11313
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		"display name" "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
@@ -107,11 +169,162 @@ system "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
 		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 	object Eschaton
 		sprite planet/wormhole
 		distance 30610
 		period 11313
 		offset 60
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite star/a5
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/Mat-brain
+		period 10
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 900
+		period 322
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 1620
+		period 598.75
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		object
+			sprite planet/rock0
+			distance 200
+			period 10
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+			"display name" "Ain Soph Aur"
+			attributes archai dyson-swarm angelnetted
+			"starfield density" 0.01
+			minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 2916
+		period 1077.75
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 5248
+		period 1939.65
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object
+		sprite planet/j-brain
+		distance 9447
+		period 3491.6
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object Transfinity
+		sprite planet/wormhole
+		distance 30610
+		period 11313
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object "Bright Door"
+		sprite planet/wormhole
+		distance 30610
+		period 11313
+		offset 30
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
+	object Eschaton
+		sprite planet/wormhole
+		distance 30610
+		period 11313
+		offset 60
+		"display name" "Ain Soph Aur"
+		attributes archai dyson-swarm angelnetted
+		"starfield density" 0.01
+		minables computronium 1500 0.98
 		"display name" "Ain Soph Aur"
 		attributes archai dyson-swarm angelnetted
 		"starfield density" 0.01
@@ -226,6 +439,47 @@ system Alfirk
 	pos 0 0
 	habitable nan
 
+system AlnitakOA
+	pos 0 0
+	government "Orion Federation"
+	habitable nan
+	"display name" Alnitak
+	object
+		sprite star/o-supergiant
+		"display name" Alnitak
+
+system AltairOA
+	pos 5413 5087
+	government "Diamond Network"
+	habitable nan
+	object
+		sprite star/a7
+
+system "Beta Arae"
+	pos 5332 4998
+	government "Utopia Sphere"
+	habitable nan
+	"display name" "Beta Area"
+	object
+		sprite star/k-supergiant
+		"display name" "Beta Area"
+	object
+		sprite star/m0
+		"display name" "Beta Area"
+	object
+		sprite star/m3
+		"display name" "Beta Area"
+	object
+		sprite star/m4
+		"display name" "Beta Area"
+	object
+		sprite star/m5
+		"display name" "Beta Area"
+	object Sanguine
+		distance 30000
+		period 59976.8
+		"display name" "Beta Area"
+
 system BetelgeuseOA
 	pos 5119.04 4804.59
 	government "Stella Umma"
@@ -267,7 +521,7 @@ system BetelgeuseOA
 		distance 2215.83
 		period 710.321
 		"display name" Betelgeuse
-	object Prime
+	object
 		sprite planet/forest2-b
 		distance 3581.98
 		period 1459.94
@@ -294,8 +548,8 @@ system BetelgeuseOA
 			"display name" Betelgeuse
 
 system Branswerg
-	pos 5021.88 5312.53
-	habitable 233.28
+	pos 4743 5094
+	habitable nan
 	object
 		sprite star/m4
 		period 10
@@ -335,12 +589,16 @@ system Branswerg
 			sprite planet/dust5
 			distance 534
 			period 74.7699
+	object "Bright Door"
+		sprite planet/wormhole
+		distance 30610
+		period 11313
+		offset 30
 
 system "Crystallographer's Nightmare"
-	pos 5251.4 5597.82
+	pos 5514.4 5658.82
 	government "Caretaker God"
 	habitable 2140.92
-	link Solsys
 	asteroids "large rock" 1 4.3605
 	asteroids "small metal" 4 5.7375
 	asteroids "large metal" 6 5.4621
@@ -439,58 +697,189 @@ system "Djed (System)"
 		"display name" Djed
 
 system Ecotopia
-	pos 6000 8000
-	government "Communion Of Worlds"
-	habitable 233.28
+	pos 5651 5671
+	government "Zoeific Biopolity"
+	habitable 1100
 	asteroids "small rock" 105 3.458
 	asteroids "medium rock" 29 1.508
 	asteroids "large rock" 4 2.886
 	asteroids "small metal" 57 2.002
 	asteroids "medium metal" 58 3.9
 	asteroids "large metal" 3 2.184
+	"display name" Ecotopia
 	object
 		sprite star/m4
 		period 10
+		"display name" Ecotopia
 	object
 		sprite planet/desert7
 		distance 132.25
 		period 39.8304
+		"display name" Ecotopia
 	object
 		sprite planet/gas7
 		distance 808.89
 		period 602.498
+		"display name" Ecotopia
 		object
 			sprite planet/ice8
 			distance 269
 			period 15.6949
+			"display name" Ecotopia
 		object
 			sprite planet/io
 			distance 374
 			period 25.7299
+			"display name" Ecotopia
 		object
 			sprite planet/miranda
 			distance 512
 			period 41.2131
+			"display name" Ecotopia
 	object
 		sprite planet/gas5
 		distance 2082.3
 		period 2488.49
+		"display name" Ecotopia
 		object
 			sprite planet/desert4
 			distance 230
 			period 11.5995
+			"display name" Ecotopia
 		object
 			sprite planet/rock0
 			distance 311
 			period 18.2384
+			"display name" Ecotopia
 		object
 			sprite planet/rhea
 			distance 489
 			period 35.9592
+			"display name" Ecotopia
+	object
+		sprite star/g5
+		"display name" Ecotopia
+	object
+		sprite planet/Mat-brain
+		"display name" Ecotopia
+	object #
+		sprite planet/station10
+		distance 200
+		period 30
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest0
+		distance 900
+		period 360
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest1-b
+		distance 900
+		period 360
+		offset 36
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest2
+		distance 900
+		period 360
+		offset 72
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest2-b
+		distance 900
+		period 360
+		offset 108
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest1
+		distance 900
+		period 360
+		offset 144
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest3
+		distance 900
+		period 360
+		offset 180
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest3-b
+		distance 900
+		period 360
+		offset 216
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest4
+		distance 900
+		period 360
+		offset 252
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest4-b
+		distance 900
+		period 360
+		offset 288
+		"display name" Ecotopia
+	object Labworld
+		sprite planet/forest5
+		distance 900
+		period 360
+		offset 324
+		"display name" Ecotopia
+	object "Olive Branch"
+		sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 36
+		"display name" Ecotopia
+	object "Migrations Way"
+		sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 72
+		"display name" Ecotopia
+	object "River of Life"
+		sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 108
+		"display name" Ecotopia
+	object "The Pipeline"
+		sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 144
+		"display name" Ecotopia
+	object "Go With the Flow"
+		sprite planet/wormhole
+		distance 5000
+		period 10100
+		offset 180
+		"display name" Ecotopia
+
+system "Enremdea System"
+	pos 5200 5200
+	habitable 1100
+	"display name" Enremdea
+	object
+		sprite planet/gas11
+		distance 1100
+		period 408.8
+		"display name" Enremdea
+		object Enremdea
+			sprite planet/forest0
+			distance 300
+			period 12.1
+			"display name" Enremdea
+	object "Orion's Path"
+		sprite planet/wormhole
+		distance 5000
+		period 4051.5
+		"display name" Enremdea
 
 system Eschaton
-	pos 4896.91 5135.58
-	habitable 486.68
+	pos 5619 5587
+	habitable nan
 	object
 		sprite star/k0
 		period 10
@@ -522,6 +911,23 @@ system Eschaton
 			sprite planet/rock3
 			distance 518
 			period 34.5503
+	object Eschaton
+		sprite planet/wormhole
+		distance 30610
+		period 11313
+		offset 30
+
+system Eutopia
+	pos 5559 5111
+	government "Utopia Sphere"
+	habitable nan
+	"display name" Eutopia
+	object Sanguine
+		"display name" Eutopia
+
+system Gemstone
+	pos 0 0
+	habitable nan
 
 system Heartland
 	pos 8000 8000
@@ -536,796 +942,490 @@ system Heartland
 		sprite planet/wormhole
 		distance 5000
 		period 4080
-	# Level 1
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 6
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 12
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 18
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 24
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 30
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 36
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 42
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 48
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 54
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 60
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 66
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 72
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 78
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 84
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 90
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 96
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 108
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 114
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 120
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 126
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 132
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 138
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 144
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 150
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 156
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 162
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 168
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 174
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 180
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 186
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 192
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 198
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 204
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 210
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 216
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 222
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 228
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 234
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 240
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 246
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 252
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 258
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 264
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 270
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 276
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 282
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 288
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 294
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 300
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 306
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 312
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 318
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 324
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 330
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 336
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 342
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 348
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 300
-		period 0
 		offset 354
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
 		offset 360
-		attributes station
-	# Level 2
 	object "Heartland Station"
 		sprite "planet/heartland ring"
 		distance 500
-		period 0
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 6
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 12
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 18
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 24
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 30
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 36
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 42
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 48
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 54
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 60
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 66
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 72
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 78
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 84
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 90
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 96
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 108
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 114
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 120
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 126
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 132
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 138
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 144
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 150
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 156
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 162
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 168
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 174
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 180
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 186
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 192
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 198
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 204
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 210
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 216
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 500
-		period 0
 		offset 222
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 228
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 234
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 240
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 246
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 252
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 258
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 264
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 270
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 276
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 282
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 288
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 294
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 300
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 306
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 312
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 318
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 324
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 330
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 336
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 342
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 348
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 300
-		period 0
 		offset 354
-		attributes station
 	object "Heartland Station"
 		sprite "planet/heartland ring"
-		    scale 1.27
 		distance 200
-		period 0
 		offset 360
-		attributes station
 
 system Hightower
 	pos 4795 5030
@@ -1366,6 +1466,37 @@ system Hightower
 		sprite planet/wormhole
 		distance 30000
 		period 11081
+
+system Kaggen
+	pos 5486 5733
+	government "Diamond Network"
+	habitable nan
+	object
+		sprite star/m3
+	object #
+		sprite planet/neptune-b
+		period 1.94
+	object #
+		sprite planet/gas4-b
+		distance 1300
+		period 30.08
+		object Aardwolf
+			sprite planet/rock0
+			distance 300
+			period 10
+	object #
+		sprite planet/gas5
+		distance 2185.9
+		period 61.09
+	object #
+		sprite planet/gas6
+		distance 3514
+		period 124.5
+
+system "Luyten's Star"
+	pos 5506 5307
+	habitable nan
+	government
 
 system MizarOA
 	pos 0 0
@@ -1408,92 +1539,89 @@ system NewRoot
 			sprite planet/rock7
 			distance 212
 			period 18.7033
-	# stargates
 	object "The First Step"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 	object "Open Door"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 45
 	object "Safe Passage"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 90
 	object "Added Value"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 135
-	object "Path"
-	    sprite planet/wormhole
+	object Path
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 180
 	object "Two Way Street"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 225
-	object "Hourglass"
-	    sprite planet/wormhole
+	object Hourglass
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 270
 	object "Wavering Light"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4088
 		offset 315
 
-planet "The First Step"
-planet "Open Door"
-planet "Safe Passage"
-planet "Added Value"
-planet "Path"
-planet "Two Way Street"
-planet "Hourglass"
-planet "Wavering Light"
+system Prominences
+	pos 4828.03 5405.11
+	government Uninhabited
+	habitable 1050
+	asteroids "small metal" 7 2.535
+	asteroids "medium metal" 3 2.145
+	asteroids "large metal" 5 2.769
+	object
+		sprite star/g6
+		period 10.9468
+	object Clouds
+		sprite planet/gas4-hot
+		distance 50
+		period 4
+	object Vapours
+		sprite planet/ocean6-b
+		distance 394
+		period 87.97
+	object Rocks
+		sprite planet/desert0
+		distance 660
+		period 190.9
+	object Trees # the famous planet!
+		sprite planet/forest3
+		distance 1100
+		period 405.15
+	object Storms
+		sprite planet/gas5
+		distance 2395
+		period 1351.98
+	object Dust
+		sprite planet/ice1
+		distance 4020
+		period 2875.7
 
-wormhole "The First Step"
-    mappable
-	link NewRoot "Aries vector"
-	"display name" "The First Step"
-wormhole "Open Door"
-    mappable
-	link NewRoot "Church-Turing"
-	"display name"
-wormhole "Safe Passage"
-    mappable
-	link NewRoot "KapekNow"
-	"display name"
-wormhole "Added Value"
-    mappable
-	link NewRoot "Gatewai"
-	"display name"
-wormhole "Path"
-    mappable
-	link NewRoot "VAI-4"
-	"display name"
-wormhole "Two Way Street"
-    mappable
-	link NewRoot "Monostheria"
-	"display name"
-wormhole "Hourglass"
-    mappable
-	link NewRoot "Blueshift Archipelago"
-	"display name"
-wormhole "Wavering Light"
-    mappable
-	link NewRoot "Positive Heading"
-	"display name"
-
-planet "NewRoot Planet"
-planet "Ordered Light"
-    attributes "gas giant"
+planet Clouds
+	attributes "gas giant"
+planet Vapours
+planet Rocks
+planet Trees
+planet Storms
+	attributes "gas giant"
+planet Dust
 
 system "Relay 01"
 	pos 5200 5220
@@ -1507,7 +1635,7 @@ system "Relay 02"
 	object "Relay 02 Wormhole"
 		sprite planet/wormhole
 	object "Go With the Flow"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 10100
 		offset 180
@@ -1545,7 +1673,7 @@ system "Relay 06"
 		period 4080.82
 		offset 120
 	object "Titawin Stargate"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4080.82
 
@@ -1555,7 +1683,7 @@ system "Relay 07"
 	object "Relay 07 Wormhole"
 		sprite planet/wormhole
 	object "Orion's Path"
-	    sprite planet/wormhole
+		sprite planet/wormhole
 		distance 5000
 		period 4051.5
 
@@ -1629,7 +1757,7 @@ system Resonance
 		"display name" "Resonance (TRAPPIST-1)"
 
 system Sierpens
-	pos 4920.21 5665.38
+	pos 4663.21 5600.38
 	government "Perseus Princes"
 	habitable 2372.76
 	link Solsys
@@ -1677,6 +1805,37 @@ system Sierpens
 		distance 3492.95
 		period 1695.2
 		offset 290.171
+
+system Siliconia
+	pos 5000 4000
+	government "Silicon Generation"
+	habitable nan
+	object
+		sprite planet/browndwarf-t
+	object "Silicon Capital"
+		sprite planet/station9
+		distance 500
+		period 127.8
+	object "Silicon Capital"
+		sprite planet/station9
+		distance 500
+		period 127.8
+		offset 72
+	object "Silicon Capital"
+		sprite planet/station9
+		distance 500
+		period 127.8
+		offset 144
+	object "Silicon Capital"
+		sprite planet/station9
+		distance 500
+		period 127.8
+		offset 216
+	object "Silicon Capital"
+		sprite planet/station9
+		distance 500
+		period 127.8
+		offset 288
 
 system "Solar Dominion Capital"
 	pos 3000 6000
@@ -1730,7 +1889,6 @@ system Solsys
 	link "Tau Ceti"
 	link BetelgeuseOA
 	link Sierpens
-	link "Crystallographer's Nightmare"
 	asteroids "small rock" 4 0.988
 	asteroids "medium rock" 5 0.715
 	asteroids "large rock" 9 1.391
@@ -1861,7 +2019,7 @@ system Solsys
 			period 1000
 
 system "Tau Ceti"
-	pos 4978.55 5482.61
+	pos 5034.55 5534.61
 	government "Keter Dominion"
 	habitable 1111.68
 	link Solsys
@@ -1904,8 +2062,60 @@ system "Tau Ceti"
 			distance 506
 			period 37.8506
 
+system Titawin
+	pos 4678 4904
+	habitable nan
+	object
+		sprite star/m5
+	object Saffar
+		sprite planet/gas4-b
+		distance 400
+		period 91
+		object "New Tohul"
+			sprite planet/titan
+			distance 300
+			period 20
+		object "New Scharamouche"
+			sprite planet/rock3
+			distance 200
+			period 30
+		object
+			sprite planet/miranda
+			distance 150
+			period 10
+		object "New Natfaire"
+			sprite planet/lava0
+			distance 100
+			period 5
+	object Samh
+		sprite planet/gas0
+		distance 700
+		object "New Iridule"
+			sprite planet/ocean0-b
+			distance 100
+			period 5
+		object "New Alpha"
+			sprite planet/desert0
+			distance 150
+			period 15
+		object
+			sprite planet/forest6-b
+			distance 225
+			period 30
+		object
+			sprite planet/rock3
+			distance 337.5
+			period 50
+	object Jayyani
+	object Zarqali
+	object Aflah
+	object "Titawin Stargate"
+		sprite planet/wormhole
+		distance 5000
+		period 4080.82
+
 system Turing
-	pos 5000 5000
+	pos 5387 5351
 	government "Technorapture Hypernation"
 	habitable 320
 	link Solsys
@@ -2103,6 +2313,24 @@ system Zamzam
 	pos 0 0
 	habitable nan
 
+system "Zeta Monocerotis"
+	pos 5500 5500
+	government "Orion Federation"
+	habitable nan
+	object Elmo
+		sprite planet/forest0
+		distance 1000
+		period 365
+
+planet Aardwolf
+	landscape ""
+	government "Diamond Network"
+	port
+		recharge all
+
+planet "Added Value"
+	landscape ""
+
 planet "Deep Gate"
 	landscape ""
 
@@ -2135,140 +2363,31 @@ planet EarthOA
 	port
 		recharges all
 
-system "Ain Soph Aur"
-	"display name" "Ain Soph Aur"
-	pos 4600 4600
-	government "Keter Dominion"
-	habitable 135
-	link Solsys
-	asteroids "small rock" 16 2.574
-	asteroids "medium rock" 11 1.116
-	asteroids "large rock" 17 1.206
-	asteroids "small metal" 44 1.026
-	asteroids "medium metal" 75 1.44
-	attributes archai dyson-swarm angelnetted
-	"starfield density" 0.01
-	link Aksijaha
-	link Barboro
-	link Branswerg
-	asteroids computronium 2000 0.95
-	minables computronium 1500 0.98
-	object
-		sprite star/a5
-	object
-        sprite planet/Mat-brain
-		    scale 0.5
-		distance 0
-		period 10
-	object
-		sprite "planet/j-brain"
-		distance 900
-		period 322
-		object
-			sprite planet/rock0
-			distance 200
-			period 10
-	object
-		sprite "planet/j-brain"
-		distance 1620
-		period 598.75
-		object
-			sprite planet/rock0
-			distance 200
-			period 10
-	object
-		sprite "planet/j-brain"
-		distance 2916
-		period 1077.75
-	object
-		sprite "planet/j-brain"
-		distance 5248
-		period 1939.65
-	object
-		sprite "planet/j-brain"
-		distance 9447
-		period 3491.6
-	object Transfinity
-	    sprite "planet/wormhole"
-		    scale 2
-	    distance 30610
-	    period 11313
-	    offset 0
-	object "Bright Door"
-	    sprite "planet/wormhole"
-	    distance 30610
-	    period 11313
-		offset 30
-	object Eschaton
-	    sprite "planet/wormhole"
-	    distance 30610
-	    period 11313
-		offset 60
-
-system Branswerg
-    pos 6000 6000
-	object "Bright Door"
-	    sprite "planet/wormhole"
-	    distance 30610
-	    period 11313
-		offset 30
-
-system Eschaton
-    pos 6200 6000
-	object "Eschaton"
-	    sprite "planet/wormhole"
-	    distance 30610
-	    period 11313
-		offset 30
-
-planet Transfinity
-
-wormhole Transfinity
-    "display name" "Transfinity"
-    mappable
-    link "Ain Soph Aur" "Aksijaha"
-
-wormhole "Bright Door"
-    "display name" "Bright Door"
-    mappable
-    link "Ain Soph Aur" "Branswerg"
-
-wormhole Eschaton
-
-planet NodeEuclid
-	"display name" "Jupiter Node Euclid"
-	attributes computronium
-	landscape computronium
-	music silence
-	description
-		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
-	spaceport
-		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
-	government Keter Dominion
-	"required reputation" 1000
-	security 100
-	tribute 1000000
-		threshold 100
-		fleet Keter Guardian 15
-
-planet NodeSagan
-	"display name" "Jupiter Node Sagan"
-	attributes computronium
-	landscape computronium
-	music silence
-	description
-		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
-	spaceport
-		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
-	government Keter Dominion
-	"required reputation" 1000
-	security 100
-	tribute 1000000
-		threshold 100
-		fleet Keter Guardian 15
 planet "Einstein's Gate"
+	landscape ""
 
 planet "Einstein's Station"
+	landscape ""
+
+planet Elmo
+	landscape ""
+	government "Orion Federation"
+
+planet Enremdea
+	landscape land/city4
+	shipyard "Basic Ships"
+	shipyard "Navy Basics"
+	shipyard "Betelgeuse Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Tycho Crater Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	outfitter "Ammo North"
+	government "Orion Federation"
+	"display name" Enremdea
+	port
+		recharges all
 
 planet Fulno
 	landscape ""
@@ -2279,7 +2398,11 @@ planet Fulno
 			"job board"
 			bank
 
+planet "Go With the Flow"
+	landscape ""
+
 planet "Heartland - Relay 09"
+	landscape ""
 
 planet "Heartland Station"
 	landscape land/station0
@@ -2295,6 +2418,17 @@ planet "Heartland Station"
 planet "Hightower Station"
 	landscape ""
 	government "Deeper Covenant"
+
+planet Hourglass
+	landscape ""
+
+planet Labworld
+	landscape land/forest3
+	description `This planet is part of the ring of habitable planets, habitats, and such that the Biopolity has constructed around the central star.`
+	"display name" Labworld
+	government "Zoeific Biopolity"
+	port
+		recharges all
 
 planet LunaOA
 	landscape land/moon0
@@ -2324,8 +2458,14 @@ planet MarsOA
 planet Medina
 	landscape ""
 
+planet "Migrations Way"
+	landscape ""
+
+planet "NewRoot Planet"
+	landscape ""
+
 planet NodeEuclid
-	attributes computronium
+	attributes computronium computronium
 	landscape computronium
 	"required reputation" 1000
 	security 100
@@ -2339,9 +2479,19 @@ planet NodeEuclid
 	tribute 1000000
 		threshold 100
 		fleet Keter Guardian 15
+	"display name" "Jupiter Node Euclid"
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
 
 planet NodeSagan
-	attributes computronium
+	attributes computronium computronium
 	landscape computronium
 	"required reputation" 1000
 	security 100
@@ -2355,6 +2505,32 @@ planet NodeSagan
 	tribute 1000000
 		threshold 100
 		fleet Keter Guardian 15
+	"display name" "Jupiter Node Sagan"
+	music silence
+	description
+		A massive processor node forming part of the Dyson swarm around Deneb Algedi. Euclid hosts countless virtual environments and serves as a hub for transapient entities striving toward perfection under Keter's guidance.
+	spaceport
+		Transportation within the node is managed by advanced halo systems, ensuring rapid and safe transit for all beings.
+	government Keter Dominion
+	tribute 1000000
+		threshold 100
+		fleet Keter Guardian 15
+
+planet "Olive Branch"
+	landscape ""
+
+planet "Open Door"
+	landscape ""
+
+planet "Ordered Light"
+	attributes "gas giant"
+	landscape ""
+
+planet "Orion's Path"
+	landscape ""
+
+planet Path
+	landscape ""
 
 planet PlutonOA
 	landscape land/canyon2
@@ -2397,6 +2573,15 @@ planet "Relay 09 Wormhole"
 planet "Relay 10 Wormhole"
 	landscape ""
 
+planet "River of Life"
+	landscape ""
+
+planet "Safe Passage"
+	landscape ""
+
+planet Sanguine
+	landscape ""
+
 planet Shinoh
 	landscape ""
 	port
@@ -2405,6 +2590,15 @@ planet Shinoh
 			trading
 			"job board"
 			bank
+
+planet "The First Step"
+	landscape ""
+
+planet "The Pipeline"
+	landscape ""
+
+planet "Titawin Stargate"
+	landscape ""
 
 planet Transfinity
 	landscape ""
@@ -2424,6 +2618,9 @@ planet Tri-Arc
 	port
 		recharges all
 
+planet "Two Way Street"
+	landscape ""
+
 planet "Tylansia (Planet)"
 	attributes human
 	landscape ""
@@ -2441,8 +2638,63 @@ planet "Wadai Ringworld"
 planet "Wadai Wormhole"
 	landscape ""
 
+planet "Wavering Light"
+	landscape ""
+
 planet Yathrib
 	landscape ""
+
+wormhole "The First Step"
+	mappable
+	link NewRoot "Aries vector"
+	"display name" "The First Step"
+
+wormhole "Open Door"
+	mappable
+	link NewRoot Church-Turing
+	"display name"
+
+wormhole "Safe Passage"
+	mappable
+	link NewRoot KapekNow
+	"display name"
+
+wormhole "Added Value"
+	mappable
+	link NewRoot Gatewai
+	"display name"
+
+wormhole Path
+	mappable
+	link NewRoot VAI-4
+	"display name"
+
+wormhole "Two Way Street"
+	mappable
+	link NewRoot Monostheria
+	"display name"
+
+wormhole Hourglass
+	mappable
+	link NewRoot "Blueshift Archipelago"
+	"display name"
+
+wormhole "Wavering Light"
+	mappable
+	link NewRoot "Positive Heading"
+	"display name"
+
+wormhole Transfinity
+	"display name" Transfinity
+	mappable
+	link "Ain Soph Aur" Aksijaha
+
+wormhole "Bright Door"
+	"display name" "Bright Door"
+	mappable
+	link "Ain Soph Aur" Branswerg
+
+wormhole Eschaton
 
 wormhole "Relay 01 Wormhole"
 	color 0.625 0.75 0
@@ -2549,372 +2801,53 @@ wormhole "Wadai Wormhole"
 
 wormhole "Deep Gate"
 
-system Ecotopia
-    pos 6000 6000
-	"display name" "Ecotopia"
-	government "Zoeific Biopolity"
-	habitable 1100
-	object
-	    sprite star/g5
-	object
-	    sprite planet/Mat-brain
-		    scale 0.25
-		period 0
-		distance 0
-	object # The Forge
-	    sprite planet/station10
-		    scale 0.5
-		distance 200
-		period 30
-	# the lab
-	object "Labworld"
-	    sprite planet/forest0
-		distance 900
-		period 360
-	object "Labworld"
-	    sprite planet/forest1-b
-		distance 900
-		period 360
-		offset 36
-	object "Labworld"
-	    sprite planet/forest2
-		distance 900
-		period 360
-		offset 72
-	object "Labworld"
-	    sprite planet/forest2-b
-		distance 900
-		period 360
-		offset 108
-	object "Labworld"
-	    sprite planet/forest1
-		distance 900
-		period 360
-		offset 144
-	object "Labworld"
-	    sprite planet/forest3
-		distance 900
-		period 360
-		offset 180
-	object "Labworld"
-	    sprite planet/forest3-b
-		distance 900
-		period 360
-		offset 216
-	object "Labworld"
-	    sprite planet/forest4
-		distance 900
-		period 360
-		offset 252
-	object "Labworld"
-	    sprite planet/forest4-b
-		distance 900
-		period 360
-		offset 288
-	object "Labworld"
-	    sprite planet/forest5
-		distance 900
-		period 360
-		offset 324
-
-	# stargates
-	object "Olive Branch"
-	    sprite planet/wormhole
-		distance 5000
-		period 10100
-		offset 36
-	object "Migrations Way"
-	    sprite planet/wormhole
-		distance 5000
-		period 10100
-		offset 72
-	object "River of Life"
-	    sprite planet/wormhole
-		distance 5000
-		period 10100
-		offset 108
-	object "The Pipeline"
-	    sprite planet/wormhole
-		distance 5000
-		period 10100
-		offset 144
-	object "Go With the Flow"
-	    sprite planet/wormhole
-		distance 5000
-		period 10100
-		offset 180
-
-planet "Labworld"
-    "display name" "Labworld"
-	description `This planet is part of the ring of habitable planets, habitats, and such that the Biopolity has constructed around the central star.`
-	government "Zoeific Biopolity"
-	landscape land/forest3
-	port
-		recharges all
-
-planet "Olive Branch"
-planet "Migrations Way"
-planet "River of Life"
-planet "The Pipeline"
-planet "Go With the Flow"
-
 wormhole "Olive Branch"
+
 wormhole "Migrations Way"
+
 wormhole "River of Life"
+
 wormhole "The Pipeline"
-    mappable
+	mappable
 	"display name" "The Pipeline"
-	link "Ecotopia"
+	link Ecotopia
+
 wormhole "Go With the Flow"
-    mappable
+	mappable
 	"display name" "Go With The Flow"
-	link "Ecotopia" "Relay 02"
+	link Ecotopia "Relay 02"
 
-system "Enremdea System"
-    "display name" "Enremdea"
-	pos 5200 5200
-	habitable 1100
-    object
-	    sprite star/g0
-		period 0
-	object
-	    sprite planet/gas11
-		distance 1100
-		period 408.8
-		object Enremdea
-		    sprite planet/forest0
-			    scale 0.5
-			distance
-			distance 300
-			period 12.1
-	# stargate
-	object "Orion's Path"
-	    sprite planet/wormhole
-		distance 5000
-		period 4051.5
-
-planet "Orion's Path"
 wormhole "Orion's Path"
-    mappable
+	mappable
 	"display name" "Orion's Path"
 	link "Enremdea System" "Relay 07"
 
-planet Enremdea
-    government "Orion Federation"
-	landscape land/city4
-	shipyard "Basic Ships"
-	shipyard "Navy Basics"
-	shipyard "Betelgeuse Basics"
-	shipyard "Syndicate Basics"
-	shipyard "Tycho Crater Advanced"
-	outfitter "Common Outfits"
-	outfitter "Lovelace Basics"
-	outfitter "Syndicate Basics"
-	outfitter "Ammo North"
-	"display name" Enremdea
-	port
-		recharges all
-
-system "Beta Arae"
-    pos 6000 4500
-	"display name" "Beta Area"
-	"government" "Utopia Sphere"
+wormhole Sanguine
+	mappable
+	"display name" Sanguine
+	link Eutopia "Beta Arae"
 	object
-	    sprite star/k-supergiant
+		sprite star/g5
 	object
-	    sprite star/m0
-		distance
-	object
-	    sprite star/m3
-	object
-	    sprite star/m4
-	object
-	    sprite star/m5
-	object Sanguine
-	    distance 30000
-		period 59976.8
-
-system "Eutopia"
-    pos 6000 4600
-	"display name" "Eutopia"
-	"government" "Utopia Sphere"
-	object Sanguine
-
-planet "Sanguine"
-wormhole "Sanguine"
-    mappable
-	"display name" "Sanguine"
-	link "Eutopia" "Beta Arae"
-	object
-	    sprite star/g5
-	object
-	    sprite planet/Mat-brain
-	object "Topia"
-	    sprite planet/earth-b
+		sprite planet/Mat-brain
+	object Topia
+		sprite planet/earth-b
 		distance 1000
 		period 365
 		object
-		    sprite planet/station7c
+			sprite planet/station7c
 			distance 0
 			period 2
-	    object "The Topia Bracelet"
-		    sprite planet/station7cb
+				object "The Topia Bracelet"
+					sprite planet/station7cb
 			period 2
 			offset 180
-	# Mozi
 	object Sanguine
-	    distance 30000
+		distance 30000
 		period 59976.8
 
-system "Titawin"
-    pos 4500 4500
-	object
-	    sprite star/m5
-	object Saffar
-	    attributes "gas giant"
-	    sprite planet/gas4-b
-		distance 400
-		period 91
-		object "New Tohul"
-		    sprite planet/titan
-			distance 300
-			period 20
-		object "New Scharamouche"
-		    sprite planet/rock3
-			distance 200
-			period 30
-		object
-		    sprite planet/miranda
-			distance 150
-			period 10
-		object "New Natfaire"
-		    sprite planet/lava0
-			distance 100
-			period 5
-	object Samh
-	    sprite planet/gas0
-	    attributes "gas giant"
-		distance 700
-        period 213.8
-		object "New Iridule"
-		    sprite planet/ocean0-b
-			distance 100
-			period 5
-		object "New Alpha"
-		    sprite planet/desert0
-			distance 150
-			period 15
-		object
-		    sprite planet/forest6-b
-			distance 225
-			period 30
-		object
-		    sprite planet/rock3
-			distance 337.5
-			period 50
-	object Jayyani
-	object Zarqali
-	object Aflah
-	# stargate
-	object "Titawin Stargate"
-	    sprite planet/wormhole
-		distance 5000
-		period 4080.82
-
-planet "Titawin Stargate"
 wormhole "Titawin Stargate"
-    mappable
+	mappable
 	"display name" "Titawin Entry Point"
-	link "Titawin" "Relay 06"
+	link Titawin "Relay 06"
 
-# Diamond Network
-system "Gemstone"
-
-system AltairOA
-    pos 5300 4600
-	government "Diamond Network"
-	object
-	     sprite star/a7
-
-system "Luyten's Star"
-    pos 5400 4800
-	government
-
-system "Kaggen"
-    pos 6000 6000
-	government "Diamond Network"
-	object
-	    sprite star/m3
-	object # Mantis
-		sprite planet/neptune-b
-	    distance 200
-		period 1.94
-	object # Kongoni
-	    sprite planet/gas4-b
-		distance 1300
-		period 30.08
-		object "Aardwolf"
-		    sprite planet/rock0
-			distance 300
-			period 10
-	object # Eland
-	    sprite planet/gas5
-		distance 2185.9
-		period 61.09
-	object # Gnu
-	    sprite planet/gas6
-		distance 3514
-		period 124.5
-
-planet "Aardwolf"
-    government "Diamond Network"
-	port
-	    recharge all
-
-system "AlnitakOA"
-    "display name" "Alnitak"
-	government "Orion Federation"
-	object
-	    sprite star/o-supergiant
-
-system "Zeta Monocerotis"
-    pos 5500 5500
-    government "Orion Federation"
-	object Elmo
-	    sprite planet/forest0
-	    distance 1000
-		period 365
-
-planet "Elmo"
-    government "Orion Federation"
-
-# Silicon Generation
-system "Siliconia"
-    pos 5000 4000
-	government "Silicon Generation"
-	object
-	    sprite planet/browndwarf-t
-	object "Silicon Capital"
-	    sprite planet/station9
-		distance 500
-		period 127.8
-	object "Silicon Capital"
-	    sprite planet/station9
-		distance 500
-		period 127.8
-		offset 72
-	object "Silicon Capital"
-	    sprite planet/station9
-		distance 500
-		period 127.8
-		offset 144
-	object "Silicon Capital"
-	    sprite planet/station9
-		distance 500
-		period 127.8
-		offset 216
-	object "Silicon Capital"
-	    sprite planet/station9
-		distance 500
-		period 127.8
-		offset 288

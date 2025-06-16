@@ -65,7 +65,7 @@ CLOCK: [2025-05-29 বৃহঃ 14:32]--[2025-05-29 বৃহঃ 14:46] =>  0:14
 CLOCK: [2025-05-28 বুধ 15:18]--[2025-05-28 বুধ 15:25] =>  0:07
 :END:
 <2025-05-29 বৃহঃ 14:30-14:36>
-** TODO components [2/7]
+** TODO components [1/7]
 *** DONE research
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-06-02 সোম 15:23]
@@ -880,7 +880,7 @@ CLOCK: [2025-06-12 বৃহঃ 14:32]--[2025-06-12 বৃহঃ 14:43] =>  0:11
 :PROPERTIES:
 :EFFORT:   10min
 :END:
-*** DONE assets [3/5]
+*** TODO assets [3/5]
 **** DONE Heartland's rings [1/2]
 ***** DONE create a vector image for Heartland's rings :@computer:think:
 :PROPERTIES:
@@ -889,13 +889,17 @@ CLOCK: [2025-06-12 বৃহঃ 14:32]--[2025-06-12 বৃহঃ 14:43] =>  0:11
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-06-10 Tue 08:27]
 :END:
-**** TODO DWIZ [0/2]
+**** TODO DWIZ [1/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-***** TODO create a model of a DWIZ :@computer:think:
+***** DONE create a model of a DWIZ :@computer:think:
 :PROPERTIES:
 :EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-13 Fri 09:54]
+CLOCK: [2025-06-13 Fri 09:43]--[2025-06-13 Fri 09:54] =>  0:11
 :END:
 ***** TODO texture the model of a DWIZ :@computer:think:
 :PROPERTIES:
