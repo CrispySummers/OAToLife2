@@ -868,13 +868,17 @@ CLOCK: [2025-06-12 বৃহঃ 14:32]--[2025-06-12 বৃহঃ 14:43] =>  0:11
 :PROPERTIES:
 :EFFORT:   5min
 :END:
-*** TODO introductory missions [0/2]
+*** TODO introductory missions [1/2]
 :PROPERTIES:
 :ORDERED:  t
 :END:
-**** TODO describe goal and conversations of introductory mission :@computer:think:
+**** DONE describe goal and conversations of introductory mission :@computer:think:
 :PROPERTIES:
 :EFFORT:   10min
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-16 Mon 15:16]
+CLOCK: [2025-06-16 Mon 15:15]--[2025-06-16 Mon 15:16] =>  0:01
 :END:
 **** TODO write conversation definitions for introductory mission :@computer:think:
 :PROPERTIES:

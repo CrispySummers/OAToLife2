@@ -549,6 +549,7 @@ system BetelgeuseOA
 
 system Branswerg
 	pos 4743 5094
+	government "Keter Dominion"
 	habitable nan
 	object
 		sprite star/m4
@@ -638,6 +639,7 @@ system "Dam Tellion"
 
 system "Djed (System)"
 	pos 4800 4800
+	government "Mutual Progress Association"
 	habitable nan
 	"display name" Djed
 	object
@@ -918,7 +920,7 @@ system Eschaton
 		offset 30
 
 system Eutopia
-	pos 5559 5111
+	pos 5483 5045
 	government "Utopia Sphere"
 	habitable nan
 	"display name" Eutopia
@@ -1601,7 +1603,7 @@ system Prominences
 		sprite planet/desert0
 		distance 660
 		period 190.9
-	object Trees # the famous planet!
+	object Trees
 		sprite planet/forest3
 		distance 1100
 		period 405.15
@@ -1613,15 +1615,6 @@ system Prominences
 		sprite planet/ice1
 		distance 4020
 		period 2875.7
-
-planet Clouds
-	attributes "gas giant"
-planet Vapours
-planet Rocks
-planet Trees
-planet Storms
-	attributes "gas giant"
-planet Dust
 
 system "Relay 01"
 	pos 5200 5220
@@ -1883,6 +1876,7 @@ system "Solar Dominion Capital"
 
 system Solsys
 	pos 5141.56 5569.94
+	government "Solar Organization"
 	habitable 486.68
 	link Resonance
 	link Turing
@@ -2062,8 +2056,41 @@ system "Tau Ceti"
 			distance 506
 			period 37.8506
 
+system "The Grove"
+	pos 6460.03 5411.02
+	government "Red Star 'M'Pire"
+	habitable 2000
+	asteroids "small rock" 4 0.988
+	asteroids "medium rock" 5 0.715
+	asteroids "large rock" 9 1.391
+	asteroids "small metal" 1 0.65
+	asteroids "medium metal" 76 1.625
+	asteroids "large metal" 1 1.027
+	object
+		sprite star/k3
+		period 10
+	object
+	    sprite "planet/Bio Mat-brain"
+		period 10
+	object "Stargod's Folly"
+		sprite "planet/wormhole"
+		distance 11542.313
+
+planet "Stargod's Folly"
+wormhole "Stargod's Folly"
+    mappable
+	"display name" "Stargod's Folly"
+	link "The Grove" Farview
+
+
+system "Farview"
+	pos 6480 5400
+	government "Red Star 'M'Pire"
+	habitable
+
 system Titawin
 	pos 4678 4904
+	government Independent
 	habitable nan
 	object
 		sprite star/m5
@@ -2331,6 +2358,10 @@ planet Aardwolf
 planet "Added Value"
 	landscape ""
 
+planet Clouds
+	attributes "gas giant"
+	landscape ""
+
 planet "Deep Gate"
 	landscape ""
 
@@ -2348,6 +2379,9 @@ planet "Djed (Planet)"
 	government "Mutual Progress Association"
 	port
 		recharges all
+
+planet Dust
+	landscape ""
 
 planet EarthOA
 	landscape land/canyon3
@@ -2576,6 +2610,9 @@ planet "Relay 10 Wormhole"
 planet "River of Life"
 	landscape ""
 
+planet Rocks
+	landscape ""
+
 planet "Safe Passage"
 	landscape ""
 
@@ -2591,6 +2628,10 @@ planet Shinoh
 			"job board"
 			bank
 
+planet Storms
+	attributes "gas giant"
+	landscape ""
+
 planet "The First Step"
 	landscape ""
 
@@ -2601,6 +2642,9 @@ planet "Titawin Stargate"
 	landscape ""
 
 planet Transfinity
+	landscape ""
+
+planet Trees
 	landscape ""
 
 planet Tri-Arc
@@ -2629,6 +2673,9 @@ planet "Tylansia (Planet)"
 	government Tylansia
 
 planet "Tylansian Wormhole"
+	landscape ""
+
+planet Vapours
 	landscape ""
 
 planet "Wadai Ringworld"
@@ -2850,4 +2897,3 @@ wormhole "Titawin Stargate"
 	mappable
 	"display name" "Titawin Entry Point"
 	link Titawin "Relay 06"
-
